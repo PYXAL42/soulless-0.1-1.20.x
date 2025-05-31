@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cheese-mod:cheesy_mould"
+    }
+  ],
+  "result": {
+    "item": "cheese-mod:slice_of_cheese",
+    "count": 4
+  }
+}
