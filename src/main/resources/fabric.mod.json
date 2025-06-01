@@ -11,14 +11,17 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "All Rights Reserved for the assets, MIT for the code",
-	"icon": "assets/cheesemod/icon.png",
+	"icon": "assets/soulless/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.pyxal42.cheesemod.CheeseMod"
+			"net.pyxal42.soulless.Soulless"
 		],
 		"client": [
-			"net.pyxal42.cheesemod.CheeseModClient"
+			"net.pyxal42.soulless.SoullessClient"
+		],
+		"fabric-datagen": [
+			"net.pyxal42.soulless.SoullessDataGenerator"
 		]
 	},
 	"mixins": [

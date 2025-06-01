@@ -1,4 +1,4 @@
-package net.pyxal42.cheesemod.item;
+package net.pyxal42.soulless.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -7,13 +7,13 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import net.pyxal42.cheesemod.CheeseMod;
-import net.pyxal42.cheesemod.block.ModBlocks;
+import net.pyxal42.soulless.Soulless;
+import net.pyxal42.soulless.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup CHEESE_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(CheeseMod.MOD_ID, "cheese"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.cheese"))
+            new Identifier(Soulless.MOD_ID, "cheese"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.soulless"))
                     .icon(() -> new ItemStack(ModItems.SLICEOFCHEESE)).entries(( displayContext, entries) -> {
                         entries.add(ModItems.EMPTYMOULD);
                         entries.add(ModItems.MILKYMOULD);
@@ -23,7 +23,7 @@ public class ModItemGroups {
                     }).build());
 
     public static void registerItemGroups() {
-        CheeseMod.LOGGER.info("Registering Item Groups for " + CheeseMod.MOD_ID);
+        Soulless.LOGGER.info("Registering Item Groups for " + Soulless.MOD_ID);
     }
 
 }

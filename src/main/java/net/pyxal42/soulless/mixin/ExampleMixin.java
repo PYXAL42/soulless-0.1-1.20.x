@@ -1,4 +1,4 @@
-package net.pyxal42.cheesemod.mixin;
+package net.pyxal42.soulless.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

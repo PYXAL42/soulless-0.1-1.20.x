@@ -1,4 +1,4 @@
-package net.pyxal42.cheesemod.block;
+package net.pyxal42.soulless.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -8,9 +8,8 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import net.pyxal42.cheesemod.CheeseMod;
+import net.pyxal42.soulless.Soulless;
 
 public class ModBlocks {
 
@@ -19,16 +18,16 @@ public class ModBlocks {
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(CheeseMod.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(Soulless.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block) {
-        return Registry.register(Registries.ITEM, new Identifier(CheeseMod.MOD_ID, name),
+        return Registry.register(Registries.ITEM, new Identifier(Soulless.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
     }
 
     public static void registerModBlocks() {
-        CheeseMod.LOGGER.info("Registering Modblocks for " + CheeseMod.MOD_ID);
+        Soulless.LOGGER.info("Registering Modblocks for " + Soulless.MOD_ID);
 
     }
 }

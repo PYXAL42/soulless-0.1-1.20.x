@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "cheese-mod:cheesy_mould"
+      "item": "soulless:cheesy_mould"
     }
   ],
   "result": {
-    "item": "cheese-mod:slice_of_cheese",
+    "item": "soulless:slice_of_cheese",
     "count": 4
   }
 }

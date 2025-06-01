@@ -3,13 +3,13 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "cheese-mod:empty_mould"
+      "item": "soulless:empty_mould"
     },
     {
     "item": "minecraft:milk_bucket"
     }
   ],
   "result": {
-    "item": "cheese-mod:milky_mould"
+    "item": "soulless:milky_mould"
   }
 }

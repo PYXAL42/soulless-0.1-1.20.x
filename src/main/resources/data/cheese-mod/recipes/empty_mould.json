@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "cheese-mod:dimstone"
+      "item": "soulless:dimstone"
     }
   },
   "pattern": [
@@ -11,8 +11,7 @@
     "###"
   ],
   "result": {
-    "item": "cheese-mod:empty_mould",
+    "item": "soulless:empty_mould",
     "count": 2
-  },
-  "show_notification": true
+  }
 }

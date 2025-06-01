@@ -1,4 +1,4 @@
-package net.pyxal42.cheesemod.item;
+package net.pyxal42.soulless.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -8,7 +8,7 @@ import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import net.pyxal42.cheesemod.CheeseMod;
+import net.pyxal42.soulless.Soulless;
 
 public class ModItems {
     public static final Item SLICEOFCHEESE = registerItem("slice_of_cheese", new Item(new FabricItemSettings()));
@@ -26,11 +26,11 @@ public class ModItems {
     }
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(CheeseMod.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(Soulless.MOD_ID, name), item);
     }
 
     public static void registerModItems(){
-      CheeseMod.LOGGER.info("Registering Mod items for " + CheeseMod.MOD_ID);
+      Soulless.LOGGER.info("Registering Mod items for " + Soulless.MOD_ID);
 
       ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientsTabItemGroup);
       ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(ModItems::addItemsToFoodAndDrinkTabItemGroup);

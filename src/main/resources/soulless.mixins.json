@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.pyxal42.cheesemod.mixin",
+	"package": "net.pyxal42.soulless.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
 		"ExampleMixin"

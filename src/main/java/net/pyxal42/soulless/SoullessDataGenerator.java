@@ -1,9 +1,9 @@
-package net.pyxal42.cheesemod;
+package net.pyxal42.soulless;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
-public class CheeseModDataGenerator implements DataGeneratorEntrypoint {
+public class SoullessDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 

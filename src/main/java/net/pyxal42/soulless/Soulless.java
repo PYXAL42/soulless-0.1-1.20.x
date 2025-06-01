@@ -1,15 +1,15 @@
-package net.pyxal42.cheesemod;
+package net.pyxal42.soulless;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.pyxal42.cheesemod.block.ModBlocks;
-import net.pyxal42.cheesemod.item.ModItemGroups;
-import net.pyxal42.cheesemod.item.ModItems;
+import net.pyxal42.soulless.block.ModBlocks;
+import net.pyxal42.soulless.item.ModItemGroups;
+import net.pyxal42.soulless.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class CheeseMod implements ModInitializer {
-	public static final String MOD_ID = "cheese-mod";
+public class Soulless implements ModInitializer {
+	public static final String MOD_ID = "soulless";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
