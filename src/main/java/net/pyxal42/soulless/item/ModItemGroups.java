@@ -11,15 +11,24 @@ import net.pyxal42.soulless.Soulless;
 import net.pyxal42.soulless.block.ModBlocks;
 
 public class ModItemGroups {
-    public static final ItemGroup CHEESE_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(Soulless.MOD_ID, "cheese"),
+    public static final ItemGroup SOULLESSGROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(Soulless.MOD_ID, "soulless"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.soulless"))
-                    .icon(() -> new ItemStack(ModItems.SLICEOFCHEESE)).entries(( displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModBlocks.INFUSEDDIMSTONEPILLAR)).entries(( displayContext, entries) -> {
+                        entries.add(ModBlocks.DIMSTONE);
+                        entries.add(ModBlocks.DIMSTONESTAIRS);
+                        entries.add(ModBlocks.DIMSTONESLAB);
+                        entries.add(ModBlocks.DIMSTONEBRICK);
+                        entries.add(ModBlocks.DIMSTONEBRICKSTAIRS);
+                        entries.add(ModBlocks.DIMSTONEBRICKSLAB);
+                        entries.add(ModBlocks.DIMSTONEPILLAR);
+                        entries.add(ModBlocks.INFUSEDDIMSTONEPILLAR);
                         entries.add(ModItems.EMPTYMOULD);
+                        entries.add(ModItems.HOTMOULD);
                         entries.add(ModItems.MILKYMOULD);
                         entries.add(ModItems.CHEESYMOULD);
                         entries.add(ModItems.SLICEOFCHEESE);
-                        entries.add(ModBlocks.DIMSTONE);
+                        entries.add(ModItems.BLOODBOTTLE);
                     }).build());
 
     public static void registerItemGroups() {

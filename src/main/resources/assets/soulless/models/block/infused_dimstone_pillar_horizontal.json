@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "soulless:block/infused_dimstone_pillar_top",
+    "side": "soulless:block/infused_dimstone_pillar"
+  }
+}

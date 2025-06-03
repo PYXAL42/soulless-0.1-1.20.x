@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "soulless:block/dimstone_brick",
+    "side": "soulless:block/dimstone_brick",
+    "top": "soulless:block/dimstone_brick"
+  }
+}

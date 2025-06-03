@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "soulless:block/dimstone"
+    "all": "soulless:block/dimstone_brick"
   }
 }

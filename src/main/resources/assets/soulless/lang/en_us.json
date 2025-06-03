@@ -3,8 +3,17 @@
   "item.soulless.empty_mould": "Empty mould",
   "item.soulless.milky_mould": "Milky mould",
   "item.soulless.cheesy_mould": "Cheesy mould",
+  "item.soulless.hot_mould": "Hot mould",
+  "item.soulless.blood_bottle": "Blood bottle",
 
   "block.soulless.dimstone": "Dimstone",
+  "block.soulless.dimstone_stairs": "Dimstone stairs",
+  "block.soulless.dimstone_slab": "Dimstone slab",
+  "block.soulless.dimstone_brick": "Dimstone brick",
+  "block.soulless.dimstone_brick_stairs": "Dimstone brick stairs",
+  "block.soulless.dimstone_brick_slab": "Dimstone brick slab",
+  "block.soulless.dimstone_pillar": "Dimstone pillar",
+  "block.soulless.infused_dimstone_pillar": "Infused dimstone pillar",
 
-  "itemgroup.soulless": "Cheese mod"
+  "itemgroup.soulless": "Soulless"
 }
