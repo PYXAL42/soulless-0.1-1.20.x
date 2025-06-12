@@ -28,6 +28,8 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS)));
     public static final Block INFUSEDDIMSTONEPILLAR = registerBlock("infused_dimstone_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS)));
+    public static final Block DIMSTONEALTAR = registerBlock("dimstone_altar",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

@@ -29,6 +29,8 @@ public class ModItemGroups {
                         entries.add(ModItems.CHEESYMOULD);
                         entries.add(ModItems.SLICEOFCHEESE);
                         entries.add(ModItems.BLOODBOTTLE);
+                        entries.add(ModItems.LIVINGOT);
+                        entries.add(ModItems.LIVBLADE);
                     }).build());
 
     public static void registerItemGroups() {
