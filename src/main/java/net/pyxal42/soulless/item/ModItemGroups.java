@@ -23,6 +23,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DIMSTONEBRICKSLAB);
                         entries.add(ModBlocks.DIMSTONEPILLAR);
                         entries.add(ModBlocks.INFUSEDDIMSTONEPILLAR);
+                        entries.add(ModBlocks.DIMSTONEALTAR);
                         entries.add(ModItems.EMPTYMOULD);
                         entries.add(ModItems.HOTMOULD);
                         entries.add(ModItems.MILKYMOULD);
