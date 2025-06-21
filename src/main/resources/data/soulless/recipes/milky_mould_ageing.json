@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "soulless:milky_mould"
+    },
+    {
+    "item": "minecraft:clock"
+    }
+  ],
+  "result": {
+    "item": "soulless:cheesy_mould"
+  }
+}

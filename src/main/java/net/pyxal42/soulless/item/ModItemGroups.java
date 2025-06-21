@@ -18,9 +18,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DIMSTONE);
                         entries.add(ModBlocks.DIMSTONESTAIRS);
                         entries.add(ModBlocks.DIMSTONESLAB);
+                        entries.add(ModBlocks.DIMSTONEWALL);
                         entries.add(ModBlocks.DIMSTONEBRICK);
                         entries.add(ModBlocks.DIMSTONEBRICKSTAIRS);
                         entries.add(ModBlocks.DIMSTONEBRICKSLAB);
+                        entries.add(ModBlocks.DIMSTONEBRICKWALL);
                         entries.add(ModBlocks.DIMSTONEPILLAR);
                         entries.add(ModBlocks.INFUSEDDIMSTONEPILLAR);
                         entries.add(ModBlocks.DIMSTONEALTAR);
