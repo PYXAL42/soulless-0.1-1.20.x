@@ -5,7 +5,7 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 public enum ModToolMaterial implements ToolMaterial {
-    LIV(-1, -1, 0f, 0f, 15, () -> Ingredient.ofItems(ModItems.LIVINGOT));
+    LIV(-1, -1, 0f, 0f, 15, () -> Ingredient.ofItems(ModItems.LIV_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;

@@ -14,26 +14,32 @@ public class ModItemGroups {
     public static final ItemGroup SOULLESSGROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Soulless.MOD_ID, "soulless"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.soulless"))
-                    .icon(() -> new ItemStack(ModBlocks.INFUSEDDIMSTONEPILLAR)).entries(( displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModBlocks.INFUSED_DIMSTONE_PILLAR)).entries(( displayContext, entries) -> {
                         entries.add(ModBlocks.DIMSTONE);
-                        entries.add(ModBlocks.DIMSTONESTAIRS);
-                        entries.add(ModBlocks.DIMSTONESLAB);
-                        entries.add(ModBlocks.DIMSTONEWALL);
-                        entries.add(ModBlocks.DIMSTONEBRICK);
-                        entries.add(ModBlocks.DIMSTONEBRICKSTAIRS);
-                        entries.add(ModBlocks.DIMSTONEBRICKSLAB);
-                        entries.add(ModBlocks.DIMSTONEBRICKWALL);
-                        entries.add(ModBlocks.DIMSTONEPILLAR);
-                        entries.add(ModBlocks.INFUSEDDIMSTONEPILLAR);
-                        entries.add(ModBlocks.DIMSTONEALTAR);
-                        entries.add(ModItems.EMPTYMOULD);
-                        entries.add(ModItems.HOTMOULD);
-                        entries.add(ModItems.MILKYMOULD);
-                        entries.add(ModItems.CHEESYMOULD);
-                        entries.add(ModItems.SLICEOFCHEESE);
-                        entries.add(ModItems.BLOODBOTTLE);
-                        entries.add(ModItems.LIVINGOT);
-                        entries.add(ModItems.LIVBLADE);
+                        entries.add(ModBlocks.DIMSTONE_STAIRS);
+                        entries.add(ModBlocks.DIMSTONE_SLAB);
+                        entries.add(ModBlocks.DIMSTONE_WALL);
+                        entries.add(ModBlocks.DIMSTONE_BRICK);
+                        entries.add(ModBlocks.DIMSTONE_BRICK_STAIRS);
+                        entries.add(ModBlocks.DIMSTONE_BRICK_SLAB);
+                        entries.add(ModBlocks.DIMSTONE_BRICK_WALL);
+                        entries.add(ModBlocks.DIMSTONE_PILLAR);
+                        entries.add(ModBlocks.INFUSED_DIMSTONE_PILLAR);
+                        entries.add(ModBlocks.DIMSTONE_ALTAR);
+                        entries.add(ModItems.EMPTY_MOULD);
+                        entries.add(ModItems.HOT_MOULD);
+                        entries.add(ModItems.MILKY_MOULD);
+                        entries.add(ModItems.CHEESY_MOULD);
+                        entries.add(ModItems.SLICE_OF_CHEESE);
+                        entries.add(ModItems.RITUAL_DAGGER);
+                        entries.add(ModItems.BLOOD_BOTTLE);
+                        entries.add(ModItems.ESSENCE_INGOT);
+                        entries.add(ModItems.ESSENCE_SHARD);
+                        entries.add(ModItems.ESSENCE);
+                        entries.add(ModItems.LIV_INGOT);
+                        entries.add(ModItems.LIV_BLADE);
+                        entries.add(ModItems.CHARRED_INGOT);
+                        entries.add(ModItems.CONTRACT);
                     }).build());
 
     public static void registerItemGroups() {

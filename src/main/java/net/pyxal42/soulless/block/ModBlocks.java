@@ -16,25 +16,25 @@ public class ModBlocks {
 
     public static final Block DIMSTONE = registerBlock("dimstone",
             new Block(FabricBlockSettings.copyOf(DEEPSLATE)));
-    public static final Block DIMSTONESTAIRS = registerBlock("dimstone_stairs",
+    public static final Block DIMSTONE_STAIRS = registerBlock("dimstone_stairs",
             new StairsBlock(DIMSTONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICK_STAIRS)));
-    public static final Block DIMSTONESLAB = registerBlock("dimstone_slab",
+    public static final Block DIMSTONE_SLAB = registerBlock("dimstone_slab",
             new SlabBlock(FabricBlockSettings.copyOf(DEEPSLATE)));
-    public static final Block DIMSTONEWALL = registerBlock("dimstone_wall",
+    public static final Block DIMSTONE_WALL = registerBlock("dimstone_wall",
             new WallBlock(FabricBlockSettings.copyOf(DEEPSLATE)));
-    public static final Block DIMSTONEBRICK = registerBlock("dimstone_brick",
+    public static final Block DIMSTONE_BRICK = registerBlock("dimstone_brick",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS)));
-    public static final Block DIMSTONEBRICKSTAIRS = registerBlock("dimstone_brick_stairs",
-            new StairsBlock(DIMSTONEBRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICK_STAIRS)));
-    public static final Block DIMSTONEBRICKSLAB = registerBlock("dimstone_brick_slab",
+    public static final Block DIMSTONE_BRICK_STAIRS = registerBlock("dimstone_brick_stairs",
+            new StairsBlock(DIMSTONE_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICK_STAIRS)));
+    public static final Block DIMSTONE_BRICK_SLAB = registerBlock("dimstone_brick_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICK_SLAB)));
-    public static final Block DIMSTONEBRICKWALL = registerBlock("dimstone_brick_wall",
+    public static final Block DIMSTONE_BRICK_WALL = registerBlock("dimstone_brick_wall",
             new WallBlock(FabricBlockSettings.copyOf(DEEPSLATE)));
-    public static final Block DIMSTONEPILLAR = registerBlock("dimstone_pillar",
+    public static final Block DIMSTONE_PILLAR = registerBlock("dimstone_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS)));
-    public static final Block INFUSEDDIMSTONEPILLAR = registerBlock("infused_dimstone_pillar",
+    public static final Block INFUSED_DIMSTONE_PILLAR = registerBlock("infused_dimstone_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS)));
-    public static final Block DIMSTONEALTAR = registerBlock("dimstone_altar",
+    public static final Block DIMSTONE_ALTAR = registerBlock("dimstone_altar",
             new Block(FabricBlockSettings.copyOf(DEEPSLATE)));
 
     private static Block registerBlock(String name, Block block) {
