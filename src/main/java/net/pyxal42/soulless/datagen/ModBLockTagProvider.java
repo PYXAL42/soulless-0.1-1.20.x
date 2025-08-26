@@ -17,7 +17,7 @@ public class ModBLockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.DIMSTONE)
-                .add(ModBlocks.DIMSTONE_ALTAR)
+                .add(ModBlocks.DIMSTONE_PEDESTAL)
                 .add(ModBlocks.DIMSTONE_BRICK)
                 .add(ModBlocks.DIMSTONE_BRICK_SLAB)
                 .add(ModBlocks.DIMSTONE_BRICK_STAIRS)
@@ -27,5 +27,8 @@ public class ModBLockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DIMSTONE_STAIRS)
                 .add(ModBlocks.DIMSTONE_WALL)
                 .add(ModBlocks.INFUSED_DIMSTONE_PILLAR);
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.DIMSTONE_BRICK_WALL)
+                .add(ModBlocks.DIMSTONE_WALL);
     }
 }

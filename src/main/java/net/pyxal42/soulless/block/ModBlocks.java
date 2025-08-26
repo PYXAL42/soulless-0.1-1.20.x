@@ -10,6 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.pyxal42.soulless.Soulless;
 
+import static net.minecraft.block.Blocks.CRIMSON_STEM;
 import static net.minecraft.block.Blocks.DEEPSLATE;
 
 public class ModBlocks {
@@ -33,9 +34,24 @@ public class ModBlocks {
     public static final Block DIMSTONE_PILLAR = registerBlock("dimstone_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS)));
     public static final Block INFUSED_DIMSTONE_PILLAR = registerBlock("infused_dimstone_pillar",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS)));
-    public static final Block DIMSTONE_ALTAR = registerBlock("dimstone_altar",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS).luminance(4)));
+    public static final Block DIMSTONE_PEDESTAL = registerBlock("dimstone_pedestal",
             new Block(FabricBlockSettings.copyOf(DEEPSLATE)));
+
+    public static final Block AGONY_LOG = registerBlock("agony_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+    public static final Block AGONY_WOOD = registerBlock("agony_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(4f)));
+    public static final Block STRIPPED_AGONY_LOG = registerBlock("stripped_agony_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(4f)));
+    public static final Block STRIPPED_AGONY_WOOD = registerBlock("stripped_agony_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD).strength(4f)));
+
+
+    public static final Block AGONY_PLANKS = registerBlock("agony_planks",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4f).nonOpaque()));
+    public static final Block AGONY_LEAVES = registerBlock("agony_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4f).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

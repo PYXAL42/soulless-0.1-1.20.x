@@ -4,8 +4,8 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "soulless:block/altar_base",
-		"1": "soulless:block/dimstone_altar",
-		"particle": "soulless:block/dimstone_altar"
+		"1": "soulless:block/dimstone_pedestal",
+		"particle": "soulless:block/dimstone_pedestal"
 	},
 	"elements": [
 		{

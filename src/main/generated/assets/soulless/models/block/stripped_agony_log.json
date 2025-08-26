@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "soulless:block/stripped_agony_log_top",
+    "side": "soulless:block/stripped_agony_log"
+  }
+}

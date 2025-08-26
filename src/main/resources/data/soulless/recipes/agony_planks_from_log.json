@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": {
+      "item": "soulless:agony_log"
+    },
+  "result": {
+    "item": "soulless:agony_planks",
+    "count": 2
+  }
+}

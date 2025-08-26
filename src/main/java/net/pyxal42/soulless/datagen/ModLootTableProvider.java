@@ -12,7 +12,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.DIMSTONE);
-        addDrop(ModBlocks.DIMSTONE_ALTAR);
+        addDrop(ModBlocks.DIMSTONE_PEDESTAL);
         addDrop(ModBlocks.DIMSTONE_BRICK);
         addDrop(ModBlocks.DIMSTONE_BRICK_SLAB);
         addDrop(ModBlocks.DIMSTONE_BRICK_STAIRS);
@@ -22,5 +22,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DIMSTONE_STAIRS);
         addDrop(ModBlocks.DIMSTONE_WALL);
         addDrop(ModBlocks.INFUSED_DIMSTONE_PILLAR);
+        addDrop(ModBlocks.AGONY_PLANKS);
+        addDrop(ModBlocks.AGONY_LOG);
+        addDrop(ModBlocks.AGONY_WOOD);
+        addDrop(ModBlocks.STRIPPED_AGONY_LOG);
+        addDrop(ModBlocks.STRIPPED_AGONY_WOOD);
+
+        addDrop(ModBlocks.AGONY_LEAVES, leavesDrops(ModBlocks.AGONY_LEAVES, ModBlocks.DIMSTONE, 0.005f));
     }
 }

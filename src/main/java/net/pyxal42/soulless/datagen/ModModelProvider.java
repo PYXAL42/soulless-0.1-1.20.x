@@ -17,6 +17,11 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIMSTONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIMSTONE_BRICK);
+
+        blockStateModelGenerator.registerLog(ModBlocks.AGONY_LOG).log(ModBlocks.AGONY_LOG).wood(ModBlocks.AGONY_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_AGONY_LOG).log(ModBlocks.STRIPPED_AGONY_LOG).wood(ModBlocks.STRIPPED_AGONY_WOOD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AGONY_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AGONY_LEAVES);
     }
 
     @Override
