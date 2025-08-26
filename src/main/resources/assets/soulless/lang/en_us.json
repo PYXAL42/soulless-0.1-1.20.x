@@ -15,6 +15,7 @@
   "item.soulless.ritual_dagger": "Ritual dagger",
 
   "block.soulless.dimstone": "Dimstone",
+  "block.soulless.dimstone_pedestal": "Dimstone pedestal",
   "block.soulless.dimstone_stairs": "Dimstone stairs",
   "block.soulless.dimstone_slab": "Dimstone slab",
   "block.soulless.dimstone_wall": "Dimstone wall",
@@ -24,6 +25,12 @@
   "block.soulless.dimstone_brick_wall": "Dimstone brick wall",
   "block.soulless.dimstone_pillar": "Dimstone pillar",
   "block.soulless.infused_dimstone_pillar": "Infused dimstone pillar",
+  "block.soulless.agony_log": "Agony log",
+  "block.soulless.agony_wood": "Agony wood",
+  "block.soulless.stripped_agony_log": "Stripped agony log",
+  "block.soulless.stripped_agony_wood": "Stripped agony wood",
+  "block.soulless.agony_planks": "Agony planks",
+  "block.soulless.agony_leaves": "Agony leaves",
 
   "itemgroup.soulless": "Soulless"
 }
