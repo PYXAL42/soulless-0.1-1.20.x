@@ -17,6 +17,14 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIMSTONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIMSTONE_BRICK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INFUSED_DIMSTONE_CORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIMSTONE_CORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INFUSED_INKEEPING_CORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INKEEPING_CORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INFUSED_BLOOMING_CORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOOMING_CORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INFUSED_RADIANCE_CORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RADIANCE_CORE);
 
         blockStateModelGenerator.registerLog(ModBlocks.AGONY_LOG).log(ModBlocks.AGONY_LOG).wood(ModBlocks.AGONY_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_AGONY_LOG).log(ModBlocks.STRIPPED_AGONY_LOG).wood(ModBlocks.STRIPPED_AGONY_WOOD);
@@ -38,5 +46,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ESSENCE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.ESSENCE_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.SLICE_OF_CHEESE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CLEAR_SHARD, Models.GENERATED);
     }
 }

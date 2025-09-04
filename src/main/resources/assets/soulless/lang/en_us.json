@@ -13,6 +13,7 @@
   "item.soulless.charred_ingot": "Charred ingot",
   "item.soulless.contract": "Contract",
   "item.soulless.ritual_dagger": "Ritual dagger",
+  "item.soulless.clear_shard": "Clear shard",
 
   "block.soulless.dimstone": "Dimstone",
   "block.soulless.dimstone_pedestal": "Dimstone pedestal",
@@ -31,6 +32,14 @@
   "block.soulless.stripped_agony_wood": "Stripped agony wood",
   "block.soulless.agony_planks": "Agony planks",
   "block.soulless.agony_leaves": "Agony leaves",
+  "block.soulless.inkeeping_core": "Inkeeping core",
+  "block.soulless.infused_inkeeping_core": "Infused inkeeping core",
+  "block.soulless.dimstone_core": "Dimstone core",
+  "block.soulless.infused_dimstone_core": "Infused dimstone core",
+  "block.soulless.blooming_core": "Blooming core",
+  "block.soulless.infused_blooming_core": "Infused blooming core",
+  "block.soulless.radiance_core": "Radiance core",
+  "block.soulless.infused_radiance_core": "Infused radiance core",
 
   "itemgroup.soulless": "Soulless"
 }

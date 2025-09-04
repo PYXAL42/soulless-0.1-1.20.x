@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "soulless:block/dimstone_altar",
+	"parent": "soulless:block/dimstone_pedestal",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [75, 45, 0],

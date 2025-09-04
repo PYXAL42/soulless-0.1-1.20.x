@@ -27,6 +27,7 @@ public class ModItems {
     public static final Item RITUAL_DAGGER = registerItem("ritual_dagger", new SwordItem(IRON,0,-2.2f, new FabricItemSettings()));
     public static final Item CHARRED_INGOT = registerItem("charred_ingot", new Item(new FabricItemSettings()));
     public static final Item CONTRACT = registerItem("contract", new Item(new FabricItemSettings()));
+    public static final Item CLEAR_SHARD = registerItem("clear_shard", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Soulless.MOD_ID, name), item);

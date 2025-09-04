@@ -24,6 +24,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DIMSTONE_BRICK_SLAB);
                         entries.add(ModBlocks.DIMSTONE_BRICK_WALL);
                         entries.add(ModBlocks.DIMSTONE_PILLAR);
+                        entries.add(ModBlocks.INFUSED_INKEEPING_CORE);
+                        entries.add(ModBlocks.INKEEPING_CORE);
+                        entries.add(ModBlocks.INFUSED_BLOOMING_CORE);
+                        entries.add(ModBlocks.BLOOMING_CORE);
+                        entries.add(ModBlocks.INFUSED_RADIANCE_CORE);
+                        entries.add(ModBlocks.RADIANCE_CORE);
+                        entries.add(ModBlocks.INFUSED_DIMSTONE_CORE);
+                        entries.add(ModBlocks.DIMSTONE_CORE);
                         entries.add(ModBlocks.INFUSED_DIMSTONE_PILLAR);
                         entries.add(ModBlocks.DIMSTONE_PEDESTAL);
                         entries.add(ModItems.EMPTY_MOULD);
@@ -39,8 +47,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.AGONY_LEAVES);
                         entries.add(ModItems.RITUAL_DAGGER);
                         entries.add(ModItems.BLOOD_BOTTLE);
-                        entries.add(ModItems.ESSENCE_INGOT);
+                        entries.add(ModItems.CLEAR_SHARD);
                         entries.add(ModItems.ESSENCE_SHARD);
+                        entries.add(ModItems.ESSENCE_INGOT);
                         entries.add(ModItems.ESSENCE);
                         entries.add(ModItems.LIV_INGOT);
                         entries.add(ModItems.LIV_BLADE);

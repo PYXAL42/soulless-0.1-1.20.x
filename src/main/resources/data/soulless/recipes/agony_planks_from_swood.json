@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "ingredients": {
+  "ingredients": [{
       "item": "soulless:stripped_agony_wood"
-    },
+    }],
   "result": {
     "item": "soulless:agony_planks",
     "count": 2

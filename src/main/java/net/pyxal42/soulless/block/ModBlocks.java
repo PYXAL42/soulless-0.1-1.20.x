@@ -10,7 +10,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.pyxal42.soulless.Soulless;
 
-import static net.minecraft.block.Blocks.CRIMSON_STEM;
 import static net.minecraft.block.Blocks.DEEPSLATE;
 
 public class ModBlocks {
@@ -36,6 +35,22 @@ public class ModBlocks {
     public static final Block INFUSED_DIMSTONE_PILLAR = registerBlock("infused_dimstone_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS).luminance(4)));
     public static final Block DIMSTONE_PEDESTAL = registerBlock("dimstone_pedestal",
+            new Block(FabricBlockSettings.copyOf(DEEPSLATE)));
+    public static final Block INFUSED_INKEEPING_CORE = registerBlock("infused_inkeeping_core",
+            new Block(FabricBlockSettings.copyOf(DEEPSLATE).luminance(4)));
+    public static final Block INKEEPING_CORE = registerBlock("inkeeping_core",
+            new Block(FabricBlockSettings.copyOf(DEEPSLATE)));
+    public static final Block INFUSED_DIMSTONE_CORE = registerBlock("infused_dimstone_core",
+            new Block(FabricBlockSettings.copyOf(DEEPSLATE).luminance(4)));
+    public static final Block DIMSTONE_CORE = registerBlock("dimstone_core",
+            new Block(FabricBlockSettings.copyOf(DEEPSLATE)));
+    public static final Block INFUSED_BLOOMING_CORE = registerBlock("infused_blooming_core",
+            new Block(FabricBlockSettings.copyOf(DEEPSLATE).luminance(4)));
+    public static final Block BLOOMING_CORE = registerBlock("blooming_core",
+            new Block(FabricBlockSettings.copyOf(DEEPSLATE)));
+    public static final Block INFUSED_RADIANCE_CORE = registerBlock("infused_radiance_core",
+            new Block(FabricBlockSettings.copyOf(DEEPSLATE).luminance(4)));
+    public static final Block RADIANCE_CORE = registerBlock("radiance_core",
             new Block(FabricBlockSettings.copyOf(DEEPSLATE)));
 
     public static final Block AGONY_LOG = registerBlock("agony_log",

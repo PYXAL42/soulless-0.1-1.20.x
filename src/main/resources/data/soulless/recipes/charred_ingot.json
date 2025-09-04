@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": "soulless:charred_ingot",
+  "cookingtime": 350
+}
