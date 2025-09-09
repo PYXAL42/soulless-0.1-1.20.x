@@ -22,12 +22,13 @@ public class ModItems {
     public static final Item LIV_INGOT = registerItem("liv_ingot", new Item(new FabricItemSettings()));
     public static final Item LIV_BLADE = registerItem("liv_blade", new SwordItem(LIV,9,-2.6f, new FabricItemSettings()));
     public static final Item ESSENCE = registerItem("essence", new Item(new FabricItemSettings()));
-    public static final Item ESSENCE_INGOT = registerItem("essence_ingot", new Item(new FabricItemSettings()));
+    public static final Item ESSENSTEEL_INGOT = registerItem("essensteel_ingot", new Item(new FabricItemSettings()));
     public static final Item ESSENCE_SHARD = registerItem("essence_shard", new Item(new FabricItemSettings()));
     public static final Item RITUAL_DAGGER = registerItem("ritual_dagger", new SwordItem(IRON,0,-2.2f, new FabricItemSettings()));
     public static final Item CHARRED_INGOT = registerItem("charred_ingot", new Item(new FabricItemSettings()));
     public static final Item CONTRACT = registerItem("contract", new Item(new FabricItemSettings()));
     public static final Item CLEAR_SHARD = registerItem("clear_shard", new Item(new FabricItemSettings()));
+    public static final Item ESSENSTEEL_PLATE = registerItem("essensteel_plate", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Soulless.MOD_ID, name), item);

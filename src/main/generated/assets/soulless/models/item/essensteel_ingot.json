@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "soulless:item/essence_ingot"
+    "layer0": "soulless:item/essensteel_ingot"
   }
 }

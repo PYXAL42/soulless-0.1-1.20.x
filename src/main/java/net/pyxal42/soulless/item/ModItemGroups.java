@@ -49,8 +49,13 @@ public class ModItemGroups {
                         entries.add(ModItems.BLOOD_BOTTLE);
                         entries.add(ModItems.CLEAR_SHARD);
                         entries.add(ModItems.ESSENCE_SHARD);
-                        entries.add(ModItems.ESSENCE_INGOT);
+                        entries.add(ModItems.ESSENSTEEL_INGOT);
+                        entries.add(ModItems.ESSENSTEEL_PLATE);
                         entries.add(ModItems.ESSENCE);
+                        entries.add(ModBlocks.ROTTEN_FLESH_BLOCK);
+                        entries.add(ModBlocks.ROTTEN_FLESH_STAIRS);
+                        entries.add(ModBlocks.ROTTEN_FLESH_SLAB);
+                        entries.add(ModBlocks.ROTTEN_FLESH_WALL);
                         entries.add(ModItems.LIV_INGOT);
                         entries.add(ModItems.LIV_BLADE);
                         entries.add(ModItems.CHARRED_INGOT);

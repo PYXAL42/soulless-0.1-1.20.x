@@ -11,6 +11,7 @@ import net.minecraft.util.Identifier;
 import net.pyxal42.soulless.Soulless;
 
 import static net.minecraft.block.Blocks.DEEPSLATE;
+import static net.minecraft.block.Blocks.NETHERRACK;
 
 public class ModBlocks {
 
@@ -51,7 +52,15 @@ public class ModBlocks {
     public static final Block INFUSED_RADIANCE_CORE = registerBlock("infused_radiance_core",
             new Block(FabricBlockSettings.copyOf(DEEPSLATE).luminance(4)));
     public static final Block RADIANCE_CORE = registerBlock("radiance_core",
-            new Block(FabricBlockSettings.copyOf(DEEPSLATE)));
+            new Block(FabricBlockSettings.copyOf(NETHERRACK)));
+    public static final Block ROTTEN_FLESH_BLOCK = registerBlock("rotten_flesh_block",
+            new Block(FabricBlockSettings.copyOf(NETHERRACK)));
+    public static final Block ROTTEN_FLESH_STAIRS = registerBlock("rotten_flesh_stairs",
+            new StairsBlock(ROTTEN_FLESH_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.NETHER_BRICK_STAIRS)));
+    public static final Block ROTTEN_FLESH_SLAB = registerBlock("rotten_flesh_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(NETHERRACK)));
+    public static final Block ROTTEN_FLESH_WALL = registerBlock("rotten_flesh_wall",
+            new WallBlock(FabricBlockSettings.copyOf(NETHERRACK)));
 
     public static final Block AGONY_LOG = registerBlock("agony_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
