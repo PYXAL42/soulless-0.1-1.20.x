@@ -14,7 +14,7 @@ public class ModItemGroups {
     public static final ItemGroup SOULLESSGROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Soulless.MOD_ID, "soulless"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.soulless"))
-                    .icon(() -> new ItemStack(ModBlocks.INFUSED_DIMSTONE_PILLAR)).entries(( displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModBlocks.DIMSTONE_PEDESTAL)).entries(( displayContext, entries) -> {
                         entries.add(ModBlocks.DIMSTONE);
                         entries.add(ModBlocks.DIMSTONE_STAIRS);
                         entries.add(ModBlocks.DIMSTONE_SLAB);
@@ -52,6 +52,10 @@ public class ModItemGroups {
                         entries.add(ModItems.ESSENSTEEL_INGOT);
                         entries.add(ModItems.ESSENSTEEL_PLATE);
                         entries.add(ModItems.ESSENCE);
+                        entries.add(ModBlocks.FLESH_BLOCK);
+                        entries.add(ModBlocks.FLESH_STAIRS);
+                        entries.add(ModBlocks.FLESH_SLAB);
+                        entries.add(ModBlocks.FLESH_WALL);
                         entries.add(ModBlocks.ROTTEN_FLESH_BLOCK);
                         entries.add(ModBlocks.ROTTEN_FLESH_STAIRS);
                         entries.add(ModBlocks.ROTTEN_FLESH_SLAB);

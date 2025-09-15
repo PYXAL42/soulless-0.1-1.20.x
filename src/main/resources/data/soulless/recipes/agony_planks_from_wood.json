@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [{
-      "item": "soulless:agony_wood"
+      "item": "soulless:stripped_agony_wood"
     }],
   "result": {
     "item": "soulless:agony_planks",
