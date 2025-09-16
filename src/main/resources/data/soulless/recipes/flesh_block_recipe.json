@@ -1,24 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "combat",
+  "category": "building_blocks",
   "key": {
     "#": {
-      "item": "minecraft:iron_ingot"
-    },
-    "S": {
-      "item": "minecraft:stick"
+      "tag": "minecraft:meat"
     },
     "B": {
       "item": "minecraft:bone"
     }
   },
   "pattern": [
-    "  #",
-    "B# ",
-    "SB "
+    "#B#",
+    "B#B",
+    "#B#"
   ],
   "result": {
-    "item": "soulless:ritual_dagger"
+    "item": "soulless:flesh_block",
+    "count": 8
   },
   "show_notification": true
 }

@@ -54,5 +54,8 @@
   "block.soulless.living_flesh_slab": "Living flesh slab",
   "block.soulless.living_flesh_stairs": "Living flesh stairs",
 
-  "itemgroup.soulless": "Soulless"
+  "itemgroup.soulless": "Soulless",
+
+  "trim_material.soulless.essensteel_ingot": "Essensteel",
+  "trim_material.soulless.liv_ingot": "Liv"
 }

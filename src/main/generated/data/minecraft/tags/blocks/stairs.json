@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "soulless:dimstone_stairs",
+    "soulless:dimstone_brick_stairs",
+    "soulless:rotten_flesh_stairs",
+    "soulless:flesh_stairs",
+    "soulless:living_flesh_stairs"
+  ]
+}

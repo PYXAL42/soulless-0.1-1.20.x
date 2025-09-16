@@ -30,8 +30,22 @@ public class ModBLockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.DIMSTONE_BRICK_WALL)
                 .add(ModBlocks.DIMSTONE_WALL)
-                .add(ModBlocks.FLESH_WALL)
                 .add(ModBlocks.ROTTEN_FLESH_WALL)
+                .add(ModBlocks.FLESH_WALL)
                 .add(ModBlocks.LIVING_FLESH_WALL);
+        getOrCreateTagBuilder(BlockTags.SLABS)
+                .add(ModBlocks.DIMSTONE_SLAB)
+                .add(ModBlocks.DIMSTONE_BRICK_SLAB)
+                .add(ModBlocks.ROTTEN_FLESH_SLAB)
+                .add(ModBlocks.FLESH_SLAB)
+                .add(ModBlocks.LIVING_FLESH_SLAB);
+        getOrCreateTagBuilder(BlockTags.STAIRS)
+                .add(ModBlocks.DIMSTONE_STAIRS)
+                .add(ModBlocks.DIMSTONE_BRICK_STAIRS)
+                .add(ModBlocks.ROTTEN_FLESH_STAIRS)
+                .add(ModBlocks.FLESH_STAIRS)
+                .add(ModBlocks.LIVING_FLESH_STAIRS);
+        getOrCreateTagBuilder(BlockTags.LEAVES)
+                .add(ModBlocks.AGONY_LEAVES);
     }
 }

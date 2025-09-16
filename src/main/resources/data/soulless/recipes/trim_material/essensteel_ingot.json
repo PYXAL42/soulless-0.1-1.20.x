@@ -1,0 +1,9 @@
+{
+  "asset_name": "essensteel_ingot",
+  "description": {
+    "color": "#5623C2FF",
+    "translate": "trim_material.soulless.essensteel_ingot"
+  },
+  "ingredient": "soulless:essensteel_ingot",
+  "item_model_index": 0.01
+}
