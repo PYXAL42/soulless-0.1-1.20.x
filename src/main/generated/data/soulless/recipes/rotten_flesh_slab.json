@@ -3,15 +3,15 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "soulless:dimstone_brick"
+      "item": "soulless:rotten_flesh_block"
     }
   },
   "pattern": [
-    "###",
     "###"
   ],
   "result": {
     "count": 6,
-    "item": "soulless:dimstone_brick_wall"
-  }
+    "item": "soulless:rotten_flesh_slab"
+  },
+  "show_notification": true
 }

@@ -69,6 +69,14 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.copyOf(NETHERRACK)));
     public static final Block FLESH_WALL = registerBlock("flesh_wall",
             new WallBlock(FabricBlockSettings.copyOf(NETHERRACK)));
+    public static final Block LIVING_FLESH_BLOCK = registerBlock("living_flesh_block",
+            new Block(FabricBlockSettings.copyOf(NETHERRACK)));
+    public static final Block LIVING_FLESH_STAIRS = registerBlock("living_flesh_stairs",
+            new StairsBlock(LIVING_FLESH_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.NETHER_BRICK_STAIRS)));
+    public static final Block LIVING_FLESH_SLAB = registerBlock("living_flesh_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(NETHERRACK)));
+    public static final Block LIVING_FLESH_WALL = registerBlock("living_flesh_wall",
+            new WallBlock(FabricBlockSettings.copyOf(NETHERRACK)));
 
 
     public static final Block AGONY_LOG = registerBlock("agony_log",

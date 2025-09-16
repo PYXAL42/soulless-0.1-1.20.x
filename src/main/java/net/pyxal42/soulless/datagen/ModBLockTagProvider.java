@@ -31,6 +31,7 @@ public class ModBLockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DIMSTONE_BRICK_WALL)
                 .add(ModBlocks.DIMSTONE_WALL)
                 .add(ModBlocks.FLESH_WALL)
-                .add(ModBlocks.ROTTEN_FLESH_WALL);
+                .add(ModBlocks.ROTTEN_FLESH_WALL)
+                .add(ModBlocks.LIVING_FLESH_WALL);
     }
 }

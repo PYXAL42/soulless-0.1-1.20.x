@@ -60,6 +60,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ROTTEN_FLESH_STAIRS);
                         entries.add(ModBlocks.ROTTEN_FLESH_SLAB);
                         entries.add(ModBlocks.ROTTEN_FLESH_WALL);
+                        entries.add(ModBlocks.LIVING_FLESH_BLOCK);
+                        entries.add(ModBlocks.LIVING_FLESH_STAIRS);
+                        entries.add(ModBlocks.LIVING_FLESH_SLAB);
+                        entries.add(ModBlocks.LIVING_FLESH_WALL);
                         entries.add(ModItems.LIV_INGOT);
                         entries.add(ModItems.LIV_BLADE);
                         entries.add(ModItems.CHARRED_INGOT);
