@@ -27,8 +27,5 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.LIV_BLADE)
                 .add(ModItems.RITUAL_DAGGER);
-        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
-                .add(ModItems.LIV_INGOT)
-                .add(ModItems.ESSENSTEEL_INGOT);
     }
 }

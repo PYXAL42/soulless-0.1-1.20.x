@@ -1,22 +1,27 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building_blocks",
+  "category": "redstone",
   "key": {
     "#": {
-      "tag": "minecraft:meat"
+      "item": "minecraft:cobblestone"
     },
-    "B": {
-      "item": "minecraft:bone"
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "T": {
+      "tag": "soulless:raw_meat"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
-    "#B#",
-    "B#B",
-    "#B#"
+    "TTT",
+    "#X#",
+    "#R#"
   ],
   "result": {
-    "item": "soulless:flesh_block",
-    "count": 8
+    "item": "minecraft:piston"
   },
   "show_notification": true
 }

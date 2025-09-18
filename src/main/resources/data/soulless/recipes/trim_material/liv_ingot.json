@@ -1,9 +1,0 @@
-{
-  "asset_name": "liv_ingot",
-  "description": {
-    "color": "#5623C2FF",
-    "translate": "trim_material.soulless.liv_ingot"
-  },
-  "ingredient": "soulless:liv_ingot",
-  "item_model_index": 0.02
-}
