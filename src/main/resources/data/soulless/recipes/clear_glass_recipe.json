@@ -3,16 +3,15 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "soulless:dimstone_brick"
+      "item": "soulless:clear_shard"
     }
   },
   "pattern": [
-    "#  ",
-    "## ",
-    "###"
+    "##",
+    "##"
   ],
   "result": {
     "count": 4,
-    "item": "soulless:dimstone_brick_stairs"
+    "item": "soulless:clear_glass"
   }
 }

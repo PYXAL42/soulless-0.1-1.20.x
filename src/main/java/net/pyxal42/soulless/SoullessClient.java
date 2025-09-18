@@ -9,6 +9,6 @@ public class SoullessClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.AGONY_LEAVES, RenderLayer.getCutout());
-
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CLEAR_GLASS, RenderLayer.getCutout());
     }
 }
