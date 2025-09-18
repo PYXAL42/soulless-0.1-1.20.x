@@ -28,6 +28,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ROTTEN_FLESH_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FLESH_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIVING_FLESH_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLEAR_GLASS);
 
         blockStateModelGenerator.registerLog(ModBlocks.AGONY_LOG).log(ModBlocks.AGONY_LOG).wood(ModBlocks.AGONY_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_AGONY_LOG).log(ModBlocks.STRIPPED_AGONY_LOG).wood(ModBlocks.STRIPPED_AGONY_WOOD);
@@ -51,5 +52,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SLICE_OF_CHEESE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CLEAR_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.ESSENSTEEL_PLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AGREEMENT, Models.GENERATED);
     }
 }

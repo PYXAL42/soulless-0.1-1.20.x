@@ -48,6 +48,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RITUAL_DAGGER);
                         entries.add(ModItems.BLOOD_BOTTLE);
                         entries.add(ModItems.CLEAR_SHARD);
+                        entries.add(ModBlocks.CLEAR_GLASS);
                         entries.add(ModItems.ESSENCE_SHARD);
                         entries.add(ModItems.ESSENSTEEL_INGOT);
                         entries.add(ModItems.ESSENSTEEL_PLATE);
@@ -68,6 +69,7 @@ public class ModItemGroups {
                         entries.add(ModItems.LIV_BLADE);
                         entries.add(ModItems.CHARRED_INGOT);
                         entries.add(ModItems.CONTRACT);
+                        entries.add(ModItems.AGREEMENT);
                     }).build());
 
     public static void registerItemGroups() {

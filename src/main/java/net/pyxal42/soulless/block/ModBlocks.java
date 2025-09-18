@@ -10,8 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.pyxal42.soulless.Soulless;
 
-import static net.minecraft.block.Blocks.DEEPSLATE;
-import static net.minecraft.block.Blocks.NETHERRACK;
+import static net.minecraft.block.Blocks.*;
 
 public class ModBlocks {
 
@@ -77,6 +76,8 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.copyOf(NETHERRACK)));
     public static final Block LIVING_FLESH_WALL = registerBlock("living_flesh_wall",
             new WallBlock(FabricBlockSettings.copyOf(NETHERRACK)));
+    public static final Block CLEAR_GLASS = registerBlock("clear_glass",
+            new GlassBlock(FabricBlockSettings.copyOf(GLASS).nonOpaque()));
 
 
     public static final Block AGONY_LOG = registerBlock("agony_log",
