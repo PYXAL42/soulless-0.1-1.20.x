@@ -78,6 +78,8 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(NETHERRACK)));
     public static final Block CLEAR_GLASS = registerBlock("clear_glass",
             new GlassBlock(FabricBlockSettings.copyOf(GLASS).nonOpaque()));
+    public static final Block AMERRACK = registerBlock("amerrack",
+            new Block(FabricBlockSettings.copyOf(SOUL_SOIL)));
 
 
     public static final Block AGONY_LOG = registerBlock("agony_log",

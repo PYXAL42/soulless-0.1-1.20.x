@@ -43,6 +43,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.FLESH_SLAB, slabDrops(ModBlocks.FLESH_SLAB));
         addDrop(ModBlocks.FLESH_STAIRS);
         addDrop(ModBlocks.FLESH_WALL);
+        addDrop(ModBlocks.AMERRACK);
         addDrop(ModBlocks.CLEAR_GLASS, dropsWithSilkTouch(ModBlocks.CLEAR_GLASS));
 
         addDrop(ModBlocks.AGONY_LEAVES, leavesDrops(ModBlocks.AGONY_LEAVES, ModBlocks.DIMSTONE, 0.005f));

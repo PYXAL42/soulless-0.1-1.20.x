@@ -1,14 +1,15 @@
-// 1.20.1	2025-09-18T09:36:38.190304	Soulless/Model Definitions
+// 1.20.1	2025-09-18T15:16:11.7097403	Soulless/Model Definitions
 a51b009133732395e7671048c3ca777784ba4e5a assets\soulless\models\item\blood_bottle.json
 cca77479df488757d18eb4ce5afe94721919c63b assets\soulless\models\item\slice_of_cheese.json
 f8787bcc2496b61be65248d68b12b9b644b8f681 assets\soulless\models\item\liv_ingot.json
 b6ea4c1eb2e627013d0e3ee11730f169fd082325 assets\soulless\models\item\infused_dimstone_core.json
-17d6e822c355f59968f1b8ea65502f7014b0acdd assets\soulless\models\block\dimstone.json
 ac25c37cde653163d492fa5c9f4ced77294e9fd0 assets\soulless\models\item\agony_wood.json
+17d6e822c355f59968f1b8ea65502f7014b0acdd assets\soulless\models\block\dimstone.json
 9690246da5ee269c9466eeb698c2f7467e085f17 assets\soulless\models\item\charred_ingot.json
 58a7d17252ed7b265df2e96fc1f1365625c3b484 assets\soulless\models\block\dimstone_brick.json
 8ae7c3a2c8937342b6e3be5fc990df9dd2f63d10 assets\soulless\blockstates\clear_glass.json
 b33895c4c2538824160e43f5c30c1485bea742d5 assets\soulless\models\item\contract.json
+e2100970e491e1e266784d8134e529a993242f29 assets\soulless\models\item\amerrack.json
 4aecbd134b4b65567310cf3f4a7a94fa5d54bba4 assets\soulless\models\item\infused_radiance_core.json
 a2ea8b7bc0c97720a55ad438a22c1ed1596438e9 assets\soulless\models\item\living_flesh_block.json
 40e7b40c983733a831c48600db94916a09aca53b assets\soulless\models\item\empty_mould.json
@@ -38,8 +39,9 @@ a7d0e4fffd9f998f33c79e351fab6d77c249897c assets\soulless\blockstates\agony_leave
 401b74f6810e9aa54761a2910ccf4382d428583a assets\soulless\models\item\agony_log.json
 fec7f1b6610ca29d6a6972e899fa9f65f66ee775 assets\soulless\blockstates\flesh_block.json
 1dd890e73a360696e68805acdec1a2cf242d0692 assets\soulless\blockstates\agony_planks.json
-16fd20580e457667e64fc2012870e4c03decd0e5 assets\soulless\models\block\blooming_core.json
 cb24f3bb7e177f0e8144017c3ec9f3f29255d7ca assets\soulless\models\block\infused_inkeeping_core.json
+16fd20580e457667e64fc2012870e4c03decd0e5 assets\soulless\models\block\blooming_core.json
+664dceb3125ac0cc5c29ceca9355d66e33a73a5f assets\soulless\models\block\amerrack.json
 c1a50568218c4708a9dcc7712ff017a42825e9f5 assets\soulless\models\item\essence_shard.json
 5bd16abe73d261d703dbbab4440cd131e5146336 assets\soulless\models\item\dimstone.json
 297a1b408dab79ccb0ca7de92c7a43c23612c4fc assets\soulless\models\item\essensteel_ingot.json
@@ -76,3 +78,4 @@ f7f6e906e4c77976f7f4e2a32ef88e19fca28af0 assets\soulless\models\item\dimstone_co
 1eddde041e687f8b67eb6809df2f679b6931adae assets\soulless\blockstates\stripped_agony_wood.json
 4ebe26fbb7e5b74e7eadfae2622a66db4722ab25 assets\soulless\models\block\stripped_agony_wood.json
 08607110528b384412e6db59c7804c8374cc4731 assets\soulless\models\item\agreement.json
+021a811ad8accbbda5a2c449ee7d7deafe7f662e assets\soulless\blockstates\amerrack.json
