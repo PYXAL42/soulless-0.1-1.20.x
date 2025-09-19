@@ -15,6 +15,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+        //Simple cube all
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIMSTONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIMSTONE_BRICK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INFUSED_DIMSTONE_CORE);
@@ -30,11 +31,11 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIVING_FLESH_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLEAR_GLASS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AMERRACK);
-
-        blockStateModelGenerator.registerLog(ModBlocks.AGONY_LOG).log(ModBlocks.AGONY_LOG).wood(ModBlocks.AGONY_WOOD);
-        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_AGONY_LOG).log(ModBlocks.STRIPPED_AGONY_LOG).wood(ModBlocks.STRIPPED_AGONY_WOOD);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AGONY_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AGONY_LEAVES);
+        //Logs
+        blockStateModelGenerator.registerLog(ModBlocks.AGONY_LOG).log(ModBlocks.AGONY_LOG).wood(ModBlocks.AGONY_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_AGONY_LOG).log(ModBlocks.STRIPPED_AGONY_LOG).wood(ModBlocks.STRIPPED_AGONY_WOOD);
     }
 
     @Override
@@ -54,5 +55,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CLEAR_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.ESSENSTEEL_PLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.AGREEMENT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FABRIC, Models.GENERATED);
     }
 }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "cheese",
+  "ingredients": [
+    {
+      "item": "soulless:fabric_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "soulless:fabric"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "soulless:dimstone_brick_stairs"
+  },
+  "result": "soulless:dimstone"
+}

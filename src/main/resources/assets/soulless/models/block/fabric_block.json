@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "soulless:block/fabric_block_top",
+    "side": "soulless:block/fabric_block"
+  }
+}

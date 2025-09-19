@@ -16,10 +16,12 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.soulless"))
                     .icon(() -> new ItemStack(ModBlocks.DIMSTONE_PEDESTAL)).entries(( displayContext, entries) -> {
                         //---Vanilla tier blocks and items---
-                        entries.add(ModItems.RITUAL_DAGGER);
+                        entries.add(ModBlocks.FABRIC_BLOCK);
+                        entries.add(ModItems.FABRIC);
                         entries.add(ModItems.CLEAR_SHARD);
                         entries.add(ModBlocks.CLEAR_GLASS);
                         entries.add(ModItems.AGREEMENT);
+                        entries.add(ModItems.RITUAL_DAGGER);
                         //all flesh blocks
                         entries.add(ModBlocks.FLESH_BLOCK);
                         entries.add(ModBlocks.FLESH_STAIRS);

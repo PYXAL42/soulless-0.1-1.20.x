@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "tag": "soulless:dimstone_full"
+    "item": "soulless:dimstone_brick_wall"
   },
-  "result": "soulless:dimstone_wall"
+  "result": "soulless:dimstone"
 }

@@ -1,4 +1,4 @@
-// 1.20.1	2025-09-18T15:16:11.7097403	Soulless/Model Definitions
+// 1.20.1	2025-09-19T10:54:03.1899721	Soulless/Model Definitions
 a51b009133732395e7671048c3ca777784ba4e5a assets\soulless\models\item\blood_bottle.json
 cca77479df488757d18eb4ce5afe94721919c63b assets\soulless\models\item\slice_of_cheese.json
 f8787bcc2496b61be65248d68b12b9b644b8f681 assets\soulless\models\item\liv_ingot.json
@@ -21,6 +21,7 @@ ae68145eabef3a91ce5b69e100507911d4fcb3ab assets\soulless\blockstates\dimstone.js
 de092525e2dd9dddaf04d17ff4fe9a2b31ba0ec0 assets\soulless\models\block\flesh_block.json
 717f9ef11a80725396a62e7a870ecd98ae1f3d8f assets\soulless\blockstates\rotten_flesh_block.json
 bd9c238477d39d106b07107071ae94e524a9c511 assets\soulless\models\item\stripped_agony_log.json
+519e95fdd19cef5150677e9f0032393b31e4cdda assets\soulless\models\item\fabric.json
 bc2050257dabf019d869c9a512d716127a63f1cf assets\soulless\models\item\agony_leaves.json
 eae4ec5b2f943c398cb1940edb9c61947981e146 assets\soulless\models\item\radiance_core.json
 5d1dc3f593b67b86e3ee9aae14753a66b392425d assets\soulless\models\item\hot_mould.json
