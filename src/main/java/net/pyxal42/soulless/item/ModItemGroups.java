@@ -18,6 +18,8 @@ public class ModItemGroups {
                         //---Vanilla tier blocks and items---
                         entries.add(ModBlocks.FABRIC_BLOCK);
                         entries.add(ModItems.FABRIC);
+                        entries.add(ModItems.TOPHAT);
+                        entries.add(ModItems.GLASSES);
                         entries.add(ModItems.CLEAR_SHARD);
                         entries.add(ModBlocks.CLEAR_GLASS);
                         entries.add(ModItems.AGREEMENT);

@@ -31,6 +31,8 @@ public class ModItems {
     public static final Item ESSENSTEEL_PLATE = registerItem("essensteel_plate", new Item(new FabricItemSettings()));
     public static final Item AGREEMENT = registerItem("agreement", new Item(new FabricItemSettings()));
     public static final Item FABRIC = registerItem("fabric", new Item(new FabricItemSettings()));
+    public static final Item TOPHAT = registerItem("tophat", new Item(new FabricItemSettings()));
+    public static final Item GLASSES = registerItem("glasses", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Soulless.MOD_ID, name), item);
