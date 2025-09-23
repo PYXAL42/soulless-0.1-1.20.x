@@ -1,4 +1,4 @@
-// 1.20.1	2025-09-23T10:29:32.5155194	Soulless/Model Definitions
+// 1.20.1	2025-09-23T16:04:47.2884875	Soulless/Model Definitions
 a51b009133732395e7671048c3ca777784ba4e5a assets\soulless\models\item\blood_bottle.json
 cca77479df488757d18eb4ce5afe94721919c63b assets\soulless\models\item\slice_of_cheese.json
 f8787bcc2496b61be65248d68b12b9b644b8f681 assets\soulless\models\item\liv_ingot.json
@@ -24,6 +24,7 @@ de092525e2dd9dddaf04d17ff4fe9a2b31ba0ec0 assets\soulless\models\block\flesh_bloc
 bd9c238477d39d106b07107071ae94e524a9c511 assets\soulless\models\item\stripped_agony_log.json
 519e95fdd19cef5150677e9f0032393b31e4cdda assets\soulless\models\item\fabric.json
 bc2050257dabf019d869c9a512d716127a63f1cf assets\soulless\models\item\agony_leaves.json
+65294d6cbe08ebea563499adec8546f5cd3c22c2 assets\soulless\models\item\maid_corset.json
 eae4ec5b2f943c398cb1940edb9c61947981e146 assets\soulless\models\item\radiance_core.json
 5d1dc3f593b67b86e3ee9aae14753a66b392425d assets\soulless\models\item\hot_mould.json
 7144bfb298eeef81043d03b04c7ca47042792237 assets\soulless\models\item\infused_inkeeping_core.json
@@ -32,6 +33,7 @@ eae4ec5b2f943c398cb1940edb9c61947981e146 assets\soulless\models\item\radiance_co
 542533b596b4e8c820e2e5d4ec3791d31c56126c assets\soulless\models\block\infused_dimstone_core.json
 8171b76a38b9f503a5d58fdc79136d560b286aa1 assets\soulless\blockstates\dimstone_brick.json
 7c360d97b86886953fd48618361a980dddc0a2ca assets\soulless\models\block\clear_glass.json
+82910fb052c69330773277545dfeda958c25432e assets\soulless\models\item\maid_headband.json
 852ccce3e3fa650775450a0d7d18b707fde62398 assets\soulless\blockstates\infused_blooming_core.json
 a45f1babc483d5810f05f3a0c21d186b3012164b assets\soulless\models\item\inkeeping_core.json
 47d5fe6e8271b13658c85a5e07706179ca2650e9 assets\soulless\blockstates\living_flesh_block.json

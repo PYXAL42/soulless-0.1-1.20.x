@@ -31,6 +31,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.TOPHAT)
                 .add(ModItems.GLASSES)
                 .add(ModItems.PROPELLER_HAT)
-                .add(ModItems.BLACK_JACKET);
+                .add(ModItems.BLACK_JACKET)
+                .add(ModItems.MAID_CORSET)
+                .add(ModItems.MAID_HEADBAND);
     }
 }
