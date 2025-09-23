@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_fabric": {
+    "has_fabric_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "soulless:fabric"
+              "soulless:fabric_block"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:fabric_block_from_fabric"
+        "recipe": "minecraft:fabric_from_fabric_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_fabric",
+      "has_fabric_block",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:fabric_block_from_fabric"
+      "minecraft:fabric_from_fabric_block"
     ]
   },
   "sends_telemetry_event": false

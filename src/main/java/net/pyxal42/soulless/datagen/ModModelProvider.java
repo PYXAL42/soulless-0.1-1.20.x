@@ -56,5 +56,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ESSENSTEEL_PLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.AGREEMENT, Models.GENERATED);
         itemModelGenerator.register(ModItems.FABRIC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GLASSES, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TOPHAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PROPELLER_HAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLACK_JACKET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAID_CORSET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAID_HEADBAND, Models.GENERATED);
     }
 }

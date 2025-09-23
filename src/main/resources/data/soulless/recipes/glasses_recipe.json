@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    "I I",
+    "GIG"
+  ],
+  "result": {
+    "item": "soulless:glasses"
+  },
+  "show_notification": true
+}
