@@ -27,5 +27,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.LIV_BLADE)
                 .add(ModItems.RITUAL_DAGGER);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.TOPHAT)
+                .add(ModItems.GLASSES)
+                .add(ModItems.PROPELLER_HAT)
+                .add(ModItems.BLACK_JACKET);
     }
 }

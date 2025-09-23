@@ -1,4 +1,4 @@
-// 1.20.1	2025-09-22T14:59:45.4643923	Soulless/Block Loot Tables
+// 1.20.1	2025-09-23T10:29:32.5270382	Soulless/Block Loot Tables
 08b915ba42ee549ef87d9d824dbf1379aadd56aa data\soulless\loot_tables\blocks\infused_inkeeping_core.json
 7843223c6df1eb1af3d15c71294dae1d9d8f2736 data\soulless\loot_tables\blocks\radiance_core.json
 2c4f0533b89fc486aae9144400b9fd16f3afab1c data\soulless\loot_tables\blocks\flesh_stairs.json
@@ -13,8 +13,8 @@ e59b12a4e79dbfffddd156d0ccd0629119fe0cc3 data\soulless\loot_tables\blocks\infuse
 8b50ec3c1e32aabf6afdc12b0f7d2651383be2b3 data\soulless\loot_tables\blocks\stripped_agony_log.json
 dced127174ea7c18fb66a1b58a0366ec55fa7e50 data\soulless\loot_tables\blocks\rotten_flesh_slab.json
 43142b0932d1d90ead58311a8232869ed7190e6d data\soulless\loot_tables\blocks\dimstone.json
-b800265a89af4623802ab8dc35dd93001412eb4c data\soulless\loot_tables\blocks\infused_radiance_core.json
 4f83e3406b5a53ec710fca4ac24cabeaa5a9bc30 data\soulless\loot_tables\blocks\dimstone_core.json
+b800265a89af4623802ab8dc35dd93001412eb4c data\soulless\loot_tables\blocks\infused_radiance_core.json
 9eb645b8465557f0da7df356ed3101bece656a9c data\soulless\loot_tables\blocks\infused_dimstone_pillar.json
 4da1ada49b08248a690ee1f153286b425ac094be data\soulless\loot_tables\blocks\clear_glass.json
 2048eb5b6f204398a95520a068e344dc424abd6f data\soulless\loot_tables\blocks\flesh_slab.json

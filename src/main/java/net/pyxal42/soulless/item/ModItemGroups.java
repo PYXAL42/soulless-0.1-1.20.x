@@ -20,6 +20,8 @@ public class ModItemGroups {
                         entries.add(ModItems.FABRIC);
                         entries.add(ModItems.TOPHAT);
                         entries.add(ModItems.GLASSES);
+                        entries.add(ModItems.PROPELLER_HAT);
+                        entries.add(ModItems.BLACK_JACKET);
                         entries.add(ModItems.CLEAR_SHARD);
                         entries.add(ModBlocks.CLEAR_GLASS);
                         entries.add(ModItems.AGREEMENT);
