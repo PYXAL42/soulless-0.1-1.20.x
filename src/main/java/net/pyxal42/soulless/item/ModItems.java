@@ -33,12 +33,14 @@ public class ModItems {
     public static final Item AGREEMENT = registerItem("agreement", new Item(new FabricItemSettings()));
     public static final Item FABRIC = registerItem("fabric", new Item(new FabricItemSettings()));
 
-    public static final Item TOPHAT = registerItem("tophat",  new ArmorItem(ModArmorMaterial.TOPHAT_AMAT, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item GLASSES = registerItem("glasses", new ArmorItem(ModArmorMaterial.GLASSES_AMAT, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item PROPELLER_HAT = registerItem("propeller_hat", new ArmorItem(ModArmorMaterial.PROPELLER_HAT_AMAT, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item BLACK_JACKET = registerItem("black_jacket", new ArmorItem(ModArmorMaterial.BLACK_JACKET_AMAT, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item TOPHAT = registerItem("tophat",  new ArmorItem(ModArmorMaterial.COSMETIC_ONE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item BLACK_JACKET = registerItem("black_jacket", new ArmorItem(ModArmorMaterial.COSMETIC_ONE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item GLASSES = registerItem("glasses", new ArmorItem(ModArmorMaterial.COSMETIC_TWO, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item PROPELLER_HAT = registerItem("propeller_hat", new ArmorItem(ModArmorMaterial.COSMETIC_THREE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item MAID_HEADBAND = registerItem("maid_headband", new ArmorItem(ModArmorMaterial.MAID_COSTUME, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item MAID_CORSET = registerItem("maid_corset", new ArmorItem(ModArmorMaterial.MAID_COSTUME, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item MAID_SKIRT = registerItem("maid_skirt", new ArmorItem(ModArmorMaterial.MAID_COSTUME, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item MAID_SOCKS = registerItem("maid_socks", new ArmorItem(ModArmorMaterial.MAID_COSTUME, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Soulless.MOD_ID, name), item);

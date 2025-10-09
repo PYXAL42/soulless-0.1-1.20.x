@@ -16,14 +16,17 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.soulless"))
                     .icon(() -> new ItemStack(ModBlocks.DIMSTONE_PEDESTAL)).entries(( displayContext, entries) -> {
                         //---Vanilla tier blocks and items---
+                        //Fabric and cosmetics
                         entries.add(ModBlocks.FABRIC_BLOCK);
                         entries.add(ModItems.FABRIC);
                         entries.add(ModItems.TOPHAT);
+                        entries.add(ModItems.BLACK_JACKET);
                         entries.add(ModItems.GLASSES);
                         entries.add(ModItems.PROPELLER_HAT);
-                        entries.add(ModItems.BLACK_JACKET);
-                        entries.add(ModItems.MAID_CORSET);
                         entries.add(ModItems.MAID_HEADBAND);
+                        entries.add(ModItems.MAID_CORSET);
+                        entries.add(ModItems.MAID_SKIRT);
+                        entries.add(ModItems.MAID_SOCKS);
                         entries.add(ModItems.CLEAR_SHARD);
                         entries.add(ModBlocks.CLEAR_GLASS);
                         entries.add(ModItems.AGREEMENT);

@@ -10,11 +10,14 @@ import net.pyxal42.soulless.Soulless;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterial implements ArmorMaterial {
-    TOPHAT_AMAT("tophat_material",25, new int[] {4, 5, 5, 4}, 25, SoundEvents.ENTITY_VILLAGER_CELEBRATE,0f, 0.5f,()-> Ingredient.ofItems(ModItems.FABRIC)),
-    GLASSES_AMAT("glasses_material",25, new int[] {4, 5, 5, 4}, 25, SoundEvents.ITEM_ARMOR_EQUIP_ELYTRA,0f, 0.5f,()-> Ingredient.ofItems(ModItems.FABRIC)),
-    PROPELLER_HAT_AMAT("propeller_hat_material",25, new int[] {4, 5, 5, 4}, 25, SoundEvents.ITEM_ARMOR_EQUIP_ELYTRA,0f, 0.5f,()-> Ingredient.ofItems(ModItems.FABRIC)),
-    BLACK_JACKET_AMAT("black_jacket_material",25, new int[] {4, 5, 5, 4}, 25, SoundEvents.ITEM_ARMOR_EQUIP_ELYTRA,0f, 0.5f,()-> Ingredient.ofItems(ModItems.FABRIC)),
+    COSMETIC_ONE("cosmetic_material_one",25, new int[] {4, 5, 5, 4}, 25, SoundEvents.ENTITY_VILLAGER_CELEBRATE,0f, 0.5f,()-> Ingredient.ofItems(ModItems.FABRIC)),
+    //contains: Tophat, Black jacket
+    COSMETIC_TWO("cosmetic_material_two",25, new int[] {4, 5, 5, 4}, 25, SoundEvents.ITEM_ARMOR_EQUIP_ELYTRA,0f, 0.5f,()-> Ingredient.ofItems(ModItems.FABRIC)),
+    //contains: Glasses
+    COSMETIC_THREE("cosmetic_material_three",25, new int[] {4, 5, 5, 4}, 25, SoundEvents.ITEM_ARMOR_EQUIP_ELYTRA,0f, 0.5f,()-> Ingredient.ofItems(ModItems.FABRIC)),
+    //contains: Propeller hat
     MAID_COSTUME("maid_costume",25, new int[] {4, 5, 5, 4}, 25, SoundEvents.ITEM_ARMOR_EQUIP_ELYTRA,0f, 0.5f,()-> Ingredient.ofItems(ModItems.FABRIC));
+    //contains: Maid headband, Maid corset, Maid skirt, Maid thigh highs
 
     ;
     private final String name;
