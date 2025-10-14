@@ -20,6 +20,11 @@
   "item.soulless.black_jacket": "Black jacket",
   "item.soulless.maid_headband": "Maid headband",
   "item.soulless.maid_corset": "Maid corset",
+  "item.soulless.maid_socks": "Maid socks",
+  "item.soulless.maid_skirt": "Maid skirt",
+  "item.soulless.fabric": "Fabric",
+  "item.soulless.clear_shard": "Clear shard",
+  "item.soulless.agreement": "Agreement",
 
   "block.soulless.dimstone": "Dimstone",
   "block.soulless.dimstone_pedestal": "Dimstone pedestal",
@@ -58,6 +63,9 @@
   "block.soulless.living_flesh_wall": "Living flesh wall",
   "block.soulless.living_flesh_slab": "Living flesh slab",
   "block.soulless.living_flesh_stairs": "Living flesh stairs",
+  "block.soulless.fabric_block": "Fabric block",
+  "block.soulless.clear_glass": "Clear glass",
+  "block.soulless.amerrack": "Amerrack",
 
   "itemgroup.soulless": "Soulless",
 
