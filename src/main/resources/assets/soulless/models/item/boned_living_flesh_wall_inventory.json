@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/wall_inventory",
   "textures": {
-    "wall": "soulless:block/flesh_block"
+    "wall": "soulless:block/boned_living_flesh_block"
   }
 }
