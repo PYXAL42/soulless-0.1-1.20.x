@@ -32,15 +32,15 @@ public class ModItemGroups {
                         entries.add(ModItems.AGREEMENT);
                         entries.add(ModItems.RITUAL_DAGGER);
                         //all flesh blocks
-                        entries.add(ModBlocks.FLESH_BLOCK);
-                        entries.add(ModBlocks.FLESH_STAIRS);
-                        entries.add(ModBlocks.FLESH_SLAB);
-                        entries.add(ModBlocks.FLESH_WALL);
+                        entries.add(ModBlocks.BONED_FLESH_BLOCK);
+                        entries.add(ModBlocks.BONED_FLESH_STAIRS);
+                        entries.add(ModBlocks.BONED_FLESH_SLAB);
+                        entries.add(ModBlocks.BONED_FLESH_WALL);
                         //all rotten flesh blocks
-                        entries.add(ModBlocks.ROTTEN_FLESH_BLOCK);
-                        entries.add(ModBlocks.ROTTEN_FLESH_STAIRS);
-                        entries.add(ModBlocks.ROTTEN_FLESH_SLAB);
-                        entries.add(ModBlocks.ROTTEN_FLESH_WALL);
+                        entries.add(ModBlocks.BONED_ROTTEN_FLESH_BLOCK);
+                        entries.add(ModBlocks.BONED_ROTTEN_FLESH_STAIRS);
+                        entries.add(ModBlocks.BONED_ROTTEN_FLESH_SLAB);
+                        entries.add(ModBlocks.BONED_ROTTEN_FLESH_WALL);
                         //---Blood tier blocks and items---
                         //all dimstone blocks
                         entries.add(ModBlocks.DIMSTONE);
@@ -71,10 +71,10 @@ public class ModItemGroups {
                         entries.add(ModItems.LIV_BLADE);
                         entries.add(ModItems.CHARRED_INGOT);
                         //all living flesh blocks
-                        entries.add(ModBlocks.LIVING_FLESH_BLOCK);
-                        entries.add(ModBlocks.LIVING_FLESH_STAIRS);
-                        entries.add(ModBlocks.LIVING_FLESH_SLAB);
-                        entries.add(ModBlocks.LIVING_FLESH_WALL);
+                        entries.add(ModBlocks.BONED_LIVING_FLESH_BLOCK);
+                        entries.add(ModBlocks.BONED_LIVING_FLESH_STAIRS);
+                        entries.add(ModBlocks.BONED_LIVING_FLESH_SLAB);
+                        entries.add(ModBlocks.BONED_LIVING_FLESH_WALL);
                         //all agony wood blocks
                         entries.add(ModBlocks.AGONY_LOG);
                         entries.add(ModBlocks.AGONY_WOOD);

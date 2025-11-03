@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "soulless:block/rotten_flesh_block",
-    "side": "soulless:block/rotten_flesh_block",
-    "top": "soulless:block/rotten_flesh_block"
-  }
-}

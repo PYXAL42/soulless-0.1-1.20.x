@@ -26,9 +26,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOOMING_CORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INFUSED_RADIANCE_CORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RADIANCE_CORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ROTTEN_FLESH_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FLESH_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIVING_FLESH_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BONED_ROTTEN_FLESH_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BONED_FLESH_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BONED_LIVING_FLESH_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLEAR_GLASS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AMERRACK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AGONY_PLANKS);

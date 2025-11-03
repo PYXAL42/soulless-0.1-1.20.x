@@ -35,14 +35,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BLOOMING_CORE);
         addDrop(ModBlocks.INKEEPING_CORE);
         addDrop(ModBlocks.RADIANCE_CORE);
-        addDrop(ModBlocks.ROTTEN_FLESH_BLOCK);
-        addDrop(ModBlocks.ROTTEN_FLESH_SLAB, slabDrops(ModBlocks.ROTTEN_FLESH_SLAB));
-        addDrop(ModBlocks.ROTTEN_FLESH_STAIRS);
-        addDrop(ModBlocks.ROTTEN_FLESH_WALL);
-        addDrop(ModBlocks.FLESH_BLOCK);
-        addDrop(ModBlocks.FLESH_SLAB, slabDrops(ModBlocks.FLESH_SLAB));
-        addDrop(ModBlocks.FLESH_STAIRS);
-        addDrop(ModBlocks.FLESH_WALL);
+        addDrop(ModBlocks.BONED_ROTTEN_FLESH_BLOCK);
+        addDrop(ModBlocks.BONED_ROTTEN_FLESH_SLAB, slabDrops(ModBlocks.BONED_ROTTEN_FLESH_SLAB));
+        addDrop(ModBlocks.BONED_ROTTEN_FLESH_STAIRS);
+        addDrop(ModBlocks.BONED_ROTTEN_FLESH_WALL);
+        addDrop(ModBlocks.BONED_FLESH_BLOCK);
+        addDrop(ModBlocks.BONED_FLESH_SLAB, slabDrops(ModBlocks.BONED_FLESH_SLAB));
+        addDrop(ModBlocks.BONED_FLESH_STAIRS);
+        addDrop(ModBlocks.BONED_FLESH_WALL);
         addDrop(ModBlocks.AMERRACK);
         addDrop(ModBlocks.CLEAR_GLASS, dropsWithSilkTouch(ModBlocks.CLEAR_GLASS));
 

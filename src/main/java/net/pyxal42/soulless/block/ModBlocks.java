@@ -52,29 +52,29 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(DEEPSLATE).luminance(4)));
     public static final Block RADIANCE_CORE = registerBlock("radiance_core",
             new Block(FabricBlockSettings.copyOf(NETHERRACK)));
-    public static final Block ROTTEN_FLESH_BLOCK = registerBlock("rotten_flesh_block",
+    public static final Block BONED_ROTTEN_FLESH_BLOCK = registerBlock("boned_rotten_flesh_block",
             new Block(FabricBlockSettings.copyOf(NETHERRACK)));
-    public static final Block ROTTEN_FLESH_STAIRS = registerBlock("rotten_flesh_stairs",
-            new StairsBlock(ROTTEN_FLESH_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.NETHER_BRICK_STAIRS)));
-    public static final Block ROTTEN_FLESH_SLAB = registerBlock("rotten_flesh_slab",
+    public static final Block BONED_ROTTEN_FLESH_STAIRS = registerBlock("boned_rotten_flesh_stairs",
+            new StairsBlock(BONED_ROTTEN_FLESH_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.NETHER_BRICK_STAIRS)));
+    public static final Block BONED_ROTTEN_FLESH_SLAB = registerBlock("boned_rotten_flesh_slab",
             new SlabBlock(FabricBlockSettings.copyOf(NETHERRACK)));
-    public static final Block ROTTEN_FLESH_WALL = registerBlock("rotten_flesh_wall",
+    public static final Block BONED_ROTTEN_FLESH_WALL = registerBlock("boned_rotten_flesh_wall",
             new WallBlock(FabricBlockSettings.copyOf(NETHERRACK)));
-    public static final Block FLESH_BLOCK = registerBlock("flesh_block",
+    public static final Block BONED_FLESH_BLOCK = registerBlock("boned_flesh_block",
             new Block(FabricBlockSettings.copyOf(NETHERRACK)));
-    public static final Block FLESH_STAIRS = registerBlock("flesh_stairs",
-            new StairsBlock(FLESH_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.NETHER_BRICK_STAIRS)));
-    public static final Block FLESH_SLAB = registerBlock("flesh_slab",
+    public static final Block BONED_FLESH_STAIRS = registerBlock("boned_flesh_stairs",
+            new StairsBlock(BONED_FLESH_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.NETHER_BRICK_STAIRS)));
+    public static final Block BONED_FLESH_SLAB = registerBlock("boned_flesh_slab",
             new SlabBlock(FabricBlockSettings.copyOf(NETHERRACK)));
-    public static final Block FLESH_WALL = registerBlock("flesh_wall",
+    public static final Block BONED_FLESH_WALL = registerBlock("boned_flesh_wall",
             new WallBlock(FabricBlockSettings.copyOf(NETHERRACK)));
-    public static final Block LIVING_FLESH_BLOCK = registerBlock("living_flesh_block",
+    public static final Block BONED_LIVING_FLESH_BLOCK = registerBlock("boned_living_flesh_block",
             new Block(FabricBlockSettings.copyOf(NETHERRACK)));
-    public static final Block LIVING_FLESH_STAIRS = registerBlock("living_flesh_stairs",
-            new StairsBlock(LIVING_FLESH_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.NETHER_BRICK_STAIRS)));
-    public static final Block LIVING_FLESH_SLAB = registerBlock("living_flesh_slab",
+    public static final Block BONED_LIVING_FLESH_STAIRS = registerBlock("boned_living_flesh_stairs",
+            new StairsBlock(BONED_LIVING_FLESH_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.NETHER_BRICK_STAIRS)));
+    public static final Block BONED_LIVING_FLESH_SLAB = registerBlock("boned_living_flesh_slab",
             new SlabBlock(FabricBlockSettings.copyOf(NETHERRACK)));
-    public static final Block LIVING_FLESH_WALL = registerBlock("living_flesh_wall",
+    public static final Block BONED_LIVING_FLESH_WALL = registerBlock("boned_living_flesh_wall",
             new WallBlock(FabricBlockSettings.copyOf(NETHERRACK)));
     public static final Block CLEAR_GLASS = registerBlock("clear_glass",
             new GlassBlock(FabricBlockSettings.copyOf(GLASS).nonOpaque()));

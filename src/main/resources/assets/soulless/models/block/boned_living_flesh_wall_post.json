@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "soulless:block/boned_living_flesh_block"
+  }
+}

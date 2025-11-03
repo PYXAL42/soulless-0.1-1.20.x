@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_boned_living_flesh_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soulless:boned_living_flesh_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "soulless:boned_living_flesh_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_boned_living_flesh_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "soulless:boned_living_flesh_slab"
+    ]
+  },
+  "sends_telemetry_event": false
+}

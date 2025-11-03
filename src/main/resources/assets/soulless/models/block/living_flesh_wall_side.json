@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/template_wall_side",
-  "textures": {
-    "wall": "soulless:block/living_flesh_block"
-  }
-}

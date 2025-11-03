@@ -3,8 +3,8 @@
   "values": [
     "soulless:dimstone_brick_wall",
     "soulless:dimstone_wall",
-    "soulless:rotten_flesh_wall",
-    "soulless:flesh_wall",
-    "soulless:living_flesh_wall"
+    "soulless:boned_rotten_flesh_wall",
+    "soulless:boned_flesh_wall",
+    "soulless:boned_living_flesh_wall"
   ]
 }
