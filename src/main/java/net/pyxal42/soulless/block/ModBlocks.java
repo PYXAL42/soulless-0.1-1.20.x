@@ -19,17 +19,17 @@ public class ModBlocks {
     public static final Block DIMSTONE_STAIRS = registerBlock("dimstone_stairs",
             new StairsBlock(DIMSTONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICK_STAIRS)));
     public static final Block DIMSTONE_SLAB = registerBlock("dimstone_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(DEEPSLATE)));
+            new SlabBlock(FabricBlockSettings.copyOf(DIMSTONE)));
     public static final Block DIMSTONE_WALL = registerBlock("dimstone_wall",
-            new WallBlock(FabricBlockSettings.copyOf(DEEPSLATE)));
+            new WallBlock(FabricBlockSettings.copyOf(DIMSTONE)));
     public static final Block DIMSTONE_BRICK = registerBlock("dimstone_brick",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS)));
     public static final Block DIMSTONE_BRICK_STAIRS = registerBlock("dimstone_brick_stairs",
-            new StairsBlock(DIMSTONE_BRICK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICK_STAIRS)));
+            new StairsBlock(DIMSTONE_BRICK.getDefaultState(), FabricBlockSettings.copyOf(DIMSTONE_BRICK)));
     public static final Block DIMSTONE_BRICK_SLAB = registerBlock("dimstone_brick_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICK_SLAB)));
+            new SlabBlock(FabricBlockSettings.copyOf(DIMSTONE_BRICK)));
     public static final Block DIMSTONE_BRICK_WALL = registerBlock("dimstone_brick_wall",
-            new WallBlock(FabricBlockSettings.copyOf(DEEPSLATE)));
+            new WallBlock(FabricBlockSettings.copyOf(DIMSTONE_BRICK)));
     public static final Block DIMSTONE_PILLAR = registerBlock("dimstone_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS)));
     public static final Block INFUSED_DIMSTONE_PILLAR = registerBlock("infused_dimstone_pillar",
@@ -88,11 +88,22 @@ public class ModBlocks {
             new PaneBlock((FabricBlockSettings.copyOf(IRON_BARS))));
     public static final Block RUSTY_METAL_BLOCK = registerBlock("rusty_metal_block",
             new Block(FabricBlockSettings.copyOf(IRON_BLOCK)));
+    public static final Block RUSTY_METAL_SLAB = registerBlock("rusty_metal_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(RUSTY_METAL_BLOCK)));
+    public static final Block RUSTY_METAL_STAIR = registerBlock("rusty_metal_stair",
+            new StairsBlock(RUSTY_METAL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(RUSTY_METAL_BLOCK)));
     public static final Block SEELERIUM_BLOCK = registerBlock("seelerium_block",
             new Block(FabricBlockSettings.copyOf(IRON_BLOCK)));
+    public static final Block SEELERIUM_SLAB = registerBlock("rusty_metal_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(SEELERIUM_BLOCK)));
+    public static final Block SEELERIUM_STAIR = registerBlock("rusty_metal_stair",
+            new StairsBlock(SEELERIUM_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(SEELERIUM_BLOCK)));
     public static final Block DUSHARIN_BLOCK = registerBlock("dusharin_block",
             new Block(FabricBlockSettings.copyOf(IRON_BLOCK)));
-
+    public static final Block DUSHARIN_SLAB = registerBlock("rusty_metal_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(DUSHARIN_BLOCK)));
+    public static final Block DUSHARIN_STAIR = registerBlock("rusty_metal_stair",
+            new StairsBlock(DUSHARIN_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(DUSHARIN_BLOCK)));
 
     public static final Block AGONY_LOG = registerBlock("agony_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
