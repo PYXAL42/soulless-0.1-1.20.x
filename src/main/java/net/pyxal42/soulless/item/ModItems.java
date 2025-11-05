@@ -32,6 +32,10 @@ public class ModItems {
     public static final Item ESSENSTEEL_PLATE = registerItem("essensteel_plate", new Item(new FabricItemSettings()));
     public static final Item AGREEMENT = registerItem("agreement", new Item(new FabricItemSettings()));
     public static final Item FABRIC = registerItem("fabric", new Item(new FabricItemSettings()));
+    public static final Item XAVELITE_INGOT = registerItem("xavelite_ingot", new Item(new FabricItemSettings()));
+    public static final Item RUSTY_METAL_CLUMP = registerItem("rusty_metal_clump", new Item(new FabricItemSettings()));
+    public static final Item SEELERIUM_INGOT = registerItem("seelerium_ingot", new Item(new FabricItemSettings()));
+    public static final Item DUSHARIN_INGOT = registerItem("dusharin_ingot", new Item(new FabricItemSettings()));
 
     public static final Item TOPHAT = registerItem("tophat",  new ArmorItem(ModArmorMaterial.COSMETIC_ONE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item BLACK_JACKET = registerItem("black_jacket", new ArmorItem(ModArmorMaterial.COSMETIC_ONE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));

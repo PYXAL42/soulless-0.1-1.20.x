@@ -86,6 +86,12 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(IRON_BLOCK)));
     public static final Block XAVELITE_BARS = registerBlock("xavelite_bars",
             new PaneBlock((FabricBlockSettings.copyOf(IRON_BARS))));
+    public static final Block RUSTY_METAL_BLOCK = registerBlock("rusty_metal_block",
+            new Block(FabricBlockSettings.copyOf(IRON_BLOCK)));
+    public static final Block SEELERIUM_BLOCK = registerBlock("seelerium_block",
+            new Block(FabricBlockSettings.copyOf(IRON_BLOCK)));
+    public static final Block DUSHARIN_BLOCK = registerBlock("dusharin_block",
+            new Block(FabricBlockSettings.copyOf(IRON_BLOCK)));
 
 
     public static final Block AGONY_LOG = registerBlock("agony_log",

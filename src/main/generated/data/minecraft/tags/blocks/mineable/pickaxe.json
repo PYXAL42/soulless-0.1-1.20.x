@@ -13,6 +13,9 @@
     "soulless:dimstone_wall",
     "soulless:infused_dimstone_pillar",
     "soulless:xavelite_block",
-    "soulless:xavelite_bars"
+    "soulless:xavelite_bars",
+    "soulless:rusty_metal_block",
+    "soulless:seelerium_block",
+    "soulless:dusharin_block"
   ]
 }

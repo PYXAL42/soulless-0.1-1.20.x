@@ -32,6 +32,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLEAR_GLASS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AMERRACK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.XAVELITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUSTY_METAL_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SEELERIUM_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DUSHARIN_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AGONY_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AGONY_LEAVES);
         //Logs
@@ -65,5 +68,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MAID_HEADBAND, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAID_SKIRT, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAID_SOCKS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.XAVELITE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUSTY_METAL_CLUMP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SEELERIUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DUSHARIN_INGOT, Models.GENERATED);
     }
 }

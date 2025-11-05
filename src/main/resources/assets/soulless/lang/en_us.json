@@ -25,6 +25,10 @@
   "item.soulless.fabric": "Fabric",
   "item.soulless.clear_shard": "Clear shard",
   "item.soulless.agreement": "Agreement",
+  "item.soulless.xavelite_ingot": "Xavelite ingot",
+  "item.soulless.rusty_metal_clump": "Rusty metal clump",
+  "item.soulless.seelerium_ingot": "Seelerium ingot",
+  "item.soulless.dusharin_ingot": "Dusharin ingot",
 
   "block.soulless.dimstone": "Dimstone",
   "block.soulless.dimstone_pedestal": "Dimstone pedestal",
@@ -66,6 +70,11 @@
   "block.soulless.fabric_block": "Fabric block",
   "block.soulless.clear_glass": "Clear glass",
   "block.soulless.amerrack": "Amerrack",
+  "block.soulless.xavelite_block": "xavelite block",
+  "block.soulless.xavelite_bars": "Xavelite bar",
+  "block.soulless.rusty_metal_block": "Rusty metal block",
+  "block.soulless.seelerium_block": "Seelerium block",
+  "block.soulless.dusharin_block": "Dusharin block",
 
   "itemgroup.soulless": "Soulless"
 }

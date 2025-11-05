@@ -28,7 +28,10 @@ public class ModBLockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DIMSTONE_WALL)
                 .add(ModBlocks.INFUSED_DIMSTONE_PILLAR)
                 .add(ModBlocks.XAVELITE_BLOCK)
-                .add(ModBlocks.XAVELITE_BARS);
+                .add(ModBlocks.XAVELITE_BARS)
+                .add(ModBlocks.RUSTY_METAL_BLOCK)
+                .add(ModBlocks.SEELERIUM_BLOCK)
+                .add(ModBlocks.DUSHARIN_BLOCK);
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.DIMSTONE_BRICK_WALL)
                 .add(ModBlocks.DIMSTONE_WALL)
