@@ -31,6 +31,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BONED_LIVING_FLESH_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLEAR_GLASS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AMERRACK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.XAVELITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AGONY_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AGONY_LEAVES);
         //Logs

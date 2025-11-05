@@ -27,21 +27,16 @@ public class ModItemGroups {
                         entries.add(ModItems.MAID_CORSET);
                         entries.add(ModItems.MAID_SKIRT);
                         entries.add(ModItems.MAID_SOCKS);
+                        //Qol items and other idk
                         entries.add(ModItems.CLEAR_SHARD);
                         entries.add(ModBlocks.CLEAR_GLASS);
                         entries.add(ModItems.AGREEMENT);
                         entries.add(ModItems.RITUAL_DAGGER);
-                        //all flesh blocks
-                        entries.add(ModBlocks.BONED_FLESH_BLOCK);
-                        entries.add(ModBlocks.BONED_FLESH_STAIRS);
-                        entries.add(ModBlocks.BONED_FLESH_SLAB);
-                        entries.add(ModBlocks.BONED_FLESH_WALL);
                         //all rotten flesh blocks
                         entries.add(ModBlocks.BONED_ROTTEN_FLESH_BLOCK);
                         entries.add(ModBlocks.BONED_ROTTEN_FLESH_STAIRS);
                         entries.add(ModBlocks.BONED_ROTTEN_FLESH_SLAB);
                         entries.add(ModBlocks.BONED_ROTTEN_FLESH_WALL);
-                        //---Blood tier blocks and items---
                         //all dimstone blocks
                         entries.add(ModBlocks.DIMSTONE);
                         entries.add(ModBlocks.DIMSTONE_STAIRS);
@@ -66,6 +61,12 @@ public class ModItemGroups {
                         entries.add(ModItems.CONTRACT);
                         //all blood-like items and blocks
                         entries.add(ModItems.BLOOD_BOTTLE);
+                        //---Blood tier one blocks and items---
+                        //all flesh blocks
+                        entries.add(ModBlocks.BONED_FLESH_BLOCK);
+                        entries.add(ModBlocks.BONED_FLESH_STAIRS);
+                        entries.add(ModBlocks.BONED_FLESH_SLAB);
+                        entries.add(ModBlocks.BONED_FLESH_WALL);
                         //all liv items
                         entries.add(ModItems.LIV_INGOT);
                         entries.add(ModItems.LIV_BLADE);
@@ -82,7 +83,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_AGONY_WOOD);
                         entries.add(ModBlocks.AGONY_PLANKS);
                         entries.add(ModBlocks.AGONY_LEAVES);
-                        //---Soul tier blocks and items---
+                        //all Xavelite blocks
+                        entries.add(ModBlocks.XAVELITE_BLOCK);
+                        entries.add(ModBlocks.XAVELITE_BARS);
+                        //---Soul tier one blocks and items---
                         entries.add(ModBlocks.AMERRACK);
                         //---Essence tier blocks and items---
                         //all essence items

@@ -3,7 +3,7 @@
   "category": "building_blocks",
   "key": {
     "#": {
-      "item": "soulless:liv_ingot"
+      "item": "minecraft:rotten_flesh"
     },
     "B": {
       "item": "minecraft:bone"
@@ -15,8 +15,8 @@
     "#B#"
   ],
   "result": {
-    "item": "soulless:living_flesh_block",
-    "count": 8
+    "item": "soulless:boned_rotten_flesh_block",
+    "count": 4
   },
   "show_notification": true
 }

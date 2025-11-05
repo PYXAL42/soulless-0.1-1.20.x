@@ -82,6 +82,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(SOUL_SOIL)));
     public static final Block FABRIC_BLOCK = registerBlock("fabric_block",
             new PillarBlock(FabricBlockSettings.copyOf(WHITE_WOOL)));
+    public static final Block XAVELITE_BLOCK = registerBlock("xavelite_block",
+            new PillarBlock(FabricBlockSettings.copyOf(IRON_BLOCK)));
+    public static final Block XAVELITE_BARS = registerBlock("xavelite_bars",
+            new PaneBlock((FabricBlockSettings.copyOf(IRON_BARS))));
 
 
     public static final Block AGONY_LOG = registerBlock("agony_log",
