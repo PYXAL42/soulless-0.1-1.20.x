@@ -28,10 +28,18 @@ public class ModBLockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DIMSTONE_WALL)
                 .add(ModBlocks.INFUSED_DIMSTONE_PILLAR)
                 .add(ModBlocks.XAVELITE_BLOCK)
-                .add(ModBlocks.XAVELITE_BARS)
+                .add(ModBlocks.XAVELITE_STAIRS)
+                .add(ModBlocks.XAVELITE_SLAB)
                 .add(ModBlocks.RUSTY_METAL_BLOCK)
+                .add(ModBlocks.RUSTY_METAL_STAIRS)
+                .add(ModBlocks.RUSTY_METAL_SLAB)
+                .add(ModBlocks.RUSTY_METAL_BARS)
                 .add(ModBlocks.SEELERIUM_BLOCK)
-                .add(ModBlocks.DUSHARIN_BLOCK);
+                .add(ModBlocks.SEELERIUM_STAIRS)
+                .add(ModBlocks.SEELERIUM_SLAB)
+                .add(ModBlocks.DUSHARIN_BLOCK)
+                .add(ModBlocks.DUSHARIN_SLAB)
+                .add(ModBlocks.DUSHARIN_STAIRS);
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.DIMSTONE_BRICK_WALL)
                 .add(ModBlocks.DIMSTONE_WALL)
@@ -43,13 +51,20 @@ public class ModBLockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DIMSTONE_BRICK_SLAB)
                 .add(ModBlocks.BONED_ROTTEN_FLESH_SLAB)
                 .add(ModBlocks.BONED_FLESH_SLAB)
-                .add(ModBlocks.BONED_LIVING_FLESH_SLAB);
+                .add(ModBlocks.XAVELITE_SLAB)
+                .add(ModBlocks.RUSTY_METAL_SLAB)
+                .add(ModBlocks.SEELERIUM_SLAB)
+                .add(ModBlocks.DUSHARIN_SLAB);
         getOrCreateTagBuilder(BlockTags.STAIRS)
                 .add(ModBlocks.DIMSTONE_STAIRS)
                 .add(ModBlocks.DIMSTONE_BRICK_STAIRS)
                 .add(ModBlocks.BONED_ROTTEN_FLESH_STAIRS)
                 .add(ModBlocks.BONED_FLESH_STAIRS)
-                .add(ModBlocks.BONED_LIVING_FLESH_STAIRS);
+                .add(ModBlocks.BONED_LIVING_FLESH_STAIRS)
+                .add(ModBlocks.XAVELITE_STAIRS)
+                .add(ModBlocks.RUSTY_METAL_STAIRS)
+                .add(ModBlocks.SEELERIUM_STAIRS)
+                .add(ModBlocks.DUSHARIN_STAIRS);
         getOrCreateTagBuilder(BlockTags.LEAVES)
                 .add(ModBlocks.AGONY_LEAVES);
     }

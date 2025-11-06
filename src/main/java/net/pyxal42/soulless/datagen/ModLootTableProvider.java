@@ -44,7 +44,16 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BONED_LIVING_FLESH_WALL);
         addDrop(ModBlocks.AMERRACK);
         addDrop(ModBlocks.XAVELITE_BLOCK);
-        addDrop(ModBlocks.XAVELITE_BARS);
+        addDrop(ModBlocks.RUSTY_METAL_BARS);
+        addDrop(ModBlocks.RUSTY_METAL_BLOCK);
+        addDrop(ModBlocks.RUSTY_METAL_SLAB);
+        addDrop(ModBlocks.RUSTY_METAL_STAIRS);
+        addDrop(ModBlocks.SEELERIUM_BLOCK);
+        addDrop(ModBlocks.SEELERIUM_SLAB);
+        addDrop(ModBlocks.SEELERIUM_STAIRS);
+        addDrop(ModBlocks.DUSHARIN_BLOCK);
+        addDrop(ModBlocks.DUSHARIN_SLAB);
+        addDrop(ModBlocks.DUSHARIN_STAIRS);
         //Slabs
         addDrop(ModBlocks.DIMSTONE_SLAB, slabDrops(ModBlocks.DIMSTONE_SLAB));
         addDrop(ModBlocks.DIMSTONE_BRICK_SLAB, slabDrops(ModBlocks.DIMSTONE_BRICK_SLAB));

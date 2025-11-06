@@ -1,10 +1,8 @@
 {
-	"format_version": "1.21.6",
-	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "soulless:block/xavelite_bar_post",
-		"bars": "soulless:block/xavelite_bar_post"
+		"particle": "soulless:block/rusty_metal_bar_post",
+		"bars": "soulless:block/rusty_metal_bar_post"
 	},
 	"elements": [
 		{

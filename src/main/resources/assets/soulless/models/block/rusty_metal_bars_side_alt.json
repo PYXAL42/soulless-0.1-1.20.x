@@ -1,8 +1,8 @@
 {
     "ambientocclusion": false,
     "textures": {
-        "particle": "soulless:block/xavelite_bars",
-        "bars": "soulless:block/xavelite_bars"
+        "particle": "soulless:block/rusty_metal_bars",
+        "bars": "soulless:block/rusty_metal_bars"
     },
     "elements": [
         {   "from": [ 8, 0, 8 ],

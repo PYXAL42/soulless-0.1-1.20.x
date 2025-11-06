@@ -84,25 +84,29 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(WHITE_WOOL)));
     public static final Block XAVELITE_BLOCK = registerBlock("xavelite_block",
             new PillarBlock(FabricBlockSettings.copyOf(IRON_BLOCK)));
-    public static final Block XAVELITE_BARS = registerBlock("xavelite_bars",
-            new PaneBlock((FabricBlockSettings.copyOf(IRON_BARS))));
+    public static final Block XAVELITE_SLAB = registerBlock("xavelite_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(XAVELITE_BLOCK)));
+    public static final Block XAVELITE_STAIRS = registerBlock("xavelite_stairs",
+            new StairsBlock(XAVELITE_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(XAVELITE_BLOCK)));
     public static final Block RUSTY_METAL_BLOCK = registerBlock("rusty_metal_block",
             new Block(FabricBlockSettings.copyOf(IRON_BLOCK)));
     public static final Block RUSTY_METAL_SLAB = registerBlock("rusty_metal_slab",
             new SlabBlock(FabricBlockSettings.copyOf(RUSTY_METAL_BLOCK)));
-    public static final Block RUSTY_METAL_STAIR = registerBlock("rusty_metal_stair",
+    public static final Block RUSTY_METAL_STAIRS = registerBlock("rusty_metal_stairs",
             new StairsBlock(RUSTY_METAL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(RUSTY_METAL_BLOCK)));
+    public static final Block RUSTY_METAL_BARS = registerBlock("rusty_metal_bars",
+            new PaneBlock((FabricBlockSettings.copyOf(IRON_BARS))));
     public static final Block SEELERIUM_BLOCK = registerBlock("seelerium_block",
             new Block(FabricBlockSettings.copyOf(IRON_BLOCK)));
-    public static final Block SEELERIUM_SLAB = registerBlock("rusty_metal_slab",
+    public static final Block SEELERIUM_SLAB = registerBlock("seelerium_slab",
             new SlabBlock(FabricBlockSettings.copyOf(SEELERIUM_BLOCK)));
-    public static final Block SEELERIUM_STAIR = registerBlock("rusty_metal_stair",
+    public static final Block SEELERIUM_STAIRS = registerBlock("seelerium_stairs",
             new StairsBlock(SEELERIUM_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(SEELERIUM_BLOCK)));
     public static final Block DUSHARIN_BLOCK = registerBlock("dusharin_block",
             new Block(FabricBlockSettings.copyOf(IRON_BLOCK)));
-    public static final Block DUSHARIN_SLAB = registerBlock("rusty_metal_slab",
+    public static final Block DUSHARIN_SLAB = registerBlock("dusharin_slab",
             new SlabBlock(FabricBlockSettings.copyOf(DUSHARIN_BLOCK)));
-    public static final Block DUSHARIN_STAIR = registerBlock("rusty_metal_stair",
+    public static final Block DUSHARIN_STAIRS = registerBlock("dusharin_stairs",
             new StairsBlock(DUSHARIN_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(DUSHARIN_BLOCK)));
 
     public static final Block AGONY_LOG = registerBlock("agony_log",

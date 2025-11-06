@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "soulless:block/seelerium_block",
+    "side": "soulless:block/seelerium_block",
+    "top": "soulless:block/seelerium_block"
+  }
+}

@@ -1,6 +1,6 @@
-// 1.20.1	2025-11-05T22:47:21.064728	Soulless/Tags for minecraft:block
-549296c7167995910d19cc55ac6b7cd8811fa21d data\minecraft\tags\blocks\walls.json
-12bcfe4c93dbec50b2f5a670a05d0db0444cba21 data\minecraft\tags\blocks\slabs.json
-345ed1a4703ff14db39c8b29bbbe45cfc0b596f6 data\minecraft\tags\blocks\mineable\pickaxe.json
+// 1.20.1	2025-11-06T16:41:47.3736148	Soulless/Tags for minecraft:block
 91bdbdb3d806cf8b673235a3aefce0a376d5dfdc data\minecraft\tags\blocks\leaves.json
-8f4a44fdaf768518a85be5cbe7cc5862d45835fd data\minecraft\tags\blocks\stairs.json
+0d55594b75e1286f2f1ec939e14c143f75cba9d2 data\minecraft\tags\blocks\stairs.json
+526d77e5e1a4518d6c6aaf57d80268d87211833c data\minecraft\tags\blocks\mineable\pickaxe.json
+549296c7167995910d19cc55ac6b7cd8811fa21d data\minecraft\tags\blocks\walls.json
+5dc640687b3ba9d62f239bf40fff1b12d2a34996 data\minecraft\tags\blocks\slabs.json

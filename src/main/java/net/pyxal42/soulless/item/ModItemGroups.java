@@ -85,15 +85,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.AGONY_LEAVES);
                         //all Xavelite
                         entries.add(ModBlocks.XAVELITE_BLOCK);
-                        entries.add(ModBlocks.XAVELITE_BARS);
                         entries.add(ModItems.XAVELITE_INGOT);
+                        entries.add(ModBlocks.XAVELITE_STAIRS);
+                        entries.add(ModBlocks.XAVELITE_SLAB);
                         //all rusty metal
                         entries.add(ModBlocks.RUSTY_METAL_BLOCK);
+                        entries.add(ModBlocks.RUSTY_METAL_STAIRS);
+                        entries.add(ModBlocks.RUSTY_METAL_SLAB);
+                        entries.add(ModBlocks.RUSTY_METAL_BARS);
                         //---Soul tier one blocks and items---
                         entries.add(ModBlocks.AMERRACK);
                         entries.add(ModBlocks.SEELERIUM_BLOCK);
+                        entries.add(ModBlocks.SEELERIUM_STAIRS);
+                        entries.add(ModBlocks.SEELERIUM_SLAB);
                         entries.add(ModItems.SEELERIUM_INGOT);
                         entries.add(ModBlocks.DUSHARIN_BLOCK);
+                        entries.add(ModBlocks.DUSHARIN_STAIRS);
+                        entries.add(ModBlocks.DUSHARIN_SLAB);
                         entries.add(ModItems.DUSHARIN_INGOT);
                         //---Essence tier blocks and items---
                         //all essence items

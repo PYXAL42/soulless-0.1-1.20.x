@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "soulless:block/xavelite_block",
+    "side": "soulless:block/xavelite_block",
+    "top": "soulless:block/xavelite_block"
+  }
+}

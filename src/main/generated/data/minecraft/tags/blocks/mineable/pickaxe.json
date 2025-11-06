@@ -13,9 +13,17 @@
     "soulless:dimstone_wall",
     "soulless:infused_dimstone_pillar",
     "soulless:xavelite_block",
-    "soulless:xavelite_bars",
+    "soulless:xavelite_stairs",
+    "soulless:xavelite_slab",
     "soulless:rusty_metal_block",
+    "soulless:rusty_metal_stairs",
+    "soulless:rusty_metal_slab",
+    "soulless:rusty_metal_bars",
     "soulless:seelerium_block",
-    "soulless:dusharin_block"
+    "soulless:seelerium_stairs",
+    "soulless:seelerium_slab",
+    "soulless:dusharin_block",
+    "soulless:dusharin_slab",
+    "soulless:dusharin_stairs"
   ]
 }
