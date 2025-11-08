@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "soulless:xavelite_block"
+    },
+    {
+      "item": "soulless:xavelite_block"
+    },
+    {
+      "item": "soulless:xavelite_block"
+    },
+    {
+      "item": "soulless:xavelite_block"
+    },
+    {
+      "item": "soulless:xavelite_block"
+    },
+    {
+      "item": "soulless:xavelite_block"
+    },
+    {
+      "item": "soulless:xavelite_block"
+    },
+    {
+      "item": "soulless:xavelite_block"
+    },
+    {
+      "item": "soulless:xavelite_block"
+    }
+  ],
+  "result": {
+    "item": "soulless:xavelite_ingot"
+  }
+}

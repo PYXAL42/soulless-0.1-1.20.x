@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "soulless:dusharin_block"
+    },
+    {
+      "item": "soulless:dusharin_block"
+    },
+    {
+      "item": "soulless:dusharin_block"
+    },
+    {
+      "item": "soulless:dusharin_block"
+    },
+    {
+      "item": "soulless:dusharin_block"
+    },
+    {
+      "item": "soulless:dusharin_block"
+    },
+    {
+      "item": "soulless:dusharin_block"
+    },
+    {
+      "item": "soulless:dusharin_block"
+    },
+    {
+      "item": "soulless:dusharin_block"
+    }
+  ],
+  "result": {
+    "item": "soulless:dusharin_ingot"
+  }
+}

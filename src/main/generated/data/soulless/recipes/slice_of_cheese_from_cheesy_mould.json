@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "cheese",
+  "group": "food",
   "ingredients": [
     {
       "item": "soulless:cheesy_mould"

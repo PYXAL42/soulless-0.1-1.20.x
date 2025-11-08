@@ -3,6 +3,7 @@ package net.pyxal42.soulless.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
+import net.minecraft.recipe.Recipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.pyxal42.soulless.block.ModBlocks;
 import net.pyxal42.soulless.item.ModItems;
@@ -18,8 +19,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
         //Single item shapeless recipes
-        offerShapelessRecipe(exporter, ModItems.SLICE_OF_CHEESE, ModItems.CHEESY_MOULD, "cheese", 2);
-        offerShapelessRecipe(exporter, ModItems.FABRIC, ModBlocks.FABRIC_BLOCK, "cheese", 4);
+        offerShapelessRecipe(exporter, ModItems.SLICE_OF_CHEESE, ModItems.CHEESY_MOULD, "food", 2);
+        offerShapelessRecipe(exporter, ModItems.FABRIC, ModBlocks.FABRIC_BLOCK, "food", 4);
+        offerShapelessRecipe(exporter, ModItems.XAVELITE_INGOT, ModBlocks.XAVELITE_BLOCK, "uncompress", 9);
+        offerShapelessRecipe(exporter, ModItems.RUSTY_METAL_CLUMP, ModBlocks.RUSTY_METAL_BLOCK, "uncompress", 9);
+        offerShapelessRecipe(exporter, ModItems.SEELERIUM_INGOT, ModBlocks.SEELERIUM_BLOCK, "uncompress", 9);
+        offerShapelessRecipe(exporter, ModItems.DUSHARIN_INGOT, ModBlocks.DUSHARIN_BLOCK, "uncompress", 9);
         //Wall recipes
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS,ModBlocks.DIMSTONE_WALL, ModBlocks.DIMSTONE);
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS,ModBlocks.DIMSTONE_BRICK_WALL, ModBlocks.DIMSTONE_BRICK);
@@ -32,8 +37,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BONED_ROTTEN_FLESH_SLAB, ModBlocks.BONED_ROTTEN_FLESH_BLOCK);
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BONED_FLESH_SLAB, ModBlocks.BONED_FLESH_BLOCK);
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BONED_LIVING_FLESH_SLAB, ModBlocks.BONED_LIVING_FLESH_BLOCK);
-        //2x2 compacting recipe
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.XAVELITE_SLAB, ModBlocks.XAVELITE_BLOCK);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUSTY_METAL_SLAB, ModBlocks.RUSTY_METAL_BLOCK);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SEELERIUM_SLAB, ModBlocks.SEELERIUM_BLOCK);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DUSHARIN_SLAB, ModBlocks.DUSHARIN_BLOCK);
+        //2x2 compacting recipes
         offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModBlocks.FABRIC_BLOCK, ModItems.FABRIC);
+        //3x3 Compacting recipes
+        offerCompactingRecipe(exporter, RecipeCategory.MISC, ModItems.XAVELITE_INGOT, ModBlocks.XAVELITE_BLOCK);
+        offerCompactingRecipe(exporter, RecipeCategory.MISC, ModItems.RUSTY_METAL_CLUMP, ModBlocks.RUSTY_METAL_BLOCK);
+        offerCompactingRecipe(exporter, RecipeCategory.MISC, ModItems.SEELERIUM_INGOT, ModBlocks.SEELERIUM_BLOCK);
+        offerCompactingRecipe(exporter, RecipeCategory.MISC, ModItems.DUSHARIN_INGOT, ModBlocks.DUSHARIN_BLOCK);
         //Stone cutter recipes
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIMSTONE, ModBlocks.DIMSTONE_BRICK);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIMSTONE, ModBlocks.DIMSTONE_SLAB);
@@ -50,5 +64,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIMSTONE_BRICK, ModBlocks.DIMSTONE_BRICK_SLAB);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIMSTONE_BRICK, ModBlocks.DIMSTONE_BRICK_WALL);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIMSTONE_BRICK, ModBlocks.DIMSTONE_BRICK_STAIRS);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMERRACK, ModBlocks.AMERRACK_BRICK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMERRACK, ModBlocks.CHISELED_AMERRACK);
     }
 }

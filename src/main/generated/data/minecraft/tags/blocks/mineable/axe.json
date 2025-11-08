@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "soulless:agony_wood",
+    "soulless:stripped_agony_wood",
+    "soulless:agony_log",
+    "soulless:stripped_agony_log",
+    "soulless:agony_planks"
+  ]
+}

@@ -95,6 +95,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUSTY_METAL_BARS);
                         //---Soul tier one blocks and items---
                         entries.add(ModBlocks.AMERRACK);
+                        entries.add(ModBlocks.AMERRACK_BRICK);
+                        entries.add(ModBlocks.CHISELED_AMERRACK);
                         entries.add(ModBlocks.SEELERIUM_BLOCK);
                         entries.add(ModBlocks.SEELERIUM_STAIRS);
                         entries.add(ModBlocks.SEELERIUM_SLAB);

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "uncompress",
+  "ingredients": [
+    {
+      "item": "soulless:rusty_metal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "soulless:rusty_metal_clump"
+  }
+}
