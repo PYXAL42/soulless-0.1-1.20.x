@@ -33,6 +33,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.MAID_CORSET)
                 .add(ModItems.MAID_HEADBAND)
                 .add(ModItems.MAID_SKIRT)
-                .add(ModItems.MAID_SOCKS);
+                .add(ModItems.MAID_SOCKS)
+                .add(ModItems.XAVELITE_MASK)
+                .add(ModItems.XAVELITE_CHESTPLATE)
+                .add(ModItems.XAVELITE_LEGGINGS)
+                .add(ModItems.XAVELITE_BOOTS);
     }
 }

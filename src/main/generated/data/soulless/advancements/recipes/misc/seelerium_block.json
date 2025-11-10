@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_dusharin_block": {
+    "has_seelerium_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "soulless:dusharin_block"
+              "soulless:seelerium_ingot"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:dusharin_ingot_from_dusharin_block"
+        "recipe": "minecraft:seelerium_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_dusharin_block",
+      "has_seelerium_ingot",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:dusharin_ingot_from_dusharin_block"
+      "minecraft:seelerium_block"
     ]
   },
   "sends_telemetry_event": false

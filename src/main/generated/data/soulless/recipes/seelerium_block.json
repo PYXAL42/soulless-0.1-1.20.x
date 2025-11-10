@@ -1,14 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "uncompress",
   "ingredients": [
     {
-      "item": "soulless:dusharin_block"
+      "item": "soulless:seelerium_ingot"
     }
   ],
   "result": {
     "count": 9,
-    "item": "soulless:dusharin_ingot"
+    "item": "soulless:seelerium_block"
   }
 }

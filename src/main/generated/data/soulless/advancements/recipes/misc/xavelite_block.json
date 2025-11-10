@@ -3,16 +3,16 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:xavelite_ingot_from_xavelite_block"
+        "recipe": "minecraft:xavelite_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_xavelite_block": {
+    "has_xavelite_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "soulless:xavelite_block"
+              "soulless:xavelite_ingot"
             ]
           }
         ]
@@ -22,13 +22,13 @@
   },
   "requirements": [
     [
-      "has_xavelite_block",
+      "has_xavelite_ingot",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:xavelite_ingot_from_xavelite_block"
+      "minecraft:xavelite_block"
     ]
   },
   "sends_telemetry_event": false

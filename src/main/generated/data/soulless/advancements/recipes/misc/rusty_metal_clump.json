@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "soulless:rusty_metal_clump"
+        "recipe": "minecraft:rusty_metal_clump"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "soulless:rusty_metal_clump"
+      "minecraft:rusty_metal_clump"
     ]
   },
   "sends_telemetry_event": false

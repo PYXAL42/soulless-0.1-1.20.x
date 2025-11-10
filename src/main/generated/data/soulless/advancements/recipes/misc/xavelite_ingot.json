@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "soulless:xavelite_ingot"
+        "recipe": "minecraft:xavelite_ingot"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "soulless:xavelite_ingot"
+      "minecraft:xavelite_ingot"
     ]
   },
   "sends_telemetry_event": false

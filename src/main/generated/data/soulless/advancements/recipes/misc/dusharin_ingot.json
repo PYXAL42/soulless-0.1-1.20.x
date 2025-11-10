@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "soulless:dusharin_ingot"
+        "recipe": "minecraft:dusharin_ingot"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "soulless:dusharin_ingot"
+      "minecraft:dusharin_ingot"
     ]
   },
   "sends_telemetry_event": false

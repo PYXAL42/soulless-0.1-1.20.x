@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "soulless:seelerium_ingot"
+        "recipe": "minecraft:seelerium_ingot"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "soulless:seelerium_ingot"
+      "minecraft:seelerium_ingot"
     ]
   },
   "sends_telemetry_event": false

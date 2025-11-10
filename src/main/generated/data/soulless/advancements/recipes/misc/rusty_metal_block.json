@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_rusty_metal_block": {
+    "has_rusty_metal_clump": {
       "conditions": {
         "items": [
           {
             "items": [
-              "soulless:rusty_metal_block"
+              "soulless:rusty_metal_clump"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:rusty_metal_clump_from_rusty_metal_block"
+        "recipe": "minecraft:rusty_metal_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_rusty_metal_block",
+      "has_rusty_metal_clump",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:rusty_metal_clump_from_rusty_metal_block"
+      "minecraft:rusty_metal_block"
     ]
   },
   "sends_telemetry_event": false

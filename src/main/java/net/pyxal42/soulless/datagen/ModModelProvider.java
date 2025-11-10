@@ -81,5 +81,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RUSTY_METAL_CLUMP, Models.GENERATED);
         itemModelGenerator.register(ModItems.SEELERIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.DUSHARIN_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.XAVELITE_MASK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.XAVELITE_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.XAVELITE_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.XAVELITE_BOOTS, Models.GENERATED);
     }
 }

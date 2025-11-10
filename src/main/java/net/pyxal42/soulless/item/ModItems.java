@@ -45,6 +45,10 @@ public class ModItems {
     public static final Item MAID_CORSET = registerItem("maid_corset", new ArmorItem(ModArmorMaterial.MAID_COSTUME, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item MAID_SKIRT = registerItem("maid_skirt", new ArmorItem(ModArmorMaterial.MAID_COSTUME, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item MAID_SOCKS = registerItem("maid_socks", new ArmorItem(ModArmorMaterial.MAID_COSTUME, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item XAVELITE_MASK = registerItem("xavelite_mask", new ArmorItem(ModArmorMaterial.XAVELITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item XAVELITE_CHESTPLATE = registerItem("xavelite_chestplate", new ArmorItem(ModArmorMaterial.XAVELITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item XAVELITE_LEGGINGS = registerItem("xavelite_leggings", new ArmorItem(ModArmorMaterial.XAVELITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item XAVELITE_BOOTS = registerItem("xavelite_boots", new ArmorItem(ModArmorMaterial.XAVELITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Soulless.MOD_ID, name), item);

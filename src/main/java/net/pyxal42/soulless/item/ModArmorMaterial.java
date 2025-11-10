@@ -16,8 +16,10 @@ public enum ModArmorMaterial implements ArmorMaterial {
     //contains: Glasses
     COSMETIC_THREE("cosmetic_material_three",25, new int[] {4, 5, 5, 4}, 25, SoundEvents.ITEM_ARMOR_EQUIP_ELYTRA,0f, 0.5f,()-> Ingredient.ofItems(ModItems.FABRIC)),
     //contains: Propeller hat
-    MAID_COSTUME("maid_costume",25, new int[] {4, 5, 5, 4}, 25, SoundEvents.ITEM_ARMOR_EQUIP_ELYTRA,0f, 0.5f,()-> Ingredient.ofItems(ModItems.FABRIC));
+    MAID_COSTUME("maid_costume",25, new int[] {4, 5, 5, 4}, 25, SoundEvents.ITEM_ARMOR_EQUIP_ELYTRA,0f, 0.5f,()-> Ingredient.ofItems(ModItems.FABRIC)),
     //contains: Maid headband, Maid corset, Maid skirt, Maid thigh highs
+    XAVELITE("xavelite",25, new int[] {4, 5, 5, 4}, 25, SoundEvents.ENTITY_WITHER_SPAWN,0.25f, 1.5f,()-> Ingredient.ofItems(ModItems.XAVELITE_INGOT));
+    //contains: Xavelite crown, Xavelite chestplate, Xavelite leggings, Xavelite boots
 
     ;
     private final String name;

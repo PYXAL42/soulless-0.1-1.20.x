@@ -1,14 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "uncompress",
   "ingredients": [
     {
-      "item": "soulless:xavelite_block"
+      "item": "soulless:xavelite_ingot"
     }
   ],
   "result": {
     "count": 9,
-    "item": "soulless:xavelite_ingot"
+    "item": "soulless:xavelite_block"
   }
 }
