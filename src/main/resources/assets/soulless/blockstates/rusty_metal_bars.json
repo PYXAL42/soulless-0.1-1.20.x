@@ -2,12 +2,12 @@
   "multipart": [
     {
       "apply": {
-        "model": "soulless:block/xavelite_bars_post"
+        "model": "soulless:block/rusty_metal_bars_post"
       }
     },
     {
       "apply": {
-        "model": "soulless:block/xavelite_bars_side"
+        "model": "soulless:block/rusty_metal_bars_side"
       },
       "when": {
         "north": "true"
@@ -15,7 +15,7 @@
     },
     {
       "apply": {
-        "model": "soulless:block/xavelite_bars_side",
+        "model": "soulless:block/rusty_metal_bars_side",
         "y": 90
       },
       "when": {
@@ -24,7 +24,7 @@
     },
     {
       "apply": {
-        "model": "soulless:block/xavelite_bars_side_alt"
+        "model": "soulless:block/rusty_metal_bars_side_alt"
       },
       "when": {
         "south": "true"
@@ -32,7 +32,7 @@
     },
     {
       "apply": {
-        "model": "soulless:block/xavelite_bars_side_alt",
+        "model": "soulless:block/rusty_metal_bars_side_alt",
         "y": 90
       },
       "when": {

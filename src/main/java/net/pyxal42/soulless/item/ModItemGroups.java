@@ -88,6 +88,10 @@ public class ModItemGroups {
                         entries.add(ModItems.XAVELITE_INGOT);
                         entries.add(ModBlocks.XAVELITE_STAIRS);
                         entries.add(ModBlocks.XAVELITE_SLAB);
+                        entries.add(ModItems.XAVELITE_MASK);
+                        entries.add(ModItems.XAVELITE_CHESTPLATE);
+                        entries.add(ModItems.XAVELITE_LEGGINGS);
+                        entries.add(ModItems.XAVELITE_BOOTS);
                         //all rusty metal
                         entries.add(ModBlocks.RUSTY_METAL_BLOCK);
                         entries.add(ModBlocks.RUSTY_METAL_STAIRS);

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "soulless:item/liv_blade_large"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-52.5, -90, 0],
+			"translation": [0, 12, 0],
+			"scale": [1.75, 1.75, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-52.5, 90, 0],
+			"translation": [0, 12, 0],
+			"scale": [1.75, 1.75, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-24, -87, 0],
+			"translation": [4.5, 2, -3.25],
+			"scale": [1.75, 1.75, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-24, 87, 0],
+			"translation": [4.5, 2, -3.25],
+			"scale": [1.75, 1.75, 1]
+		}
+	}
+}
