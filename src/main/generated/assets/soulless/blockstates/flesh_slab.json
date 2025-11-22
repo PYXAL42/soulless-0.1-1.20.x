@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "soulless:block/flesh_slab"
+    },
+    "type=double": {
+      "model": "soulless:block/flesh_block"
+    },
+    "type=top": {
+      "model": "soulless:block/flesh_slab_top"
+    }
+  }
+}

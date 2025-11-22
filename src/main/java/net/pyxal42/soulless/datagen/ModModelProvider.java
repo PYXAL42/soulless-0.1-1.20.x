@@ -42,6 +42,7 @@ public class ModModelProvider extends FabricModelProvider {
         //SLABS AND STAIRS DATAGEN HOLY MOLY THANKS AGAIN TO THE MORE SLABS AND STAIRS MOD FOR THIS BLESSING OF A DATAGEN
         genSlabAndStairsModels(blockStateModelGenerator, ModBlocks.DIMSTONE, ModBlocks.DIMSTONE_SLAB, ModBlocks.DIMSTONE_STAIRS);
         genSlabAndStairsModels(blockStateModelGenerator, ModBlocks.DIMSTONE_BRICK, ModBlocks.DIMSTONE_BRICK_SLAB, ModBlocks.DIMSTONE_BRICK_STAIRS);
+        genSlabAndStairsModels(blockStateModelGenerator, ModBlocks.FLESH_BLOCK, ModBlocks.FLESH_SLAB, ModBlocks.FLESH_STAIRS);
         genSlabAndStairsModels(blockStateModelGenerator, ModBlocks.BONED_FLESH_BLOCK, ModBlocks.BONED_FLESH_SLAB, ModBlocks.BONED_FLESH_STAIRS);
         genSlabAndStairsModels(blockStateModelGenerator, ModBlocks.BONED_ROTTEN_FLESH_BLOCK, ModBlocks.BONED_ROTTEN_FLESH_SLAB, ModBlocks.BONED_ROTTEN_FLESH_STAIRS);
         genSlabAndStairsModels(blockStateModelGenerator, ModBlocks.BONED_LIVING_FLESH_BLOCK, ModBlocks.BONED_LIVING_FLESH_SLAB, ModBlocks.BONED_LIVING_FLESH_STAIRS);

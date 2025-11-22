@@ -63,6 +63,11 @@ public class ModItemGroups {
                         entries.add(ModItems.BLOOD_BOTTLE);
                         //---Blood tier one blocks and items---
                         //all flesh blocks
+                        entries.add(ModBlocks.FLESH_BLOCK);
+                        entries.add(ModBlocks.FLESH_PILLAR);
+                        entries.add(ModBlocks.FLESH_STAIRS);
+                        entries.add(ModBlocks.FLESH_SLAB);
+                        entries.add(ModBlocks.FLESH_WALL);
                         entries.add(ModBlocks.BONED_FLESH_BLOCK);
                         entries.add(ModBlocks.BONED_FLESH_STAIRS);
                         entries.add(ModBlocks.BONED_FLESH_SLAB);

@@ -25,12 +25,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS,ModBlocks.DIMSTONE_WALL, ModBlocks.DIMSTONE);
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS,ModBlocks.DIMSTONE_BRICK_WALL, ModBlocks.DIMSTONE_BRICK);
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS,ModBlocks.BONED_ROTTEN_FLESH_WALL, ModBlocks.BONED_ROTTEN_FLESH_BLOCK);
+        offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS,ModBlocks.FLESH_WALL, ModBlocks.FLESH_BLOCK);
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS,ModBlocks.BONED_FLESH_WALL, ModBlocks.BONED_FLESH_BLOCK);
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS,ModBlocks.BONED_LIVING_FLESH_WALL, ModBlocks.BONED_LIVING_FLESH_BLOCK);
         //Slab recipes
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIMSTONE_SLAB, ModBlocks.DIMSTONE);
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIMSTONE_BRICK_SLAB, ModBlocks.DIMSTONE_BRICK);
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BONED_ROTTEN_FLESH_SLAB, ModBlocks.BONED_ROTTEN_FLESH_BLOCK);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLESH_SLAB, ModBlocks.FLESH_BLOCK);
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BONED_FLESH_SLAB, ModBlocks.BONED_FLESH_BLOCK);
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BONED_LIVING_FLESH_SLAB, ModBlocks.BONED_LIVING_FLESH_BLOCK);
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.XAVELITE_SLAB, ModBlocks.XAVELITE_BLOCK);

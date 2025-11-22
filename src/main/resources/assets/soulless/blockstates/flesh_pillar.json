@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "soulless:block/flesh_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "soulless:block/flesh_pillar"
+    },
+    "axis=z": {
+      "model": "soulless:block/flesh_pillar_horizontal",
+      "x": 90
+    }
+  }
+}

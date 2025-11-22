@@ -60,6 +60,16 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.copyOf(BONED_ROTTEN_FLESH_BLOCK)));
     public static final Block BONED_ROTTEN_FLESH_WALL = registerBlock("boned_rotten_flesh_wall",
             new WallBlock(FabricBlockSettings.copyOf(BONED_ROTTEN_FLESH_BLOCK)));
+    public static final Block FLESH_BLOCK = registerBlock("flesh_block",
+            new Block(FabricBlockSettings.copyOf(NETHERRACK)));
+    public static final Block FLESH_PILLAR = registerBlock("flesh_pillar",
+            new PillarBlock(FabricBlockSettings.copyOf(FLESH_BLOCK)));
+    public static final Block FLESH_STAIRS = registerBlock("flesh_stairs",
+            new StairsBlock(FLESH_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(FLESH_BLOCK)));
+    public static final Block FLESH_SLAB = registerBlock("flesh_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(FLESH_BLOCK)));
+    public static final Block FLESH_WALL = registerBlock("flesh_wall",
+            new WallBlock(FabricBlockSettings.copyOf(FLESH_BLOCK)));
     public static final Block BONED_FLESH_BLOCK = registerBlock("boned_flesh_block",
             new Block(FabricBlockSettings.copyOf(NETHERRACK)));
     public static final Block BONED_FLESH_STAIRS = registerBlock("boned_flesh_stairs",
