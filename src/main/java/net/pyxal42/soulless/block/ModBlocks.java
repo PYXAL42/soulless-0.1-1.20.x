@@ -64,6 +64,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(NETHERRACK)));
     public static final Block FLESH_PILLAR = registerBlock("flesh_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(FLESH_BLOCK)));
+    public static final Block ORNATED_FLESH_PILLAR = registerBlock("ornated_flesh_pillar",
+            new Block(FabricBlockSettings.copyOf(FLESH_BLOCK)));
     public static final Block FLESH_STAIRS = registerBlock("flesh_stairs",
             new StairsBlock(FLESH_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(FLESH_BLOCK)));
     public static final Block FLESH_SLAB = registerBlock("flesh_slab",
