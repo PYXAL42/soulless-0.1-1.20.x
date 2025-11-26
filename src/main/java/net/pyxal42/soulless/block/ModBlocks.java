@@ -64,8 +64,6 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(NETHERRACK)));
     public static final Block FLESH_PILLAR = registerBlock("flesh_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(FLESH_BLOCK)));
-    public static final Block ORNATED_FLESH_PILLAR = registerBlock("ornated_flesh_pillar",
-            new Block(FabricBlockSettings.copyOf(FLESH_BLOCK)));
     public static final Block FLESH_STAIRS = registerBlock("flesh_stairs",
             new StairsBlock(FLESH_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(FLESH_BLOCK)));
     public static final Block FLESH_SLAB = registerBlock("flesh_slab",
@@ -91,11 +89,13 @@ public class ModBlocks {
     public static final Block CLEAR_GLASS = registerBlock("clear_glass",
             new GlassBlock(FabricBlockSettings.copyOf(GLASS).nonOpaque()));
     public static final Block AMERRACK = registerBlock("amerrack",
-            new Block(FabricBlockSettings.copyOf(SOUL_SOIL)));
+            new Block(FabricBlockSettings.copyOf(NETHERRACK)));
     public static final Block AMERRACK_BRICK = registerBlock("amerrack_brick",
             new Block(FabricBlockSettings.copyOf(AMERRACK)));
     public static final Block CHISELED_AMERRACK = registerBlock("chiseled_amerrack",
             new Block(FabricBlockSettings.copyOf(AMERRACK)));
+    public static final Block AMERRACK_PILLAR = registerBlock("amerrack_pillar",
+            new PillarBlock(FabricBlockSettings.copyOf((AMERRACK))));
     public static final Block FABRIC_BLOCK = registerBlock("fabric_block",
             new PillarBlock(FabricBlockSettings.copyOf(WHITE_WOOL)));
     public static final Block XAVELITE_BLOCK = registerBlock("xavelite_block",

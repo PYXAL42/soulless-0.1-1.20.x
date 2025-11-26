@@ -106,6 +106,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.AMERRACK);
                         entries.add(ModBlocks.AMERRACK_BRICK);
                         entries.add(ModBlocks.CHISELED_AMERRACK);
+                        entries.add(ModBlocks.AMERRACK_PILLAR);
                         entries.add(ModBlocks.SEELERIUM_BLOCK);
                         entries.add(ModBlocks.SEELERIUM_STAIRS);
                         entries.add(ModBlocks.SEELERIUM_SLAB);

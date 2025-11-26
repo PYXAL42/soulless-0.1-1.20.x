@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "soulless:block/xavelite_bars"
+    "layer0": "soulless:block/rusty_metal_bars"
   }
 }

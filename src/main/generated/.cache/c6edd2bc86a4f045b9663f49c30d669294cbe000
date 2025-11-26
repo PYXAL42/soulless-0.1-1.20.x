@@ -1,4 +1,4 @@
-// 1.20.1	2025-11-22T20:26:08.3045099	Soulless/Model Definitions
+// 1.20.1	2025-11-26T22:29:51.711094	Soulless/Model Definitions
 8ebc6009268dc48c4feae56a01c54478bb2357ab assets\soulless\models\block\flesh_stairs_inner.json
 8171b76a38b9f503a5d58fdc79136d560b286aa1 assets\soulless\blockstates\dimstone_brick.json
 a51b009133732395e7671048c3ca777784ba4e5a assets\soulless\models\item\blood_bottle.json
@@ -12,10 +12,10 @@ a99a12590e05779df7488394ed197f34a067cb58 assets\soulless\models\item\seelerium_i
 534aab16821965cecc10b102a0159bf8e0b628f2 assets\soulless\models\item\boned_rotten_flesh_slab.json
 96db9f7f75e0a5d7a16800bd91c254abeba27900 assets\soulless\models\block\xavelite_slab_top.json
 6e2cbde47570b030fc1ea5d969a177bc84891024 assets\soulless\blockstates\boned_living_flesh_stairs.json
-2f27b1d0b9c1bf119093b16d4d90ac61a86ec947 assets\soulless\blockstates\dusharin_stairs.json
 fec7f1b6610ca29d6a6972e899fa9f65f66ee775 assets\soulless\blockstates\flesh_block.json
-cf3dff95dced02df0564217d890962160d46ddc9 assets\soulless\models\block\stripped_agony_log.json
+2f27b1d0b9c1bf119093b16d4d90ac61a86ec947 assets\soulless\blockstates\dusharin_stairs.json
 31e7f4905c85460a7b49db970e330191cf0106a0 assets\soulless\models\block\flesh_stairs.json
+cf3dff95dced02df0564217d890962160d46ddc9 assets\soulless\models\block\stripped_agony_log.json
 ee245928cc12db146b0092237ac96af1e55c272b assets\soulless\models\item\essensteel_plate.json
 de815e9a71717f0a9c9331e15111c83d1c5256fe assets\soulless\models\item\xavelite_ingot.json
 3237ea1300826bc01e1d13278d824184169b396c assets\soulless\blockstates\infused_dimstone_core.json
@@ -142,8 +142,8 @@ c51dd4adb69e0f446f7e8d726c77c12d573d7dd9 assets\soulless\models\item\dusharin_bl
 9e8cc8ab3366c1eb9941a5f9c42b33413414e6d0 assets\soulless\blockstates\seelerium_block.json
 7c3e28ea1fc04905bfc25f5ca6f04d07758a8f9a assets\soulless\models\item\clear_glass.json
 a11af5de44e22b60f8f5936a42245b3add6139f0 assets\soulless\models\item\xavelite_mask.json
-8a7fc2592952f18ad2a568bdb6df8f3920d9f93c assets\soulless\models\block\dimstone_brick_stairs_outer.json
 da12b6b07e36da180ce81579e1e49d15965782b8 assets\soulless\models\block\boned_flesh_stairs.json
+8a7fc2592952f18ad2a568bdb6df8f3920d9f93c assets\soulless\models\block\dimstone_brick_stairs_outer.json
 0366e61c4a57ce2185b53ea53a7d4b28b0e0029d assets\soulless\models\item\glasses.json
 fcbb737e47e566c0fa03b58b75bcbc64a537f4bc assets\soulless\models\item\boned_rotten_flesh_block.json
 539b643f310b146ac10b406855ea3a26da913fe5 assets\soulless\models\block\boned_rotten_flesh_stairs_inner.json

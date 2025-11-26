@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "soulless:block/amerrack_pillar_top",
+    "side": "soulless:block/amerrack_pillar"
+  }
+}
