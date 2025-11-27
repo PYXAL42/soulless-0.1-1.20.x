@@ -38,5 +38,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.XAVELITE_CHESTPLATE)
                 .add(ModItems.XAVELITE_LEGGINGS)
                 .add(ModItems.XAVELITE_BOOTS);
+        getOrCreateTagBuilder(ItemTags.BEACON_PAYMENT_ITEMS)
+                .add(ModItems.ESSENSTEEL_INGOT)
+                .add(ModItems.DUSHARIN_INGOT)
+                .add(ModItems.SEELERIUM_INGOT)
+                .add(ModItems.XAVELITE_INGOT);
     }
 }

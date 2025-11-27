@@ -62,8 +62,7 @@ public class ModBLockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.AMERRACK)
                 .add(ModBlocks.AMERRACK_BRICK)
                 .add(ModBlocks.CHISELED_AMERRACK)
-                .add(ModBlocks.AMERRACK_BRICK)
-                .add(ModBlocks.CHISELED_AMERRACK)
+                .add(ModBlocks.AMERRACK_PILLAR)
                 .add(ModBlocks.SEELERIUM_BLOCK)
                 .add(ModBlocks.SEELERIUM_STAIRS)
                 .add(ModBlocks.SEELERIUM_SLAB)
@@ -106,5 +105,13 @@ public class ModBLockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DUSHARIN_STAIRS);
         getOrCreateTagBuilder(BlockTags.LEAVES)
                 .add(ModBlocks.AGONY_LEAVES);
+        getOrCreateTagBuilder(BlockTags.BEACON_BASE_BLOCKS)
+                .add(ModBlocks.XAVELITE_BLOCK)
+                .add(ModBlocks.DUSHARIN_BLOCK)
+                .add(ModBlocks.SEELERIUM_BLOCK);
+        getOrCreateTagBuilder(BlockTags.DRAGON_IMMUNE)
+                .add(ModBlocks.DIMSTONE)
+                .add(ModBlocks.DIMSTONE_BRICK)
+                .add(ModBlocks.DIMSTONE_PILLAR);
     }
 }
