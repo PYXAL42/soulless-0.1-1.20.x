@@ -39,6 +39,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUSTY_METAL_SLAB, ModBlocks.RUSTY_METAL_BLOCK);
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SEELERIUM_SLAB, ModBlocks.SEELERIUM_BLOCK);
         offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DUSHARIN_SLAB, ModBlocks.DUSHARIN_BLOCK);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PYXIUM_SLAB, ModBlocks.PYXIUM_BLOCK);
         //2x2 compacting recipes
         offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModBlocks.FABRIC_BLOCK, ModItems.FABRIC);
         //3x3 reversible compacting recipes
@@ -47,7 +48,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.SEELERIUM_INGOT, RecipeCategory.MISC, ModBlocks.SEELERIUM_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.DUSHARIN_INGOT, RecipeCategory.MISC, ModBlocks.DUSHARIN_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.PYXIUM_NUGGET, RecipeCategory.MISC, ModItems.PYXIUM_INGOT);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.PYXIUM_INGOT, RecipeCategory.MISC, ModBlocks.PYXIUM_BLOCK);
         //Stone cutter recipes
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIMSTONE, ModBlocks.DIMSTONE_BRICK);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIMSTONE, ModBlocks.DIMSTONE_SLAB, 2);
@@ -65,6 +65,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIMSTONE_BRICK, ModBlocks.DIMSTONE_BRICK_WALL);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIMSTONE_BRICK, ModBlocks.DIMSTONE_BRICK_STAIRS);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMERRACK, ModBlocks.AMERRACK_BRICK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMERRACK, ModBlocks.AMERRACK_PILLAR);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMERRACK, ModBlocks.CHISELED_AMERRACK);
     }
 }

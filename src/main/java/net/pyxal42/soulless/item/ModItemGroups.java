@@ -94,6 +94,7 @@ public class ModItemGroups {
                         entries.add(ModItems.XAVELITE_INGOT);
                         entries.add(ModBlocks.XAVELITE_STAIRS);
                         entries.add(ModBlocks.XAVELITE_SLAB);
+                        entries.add(ModItems.CURSED_FABRIC);
                         entries.add(ModItems.CULTIST_HOOD);
                         entries.add(ModItems.CULTIST_ROBE);
                         entries.add(ModItems.CULTIST_LEGGINGS);
@@ -117,7 +118,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DUSHARIN_STAIRS);
                         entries.add(ModBlocks.DUSHARIN_SLAB);
                         entries.add(ModItems.DUSHARIN_INGOT);
+                        entries.add(ModBlocks.PYXIUM_BLOCK);
+                        entries.add(ModBlocks.PYXIUM_STAIRS);
+                        entries.add(ModBlocks.PYXIUM_SLAB);
                         entries.add(ModItems.PYXIUM_INGOT);
+                        entries.add(ModItems.PYXIUM_NUGGET);
                         entries.add(ModItems.PYXIUM_COATED_SPIKE);
 
                         //---Essence tier blocks and items---

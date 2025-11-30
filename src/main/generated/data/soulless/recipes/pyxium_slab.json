@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
     "#": {
-      "item": "soulless:xavelite_ingot"
+      "item": "soulless:pyxium_block"
     }
   },
   "pattern": [
-    "###",
-    "###",
     "###"
   ],
   "result": {
-    "item": "soulless:xavelite_block"
+    "count": 6,
+    "item": "soulless:pyxium_slab"
   },
   "show_notification": true
 }

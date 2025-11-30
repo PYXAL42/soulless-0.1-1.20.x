@@ -83,6 +83,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RUSTY_METAL_CLUMP, Models.GENERATED);
         itemModelGenerator.register(ModItems.SEELERIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.DUSHARIN_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CURSED_FABRIC, Models.GENERATED);
         itemModelGenerator.register(ModItems.CULTIST_HOOD, Models.GENERATED);
         itemModelGenerator.register(ModItems.CULTIST_ROBE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CULTIST_LEGGINGS, Models.GENERATED);

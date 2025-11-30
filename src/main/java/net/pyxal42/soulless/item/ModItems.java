@@ -15,12 +15,12 @@ import static net.pyxal42.soulless.item.ModToolMaterial.LIV;
 
 public class ModItems {
     public static final Item SLICE_OF_CHEESE = registerItem("slice_of_cheese", new Item(new Item.Settings().food(new FoodComponent.Builder().saturationModifier(0.8f).hunger(6).build())));
+    public static final Item BLOOD_BOTTLE = registerItem("blood_bottle", new Item(new Item.Settings().food(new FoodComponent.Builder().saturationModifier(0.8f).hunger(2).build())));
     public static final Item CONTRACT = registerItem("contract", new Item(new FabricItemSettings()));
     public static final Item EMPTY_MOULD = registerItem("empty_mould", new Item(new FabricItemSettings()));
     public static final Item MILKY_MOULD = registerItem("milky_mould", new Item(new FabricItemSettings().recipeRemainder(EMPTY_MOULD)));
     public static final Item CHEESY_MOULD = registerItem("cheesy_mould", new Item(new FabricItemSettings().recipeRemainder(EMPTY_MOULD)));
     public static final Item HOT_MOULD = registerItem("hot_mould", new Item(new FabricItemSettings()));
-    public static final Item BLOOD_BOTTLE = registerItem("blood_bottle", new Item(new FabricItemSettings()));
     public static final Item LIV_INGOT = registerItem("liv_ingot", new Item(new FabricItemSettings()));
     public static final Item LIV_BLADE = registerItem("liv_blade", new SwordItem(LIV,9,-2.6f, new FabricItemSettings()));
     public static final Item ESSENCE = registerItem("essence", new Item(new FabricItemSettings()));
@@ -42,15 +42,16 @@ public class ModItems {
     public static final Item MAID_SOCKS = registerItem("maid_socks", new ArmorItem(ModArmorMaterial.MAID_COSTUME, ArmorItem.Type.BOOTS, new FabricItemSettings()));
     public static final Item RUSTY_METAL_CLUMP = registerItem("rusty_metal_clump", new Item(new FabricItemSettings()));
     public static final Item XAVELITE_INGOT = registerItem("xavelite_ingot", new Item(new FabricItemSettings()));
-    public static final Item CULTIST_HOOD = registerItem("cultist_hood", new ArmorItem(ModArmorMaterial.XAVELITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
-    public static final Item CULTIST_ROBE = registerItem("cultist_robe", new ArmorItem(ModArmorMaterial.XAVELITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-    public static final Item CULTIST_LEGGINGS = registerItem("cultist_pants", new ArmorItem(ModArmorMaterial.XAVELITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
-    public static final Item CULTIST_BOOTS = registerItem("cultist_boots", new ArmorItem(ModArmorMaterial.XAVELITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item CULTIST_HOOD = registerItem("cultist_hood", new ArmorItem(ModArmorMaterial.CULTIST, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item CULTIST_ROBE = registerItem("cultist_robe", new ArmorItem(ModArmorMaterial.CULTIST, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item CULTIST_LEGGINGS = registerItem("cultist_pants", new ArmorItem(ModArmorMaterial.CULTIST, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item CULTIST_BOOTS = registerItem("cultist_boots", new ArmorItem(ModArmorMaterial.CULTIST, ArmorItem.Type.BOOTS, new FabricItemSettings()));
     public static final Item SEELERIUM_INGOT = registerItem("seelerium_ingot", new Item(new FabricItemSettings()));
     public static final Item DUSHARIN_INGOT = registerItem("dusharin_ingot", new Item(new FabricItemSettings()));
     public static final Item PYXIUM_INGOT = registerItem("pyxium_ingot", new Item(new FabricItemSettings()));
     public static final Item PYXIUM_NUGGET = registerItem("pyxium_nugget", new Item(new FabricItemSettings()));
     public static final Item PYXIUM_COATED_SPIKE = registerItem("pyxium_coated_spike", new Item(new FabricItemSettings()));
+    public static final Item CURSED_FABRIC = registerItem("cursed_fabric", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Soulless.MOD_ID, name), item);
