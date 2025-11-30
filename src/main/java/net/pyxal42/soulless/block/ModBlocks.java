@@ -16,6 +16,8 @@ public class ModBlocks {
 
     public static final Block DIMSTONE = registerBlock("dimstone",
             new Block(FabricBlockSettings.copyOf(DEEPSLATE)));
+    public static final Block DIMSTONE_PEDESTAL = registerBlock("dimstone_pedestal",
+            new Block(FabricBlockSettings.copyOf(DIMSTONE)));
     public static final Block DIMSTONE_STAIRS = registerBlock("dimstone_stairs",
             new StairsBlock(DIMSTONE.getDefaultState(), FabricBlockSettings.copyOf(DIMSTONE)));
     public static final Block DIMSTONE_SLAB = registerBlock("dimstone_slab",
@@ -34,16 +36,10 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(DIMSTONE_BRICK)));
     public static final Block INFUSED_DIMSTONE_PILLAR = registerBlock("infused_dimstone_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(DIMSTONE_PILLAR).luminance(4)));
-    public static final Block DIMSTONE_PEDESTAL = registerBlock("dimstone_pedestal",
-            new Block(FabricBlockSettings.copyOf(DIMSTONE)));
     public static final Block DIMSTONE_CORE = registerBlock("dimstone_core",
             new Block(FabricBlockSettings.copyOf(DIMSTONE)));
     public static final Block INFUSED_DIMSTONE_CORE = registerBlock("infused_dimstone_core",
             new Block(FabricBlockSettings.copyOf(DIMSTONE_CORE).luminance(4)));
-    public static final Block INKEEPING_CORE = registerBlock("inkeeping_core",
-            new Block(FabricBlockSettings.copyOf(DIMSTONE_CORE)));
-    public static final Block INFUSED_INKEEPING_CORE = registerBlock("infused_inkeeping_core",
-            new Block(FabricBlockSettings.copyOf(INFUSED_DIMSTONE_CORE).luminance(4)));
     public static final Block BLOOMING_CORE = registerBlock("blooming_core",
             new Block(FabricBlockSettings.copyOf(DIMSTONE_CORE)));
     public static final Block INFUSED_BLOOMING_CORE = registerBlock("infused_blooming_core",
@@ -51,6 +47,10 @@ public class ModBlocks {
     public static final Block RADIANCE_CORE = registerBlock("radiance_core",
             new Block(FabricBlockSettings.copyOf(DIMSTONE_CORE)));
     public static final Block INFUSED_RADIANCE_CORE = registerBlock("infused_radiance_core",
+            new Block(FabricBlockSettings.copyOf(INFUSED_DIMSTONE_CORE).luminance(4)));
+    public static final Block INKEEPING_CORE = registerBlock("inkeeping_core",
+            new Block(FabricBlockSettings.copyOf(DIMSTONE_CORE)));
+    public static final Block INFUSED_INKEEPING_CORE = registerBlock("infused_inkeeping_core",
             new Block(FabricBlockSettings.copyOf(INFUSED_DIMSTONE_CORE).luminance(4)));
     public static final Block BONED_ROTTEN_FLESH_BLOCK = registerBlock("boned_rotten_flesh_block",
             new Block(FabricBlockSettings.copyOf(NETHERRACK)));
@@ -86,6 +86,8 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.copyOf(BONED_LIVING_FLESH_BLOCK)));
     public static final Block BONED_LIVING_FLESH_WALL = registerBlock("boned_living_flesh_wall",
             new WallBlock(FabricBlockSettings.copyOf(BONED_LIVING_FLESH_BLOCK)));
+    public static final Block FABRIC_BLOCK = registerBlock("fabric_block",
+            new PillarBlock(FabricBlockSettings.copyOf(WHITE_WOOL)));
     public static final Block CLEAR_GLASS = registerBlock("clear_glass",
             new GlassBlock(FabricBlockSettings.copyOf(GLASS).nonOpaque()));
     public static final Block AMERRACK = registerBlock("amerrack",
@@ -96,14 +98,6 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(AMERRACK)));
     public static final Block AMERRACK_PILLAR = registerBlock("amerrack_pillar",
             new PillarBlock(FabricBlockSettings.copyOf((AMERRACK))));
-    public static final Block FABRIC_BLOCK = registerBlock("fabric_block",
-            new PillarBlock(FabricBlockSettings.copyOf(WHITE_WOOL)));
-    public static final Block XAVELITE_BLOCK = registerBlock("xavelite_block",
-            new PillarBlock(FabricBlockSettings.copyOf(IRON_BLOCK)));
-    public static final Block XAVELITE_SLAB = registerBlock("xavelite_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(XAVELITE_BLOCK)));
-    public static final Block XAVELITE_STAIRS = registerBlock("xavelite_stairs",
-            new StairsBlock(XAVELITE_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.XAVELITE_BLOCK)));
     public static final Block RUSTY_METAL_BLOCK = registerBlock("rusty_metal_block",
             new Block(FabricBlockSettings.copyOf(IRON_BLOCK)));
     public static final Block RUSTY_METAL_SLAB = registerBlock("rusty_metal_slab",
@@ -112,6 +106,12 @@ public class ModBlocks {
             new StairsBlock(RUSTY_METAL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(RUSTY_METAL_BLOCK)));
     public static final Block RUSTY_METAL_BARS = registerBlock("rusty_metal_bars",
             new PaneBlock((FabricBlockSettings.copyOf(IRON_BARS))));
+    public static final Block XAVELITE_BLOCK = registerBlock("xavelite_block",
+            new PillarBlock(FabricBlockSettings.copyOf(IRON_BLOCK)));
+    public static final Block XAVELITE_SLAB = registerBlock("xavelite_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(XAVELITE_BLOCK)));
+    public static final Block XAVELITE_STAIRS = registerBlock("xavelite_stairs",
+            new StairsBlock(XAVELITE_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.XAVELITE_BLOCK)));
     public static final Block SEELERIUM_BLOCK = registerBlock("seelerium_block",
             new Block(FabricBlockSettings.copyOf(IRON_BLOCK)));
     public static final Block SEELERIUM_SLAB = registerBlock("seelerium_slab",
@@ -124,6 +124,12 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.copyOf(DUSHARIN_BLOCK)));
     public static final Block DUSHARIN_STAIRS = registerBlock("dusharin_stairs",
             new StairsBlock(DUSHARIN_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(DUSHARIN_BLOCK)));
+    public static final Block PYXIUM_BLOCK = registerBlock("pyxium_block",
+            new Block(FabricBlockSettings.copyOf(NETHERITE_BLOCK)));
+    public static final Block PYXIUM_SLAB = registerBlock("pyxium_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(PYXIUM_BLOCK)));
+    public static final Block PYXIUM_STAIRS = registerBlock("pyxium_stairs",
+            new StairsBlock(PYXIUM_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(PYXIUM_BLOCK)));
 
     public static final Block AGONY_LOG = registerBlock("agony_log",
             new PillarBlock(FabricBlockSettings.copyOf(OAK_LOG).strength(4f)));

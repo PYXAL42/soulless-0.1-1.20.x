@@ -16,7 +16,7 @@ import org.spongepowered.asm.mixin.injection.ModifyVariable;
 @Mixin(ItemRenderer.class)
 public class ItemRendererMixin {
     @ModifyVariable(method = "renderItem", at = @At(value = "HEAD"), argsOnly = true)
-    public BakedModel useRadiationStaffModel(BakedModel value, ItemStack stack, ModelTransformationMode renderMode, boolean leftHanded, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light, int overlay) {
+    public BakedModel useLargeModel(BakedModel value, ItemStack stack, ModelTransformationMode renderMode, boolean leftHanded, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light, int overlay) {
         if (stack.isOf(ModItems.LIV_BLADE) && renderMode != ModelTransformationMode.GUI && renderMode != ModelTransformationMode.GROUND && renderMode != ModelTransformationMode.FIXED) {
             return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(Soulless.MOD_ID, "liv_blade_large", "inventory"));
         }

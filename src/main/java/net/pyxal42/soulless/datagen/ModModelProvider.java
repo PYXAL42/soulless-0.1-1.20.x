@@ -50,6 +50,7 @@ public class ModModelProvider extends FabricModelProvider {
         genSlabAndStairsModels(blockStateModelGenerator, ModBlocks.RUSTY_METAL_BLOCK, ModBlocks.RUSTY_METAL_SLAB, ModBlocks.RUSTY_METAL_STAIRS);
         genSlabAndStairsModels(blockStateModelGenerator, ModBlocks.SEELERIUM_BLOCK, ModBlocks.SEELERIUM_SLAB, ModBlocks.SEELERIUM_STAIRS);
         genSlabAndStairsModels(blockStateModelGenerator, ModBlocks.DUSHARIN_BLOCK, ModBlocks.DUSHARIN_SLAB, ModBlocks.DUSHARIN_STAIRS);
+        genSlabAndStairsModels(blockStateModelGenerator, ModBlocks.PYXIUM_BLOCK, ModBlocks.PYXIUM_SLAB, ModBlocks.PYXIUM_STAIRS);
     }
 
     @Override
@@ -82,9 +83,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RUSTY_METAL_CLUMP, Models.GENERATED);
         itemModelGenerator.register(ModItems.SEELERIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.DUSHARIN_INGOT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.XAVELITE_MASK, Models.GENERATED);
-        itemModelGenerator.register(ModItems.XAVELITE_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.XAVELITE_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.XAVELITE_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CULTIST_HOOD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CULTIST_ROBE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CULTIST_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CULTIST_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PYXIUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PYXIUM_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PYXIUM_COATED_SPIKE, Models.GENERATED);
     }
 }

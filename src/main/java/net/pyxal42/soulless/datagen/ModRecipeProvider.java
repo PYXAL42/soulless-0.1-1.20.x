@@ -20,7 +20,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     public void generate(Consumer<RecipeJsonProvider> exporter) {
         //Single item shapeless recipes
         offerShapelessRecipe(exporter, ModItems.SLICE_OF_CHEESE, ModItems.CHEESY_MOULD, "food", 2);
-        offerShapelessRecipe(exporter, ModItems.FABRIC, ModBlocks.FABRIC_BLOCK, "food", 4);
+        offerShapelessRecipe(exporter, ModItems.FABRIC, ModBlocks.FABRIC_BLOCK, "misc", 4);
         //Wall recipes
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS,ModBlocks.DIMSTONE_WALL, ModBlocks.DIMSTONE);
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS,ModBlocks.DIMSTONE_BRICK_WALL, ModBlocks.DIMSTONE_BRICK);
@@ -42,10 +42,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         //2x2 compacting recipes
         offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModBlocks.FABRIC_BLOCK, ModItems.FABRIC);
         //3x3 reversible compacting recipes
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModBlocks.XAVELITE_BLOCK , RecipeCategory.MISC, ModItems.XAVELITE_INGOT);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModBlocks.RUSTY_METAL_BLOCK, RecipeCategory.MISC, ModItems.RUSTY_METAL_CLUMP);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModBlocks.SEELERIUM_BLOCK, RecipeCategory.MISC, ModItems.SEELERIUM_INGOT);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModBlocks.DUSHARIN_BLOCK, RecipeCategory.MISC, ModItems.DUSHARIN_INGOT);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.XAVELITE_INGOT , RecipeCategory.MISC, ModBlocks.XAVELITE_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.RUSTY_METAL_CLUMP, RecipeCategory.MISC, ModBlocks.RUSTY_METAL_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.SEELERIUM_INGOT, RecipeCategory.MISC, ModBlocks.SEELERIUM_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.DUSHARIN_INGOT, RecipeCategory.MISC, ModBlocks.DUSHARIN_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.PYXIUM_NUGGET, RecipeCategory.MISC, ModItems.PYXIUM_INGOT);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.PYXIUM_INGOT, RecipeCategory.MISC, ModBlocks.PYXIUM_BLOCK);
         //Stone cutter recipes
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIMSTONE, ModBlocks.DIMSTONE_BRICK);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIMSTONE, ModBlocks.DIMSTONE_SLAB, 2);
