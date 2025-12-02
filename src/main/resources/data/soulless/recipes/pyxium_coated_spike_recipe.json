@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "C": {
+      "item": "soulless:charred_ingot"
+    },
+    "P": {
+      "item": "soulless:pyxium_ingot"
+    },
+    "N": {
+      "item": "soulless:pyxium_nugget"
+    }
+  },
+  "pattern": [
+    " P ",
+    "NCN"
+  ],
+  "result": {
+    "item": "soulless:pyxium_coated_spike"
+  }
+}

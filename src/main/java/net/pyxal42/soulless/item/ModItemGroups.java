@@ -61,7 +61,8 @@ public class ModItemGroups {
                         entries.add(ModItems.CONTRACT);
                         //all blood-like items and blocks
                         entries.add(ModItems.BLOOD_BOTTLE);
-                        //---Blood tier one blocks and items---
+
+                        //---Epavil blocks and items---
                         //all flesh blocks
                         entries.add(ModBlocks.FLESH_BLOCK);
                         entries.add(ModBlocks.FLESH_PILLAR);
@@ -93,16 +94,18 @@ public class ModItemGroups {
                         entries.add(ModItems.XAVELITE_INGOT);
                         entries.add(ModBlocks.XAVELITE_STAIRS);
                         entries.add(ModBlocks.XAVELITE_SLAB);
-                        entries.add(ModItems.XAVELITE_MASK);
-                        entries.add(ModItems.XAVELITE_CHESTPLATE);
-                        entries.add(ModItems.XAVELITE_LEGGINGS);
-                        entries.add(ModItems.XAVELITE_BOOTS);
+                        entries.add(ModItems.CURSED_FABRIC);
+                        entries.add(ModItems.CULTIST_HOOD);
+                        entries.add(ModItems.CULTIST_ROBE);
+                        entries.add(ModItems.CULTIST_LEGGINGS);
+                        entries.add(ModItems.CULTIST_BOOTS);
                         //all rusty metal
                         entries.add(ModBlocks.RUSTY_METAL_BLOCK);
                         entries.add(ModBlocks.RUSTY_METAL_STAIRS);
                         entries.add(ModBlocks.RUSTY_METAL_SLAB);
                         entries.add(ModBlocks.RUSTY_METAL_BARS);
-                        //---Soul tier one blocks and items---
+
+                        //---Almar blocks and items---
                         entries.add(ModBlocks.AMERRACK);
                         entries.add(ModBlocks.AMERRACK_BRICK);
                         entries.add(ModBlocks.CHISELED_AMERRACK);
@@ -115,6 +118,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DUSHARIN_STAIRS);
                         entries.add(ModBlocks.DUSHARIN_SLAB);
                         entries.add(ModItems.DUSHARIN_INGOT);
+                        entries.add(ModBlocks.PYXIUM_BLOCK);
+                        entries.add(ModBlocks.PYXIUM_STAIRS);
+                        entries.add(ModBlocks.PYXIUM_SLAB);
+                        entries.add(ModItems.PYXIUM_INGOT);
+                        entries.add(ModItems.PYXIUM_NUGGET);
+                        entries.add(ModItems.PYXIUM_COATED_SPIKE);
+
                         //---Essence tier blocks and items---
                         //all essence items
                         entries.add(ModItems.ESSENCE_SHARD);
@@ -127,8 +137,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.INFUSED_INKEEPING_CORE);
                         entries.add(ModBlocks.INFUSED_BLOOMING_CORE);
                         entries.add(ModBlocks.INFUSED_RADIANCE_CORE);
-
-
 
                         //---Life tier blocks and items---
                     }).build());

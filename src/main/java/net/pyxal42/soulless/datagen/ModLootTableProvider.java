@@ -44,22 +44,27 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BONED_LIVING_FLESH_WALL);
         addDrop(ModBlocks.AMERRACK);
         addDrop(ModBlocks.XAVELITE_BLOCK);
+        addDrop(ModBlocks.XAVELITE_STAIRS);
         addDrop(ModBlocks.RUSTY_METAL_BARS);
         addDrop(ModBlocks.RUSTY_METAL_BLOCK);
-        addDrop(ModBlocks.RUSTY_METAL_SLAB);
         addDrop(ModBlocks.RUSTY_METAL_STAIRS);
         addDrop(ModBlocks.SEELERIUM_BLOCK);
-        addDrop(ModBlocks.SEELERIUM_SLAB);
         addDrop(ModBlocks.SEELERIUM_STAIRS);
         addDrop(ModBlocks.DUSHARIN_BLOCK);
-        addDrop(ModBlocks.DUSHARIN_SLAB);
         addDrop(ModBlocks.DUSHARIN_STAIRS);
+        addDrop(ModBlocks.PYXIUM_BLOCK);
+        addDrop(ModBlocks.PYXIUM_STAIRS);
         //Slabs
         addDrop(ModBlocks.DIMSTONE_SLAB, slabDrops(ModBlocks.DIMSTONE_SLAB));
         addDrop(ModBlocks.DIMSTONE_BRICK_SLAB, slabDrops(ModBlocks.DIMSTONE_BRICK_SLAB));
         addDrop(ModBlocks.BONED_ROTTEN_FLESH_SLAB, slabDrops(ModBlocks.BONED_ROTTEN_FLESH_SLAB));
         addDrop(ModBlocks.BONED_FLESH_SLAB, slabDrops(ModBlocks.BONED_FLESH_SLAB));
         addDrop(ModBlocks.BONED_LIVING_FLESH_SLAB, slabDrops(ModBlocks.BONED_LIVING_FLESH_SLAB));
+        addDrop(ModBlocks.XAVELITE_SLAB, slabDrops(ModBlocks.XAVELITE_SLAB));
+        addDrop(ModBlocks.RUSTY_METAL_SLAB, slabDrops(ModBlocks.RUSTY_METAL_SLAB));
+        addDrop(ModBlocks.SEELERIUM_SLAB, slabDrops(ModBlocks.SEELERIUM_SLAB));
+        addDrop(ModBlocks.DUSHARIN_SLAB, slabDrops(ModBlocks.DUSHARIN_SLAB));
+        addDrop(ModBlocks.PYXIUM_SLAB, slabDrops(ModBlocks.PYXIUM_SLAB));
         //Silk touch
         addDrop(ModBlocks.CLEAR_GLASS, dropsWithSilkTouch(ModBlocks.CLEAR_GLASS));
         //Leaves

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "soulless:essensteel_ingot",
+    "soulless:dusharin_ingot",
+    "soulless:seelerium_ingot",
+    "soulless:xavelite_ingot",
+    "soulless:pyxium_ingot"
+  ]
+}
