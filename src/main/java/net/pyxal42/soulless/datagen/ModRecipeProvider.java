@@ -3,7 +3,6 @@ package net.pyxal42.soulless.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
-import net.minecraft.recipe.Recipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.pyxal42.soulless.block.ModBlocks;
 import net.pyxal42.soulless.item.ModItems;
@@ -44,7 +43,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offer2x2CompactingRecipe(exporter, RecipeCategory.MISC, ModBlocks.FABRIC_BLOCK, ModItems.FABRIC);
         //3x3 reversible compacting recipes
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.XAVELITE_INGOT , RecipeCategory.MISC, ModBlocks.XAVELITE_BLOCK);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.RUSTY_METAL_CLUMP, RecipeCategory.MISC, ModBlocks.RUSTY_METAL_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.RUSTY_METAL_INGOT, RecipeCategory.MISC, ModBlocks.RUSTY_METAL_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.SEELERIUM_INGOT, RecipeCategory.MISC, ModBlocks.SEELERIUM_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.DUSHARIN_INGOT, RecipeCategory.MISC, ModBlocks.DUSHARIN_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.PYXIUM_NUGGET, RecipeCategory.MISC, ModItems.PYXIUM_INGOT);

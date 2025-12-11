@@ -2,7 +2,7 @@
 	"format_version": "1.9.0",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "soulless:item/lear_large"
+		"layer0": "soulless:item/liv_blade_large"
 	},
 	"display": {
 		"thirdperson_righthand": {

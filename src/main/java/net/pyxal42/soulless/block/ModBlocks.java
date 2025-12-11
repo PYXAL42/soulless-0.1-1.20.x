@@ -130,6 +130,8 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.copyOf(PYXIUM_BLOCK)));
     public static final Block PYXIUM_STAIRS = registerBlock("pyxium_stairs",
             new StairsBlock(PYXIUM_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(PYXIUM_BLOCK)));
+    public static final Block ESSENCE_BLOCK = registerBlock("essence_block",
+            new Block(FabricBlockSettings.copyOf(DIAMOND_BLOCK)));
 
     public static final Block AGONY_LOG = registerBlock("agony_log",
             new PillarBlock(FabricBlockSettings.copyOf(OAK_LOG).strength(4f)));

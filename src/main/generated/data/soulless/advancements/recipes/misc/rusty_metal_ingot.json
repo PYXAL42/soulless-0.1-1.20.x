@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:rusty_metal_clump"
+        "recipe": "minecraft:rusty_metal_ingot"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:rusty_metal_clump"
+      "minecraft:rusty_metal_ingot"
     ]
   },
   "sends_telemetry_event": false

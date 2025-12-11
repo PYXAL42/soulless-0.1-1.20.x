@@ -31,7 +31,12 @@ public class ModItemGroups {
                         entries.add(ModItems.CLEAR_SHARD);
                         entries.add(ModBlocks.CLEAR_GLASS);
                         entries.add(ModItems.AGREEMENT);
-                        entries.add(ModItems.RITUAL_DAGGER);
+                        //all rusty metal
+                        entries.add(ModBlocks.RUSTY_METAL_BLOCK);
+                        entries.add(ModBlocks.RUSTY_METAL_STAIRS);
+                        entries.add(ModBlocks.RUSTY_METAL_SLAB);
+                        entries.add(ModBlocks.RUSTY_METAL_BARS);
+                        entries.add(ModItems.RUSTY_METAL_INGOT);
                         //all rotten flesh blocks
                         entries.add(ModBlocks.BONED_ROTTEN_FLESH_BLOCK);
                         entries.add(ModBlocks.BONED_ROTTEN_FLESH_STAIRS);
@@ -52,15 +57,22 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLOOMING_CORE);
                         entries.add(ModBlocks.RADIANCE_CORE);
                         entries.add(ModBlocks.DIMSTONE_PEDESTAL);
-                        //all other dimstone-like items
+                        //all other dimstone-ingot thing items
+                        entries.add(ModItems.CHARRED_INGOT);
                         entries.add(ModItems.EMPTY_MOULD);
                         entries.add(ModItems.HOT_MOULD);
                         entries.add(ModItems.MILKY_MOULD);
                         entries.add(ModItems.CHEESY_MOULD);
                         entries.add(ModItems.SLICE_OF_CHEESE);
                         entries.add(ModItems.CONTRACT);
-                        //all blood-like items and blocks
+                        entries.add(ModItems.RITUAL_DAGGER);
+                        entries.add(ModItems.HEARTLESS_DAGGER);
+                        entries.add(ModItems.SOULFULL_DAGGER);
+                        entries.add(ModItems.BOOK_OF_THE_DEAD);
+                        //all soul/block items and blocks
+                        entries.add(ModItems.SOUL_CAPTURE_BALL);
                         entries.add(ModItems.BLOOD_BOTTLE);
+                        entries.add(ModItems.BLOOD_CRYSTAL);
 
                         //---Epavil blocks and items---
                         //all flesh blocks
@@ -76,7 +88,6 @@ public class ModItemGroups {
                         //all liv items
                         entries.add(ModItems.LIV_INGOT);
                         entries.add(ModItems.LIV_BLADE);
-                        entries.add(ModItems.CHARRED_INGOT);
                         //all living flesh blocks
                         entries.add(ModBlocks.BONED_LIVING_FLESH_BLOCK);
                         entries.add(ModBlocks.BONED_LIVING_FLESH_STAIRS);
@@ -99,11 +110,6 @@ public class ModItemGroups {
                         entries.add(ModItems.CULTIST_ROBE);
                         entries.add(ModItems.CULTIST_LEGGINGS);
                         entries.add(ModItems.CULTIST_BOOTS);
-                        //all rusty metal
-                        entries.add(ModBlocks.RUSTY_METAL_BLOCK);
-                        entries.add(ModBlocks.RUSTY_METAL_STAIRS);
-                        entries.add(ModBlocks.RUSTY_METAL_SLAB);
-                        entries.add(ModBlocks.RUSTY_METAL_BARS);
 
                         //---Almar blocks and items---
                         entries.add(ModBlocks.AMERRACK);
@@ -114,10 +120,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SEELERIUM_STAIRS);
                         entries.add(ModBlocks.SEELERIUM_SLAB);
                         entries.add(ModItems.SEELERIUM_INGOT);
+                        entries.add(ModItems.LEAR);
                         entries.add(ModBlocks.DUSHARIN_BLOCK);
                         entries.add(ModBlocks.DUSHARIN_STAIRS);
                         entries.add(ModBlocks.DUSHARIN_SLAB);
                         entries.add(ModItems.DUSHARIN_INGOT);
+                        entries.add(ModItems.DUSHARIN_KYOKETSU);
                         entries.add(ModBlocks.PYXIUM_BLOCK);
                         entries.add(ModBlocks.PYXIUM_STAIRS);
                         entries.add(ModBlocks.PYXIUM_SLAB);
@@ -131,6 +139,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ESSENSTEEL_INGOT);
                         entries.add(ModItems.ESSENSTEEL_PLATE);
                         entries.add(ModItems.ESSENCE);
+                        entries.add(ModBlocks.ESSENCE_BLOCK);
                         //all infused blocks
                         entries.add(ModBlocks.INFUSED_DIMSTONE_PILLAR);
                         entries.add(ModBlocks.INFUSED_DIMSTONE_CORE);

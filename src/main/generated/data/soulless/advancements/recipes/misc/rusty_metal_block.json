@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_rusty_metal_clump": {
+    "has_rusty_metal_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "soulless:rusty_metal_clump"
+              "soulless:rusty_metal_ingot"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_rusty_metal_clump",
+      "has_rusty_metal_ingot",
       "has_the_recipe"
     ]
   ],

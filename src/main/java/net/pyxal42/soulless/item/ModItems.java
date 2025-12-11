@@ -12,6 +12,7 @@ import net.pyxal42.soulless.Soulless;
 
 import static net.minecraft.item.ToolMaterials.IRON;
 import static net.pyxal42.soulless.item.ModToolMaterial.LIV;
+import static net.pyxal42.soulless.item.ModToolMaterial.SEELERIUM;
 
 public class ModItems {
     public static final Item SLICE_OF_CHEESE = registerItem("slice_of_cheese", new Item(new Item.Settings().food(new FoodComponent.Builder().saturationModifier(0.8f).hunger(6).build())));
@@ -30,6 +31,8 @@ public class ModItems {
     public static final Item CHARRED_INGOT = registerItem("charred_ingot", new Item(new FabricItemSettings()));
     public static final Item AGREEMENT = registerItem("agreement", new Item(new FabricItemSettings()));
     public static final Item RITUAL_DAGGER = registerItem("ritual_dagger", new SwordItem(IRON,0,-2.2f, new FabricItemSettings()));
+    public static final Item HEARTLESS_DAGGER = registerItem("heartless_dagger", new SwordItem(IRON,0,-2.2f, new FabricItemSettings()));
+    public static final Item SOULFULL_DAGGER = registerItem("soulfull_dagger", new SwordItem(IRON,0,-2.2f, new FabricItemSettings()));
     public static final Item CLEAR_SHARD = registerItem("clear_shard", new Item(new FabricItemSettings()));
     public static final Item FABRIC = registerItem("fabric", new Item(new FabricItemSettings()));
     public static final Item TOPHAT = registerItem("tophat",  new ArmorItem(ModArmorMaterial.COSMETIC_ONE, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -40,7 +43,7 @@ public class ModItems {
     public static final Item MAID_CORSET = registerItem("maid_corset", new ArmorItem(ModArmorMaterial.MAID_COSTUME, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item MAID_SKIRT = registerItem("maid_skirt", new ArmorItem(ModArmorMaterial.MAID_COSTUME, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item MAID_SOCKS = registerItem("maid_socks", new ArmorItem(ModArmorMaterial.MAID_COSTUME, ArmorItem.Type.BOOTS, new FabricItemSettings()));
-    public static final Item RUSTY_METAL_CLUMP = registerItem("rusty_metal_clump", new Item(new FabricItemSettings()));
+    public static final Item RUSTY_METAL_INGOT = registerItem("rusty_metal_ingot", new Item(new FabricItemSettings()));
     public static final Item XAVELITE_INGOT = registerItem("xavelite_ingot", new Item(new FabricItemSettings()));
     public static final Item CULTIST_HOOD = registerItem("cultist_hood", new ArmorItem(ModArmorMaterial.CULTIST, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item CULTIST_ROBE = registerItem("cultist_robe", new ArmorItem(ModArmorMaterial.CULTIST, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
@@ -52,6 +55,13 @@ public class ModItems {
     public static final Item PYXIUM_NUGGET = registerItem("pyxium_nugget", new Item(new FabricItemSettings()));
     public static final Item PYXIUM_COATED_SPIKE = registerItem("pyxium_coated_spike", new Item(new FabricItemSettings()));
     public static final Item CURSED_FABRIC = registerItem("cursed_fabric", new Item(new FabricItemSettings()));
+    public static final Item BLOOD_CRYSTAL = registerItem("blood_crystal", new Item(new FabricItemSettings()));
+    public static final Item BOOK_OF_THE_DEAD = registerItem("book_of_the_dead", new Item(new FabricItemSettings()));
+    public static final Item DUSHARIN_KYOKETSU = registerItem("dusharin_kyoketsu", new Item(new FabricItemSettings()));
+    public static final Item LEAR = registerItem("lear", new SwordItem(SEELERIUM,5,-2.0f, new FabricItemSettings()));
+    public static final Item SOUL_CAPTURE_BALL = registerItem("soul_capture_ball", new Item(new FabricItemSettings()));
+
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Soulless.MOD_ID, name), item);

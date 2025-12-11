@@ -24,7 +24,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.DIMSTONE.asItem());
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.LIV_BLADE)
-                .add(ModItems.RITUAL_DAGGER);
+                .add(ModItems.RITUAL_DAGGER)
+                .add(ModItems.HEARTLESS_DAGGER)
+                .add(ModItems.SOULFULL_DAGGER);
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.TOPHAT)
                 .add(ModItems.GLASSES)

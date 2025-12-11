@@ -2,6 +2,6 @@
 	"format_version": "1.9.0",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "soulless:item/ritual_dagger"
+		"layer0": "soulless:item/heartless_dagger"
 	}
 }

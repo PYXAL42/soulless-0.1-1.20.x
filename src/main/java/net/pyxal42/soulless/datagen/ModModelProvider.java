@@ -21,7 +21,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        //Simple cube all
+        //Simple cube
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INFUSED_DIMSTONE_CORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIMSTONE_CORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INFUSED_INKEEPING_CORE);
@@ -36,6 +36,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHISELED_AMERRACK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AGONY_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AGONY_LEAVES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ESSENCE_BLOCK);
         //Logs
         blockStateModelGenerator.registerLog(ModBlocks.AGONY_LOG).log(ModBlocks.AGONY_LOG).wood(ModBlocks.AGONY_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_AGONY_LOG).log(ModBlocks.STRIPPED_AGONY_LOG).wood(ModBlocks.STRIPPED_AGONY_WOOD);
@@ -80,7 +81,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MAID_SKIRT, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAID_SOCKS, Models.GENERATED);
         itemModelGenerator.register(ModItems.XAVELITE_INGOT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RUSTY_METAL_CLUMP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUSTY_METAL_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.SEELERIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.DUSHARIN_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.CURSED_FABRIC, Models.GENERATED);
@@ -91,5 +92,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PYXIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.PYXIUM_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ModItems.PYXIUM_COATED_SPIKE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BOOK_OF_THE_DEAD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLOOD_CRYSTAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SOUL_CAPTURE_BALL, Models.GENERATED);
     }
 }

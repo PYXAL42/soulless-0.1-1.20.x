@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "soulless:item/rusty_metal_clump"
+    "layer0": "soulless:item/book_of_the_dead"
   }
 }

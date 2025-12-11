@@ -20,6 +20,9 @@ public class ItemRendererMixin {
         if (stack.isOf(ModItems.LIV_BLADE) && renderMode != ModelTransformationMode.GUI && renderMode != ModelTransformationMode.GROUND && renderMode != ModelTransformationMode.FIXED) {
             return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(Soulless.MOD_ID, "liv_blade_large", "inventory"));
         }
+        else if (stack.isOf(ModItems.LEAR) && renderMode != ModelTransformationMode.GUI && renderMode != ModelTransformationMode.GROUND && renderMode != ModelTransformationMode.FIXED) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(Soulless.MOD_ID, "lear_large", "inventory"));
+        }
         return value;
     }
 }
