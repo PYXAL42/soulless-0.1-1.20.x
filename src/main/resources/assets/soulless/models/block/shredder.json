@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "soulless:block/shredder_top",
+    "side": "soulless:block/shredder_side"
+  }
+}

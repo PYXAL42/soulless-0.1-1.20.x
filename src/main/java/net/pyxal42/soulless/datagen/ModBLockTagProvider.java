@@ -68,13 +68,15 @@ public class ModBLockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SEELERIUM_SLAB)
                 .add(ModBlocks.DUSHARIN_BLOCK)
                 .add(ModBlocks.DUSHARIN_SLAB)
-                .add(ModBlocks.DUSHARIN_STAIRS);
+                .add(ModBlocks.DUSHARIN_STAIRS)
+                .add(ModBlocks.SHREDDER);
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.AGONY_WOOD)
                 .add(ModBlocks.STRIPPED_AGONY_WOOD)
                 .add(ModBlocks.AGONY_LOG)
                 .add(ModBlocks.STRIPPED_AGONY_LOG)
-                .add(ModBlocks.AGONY_PLANKS);
+                .add(ModBlocks.AGONY_PLANKS)
+                .add(ModBlocks.CHARRED_LOG);
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.DIMSTONE_BRICK_WALL)
                 .add(ModBlocks.DIMSTONE_WALL)
