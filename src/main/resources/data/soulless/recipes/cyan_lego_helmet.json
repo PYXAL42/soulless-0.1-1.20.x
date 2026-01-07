@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "F": {
+      "item": "soulless:fabric"
+    },
+    "C": {
+      "item": "minecraft:cyan_dye"
+    }
+  },
+  "pattern": [
+    "FFF",
+    "FCF"
+  ],
+  "result": {
+    "item": "soulless:cyan_lego_helmet"
+  },
+  "show_notification": true
+}

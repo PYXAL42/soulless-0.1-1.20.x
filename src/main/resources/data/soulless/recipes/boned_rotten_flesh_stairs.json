@@ -2,19 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "combat",
   "key": {
-    "F": {
-      "item": "soulless:fabric"
-    },
     "B": {
-      "item": "minecraft:black_dye"
+      "item": "soulless:boned_rotten_flesh"
     }
   },
   "pattern": [
-    "FFF",
-    "FBF"
+    "B",
+    "BB ",
+    "BBB"
   ],
   "result": {
-    "item": "soulless:tophat"
+    "item": "soulless:boned_rotten_flesh_stairs",
+    "count": 4
   },
   "show_notification": true
 }

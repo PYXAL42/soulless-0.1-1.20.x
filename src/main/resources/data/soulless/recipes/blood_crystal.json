@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "B": {
+      "item": "soulless:blood_bottle"
+    },
+    "C": {
+      "item": "soulless:clear_shard"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BCB",
+    " B "
+  ],
+  "result": {
+    "item": "soulless:blood_crystal"
+  },
+  "show_notification": true
+}

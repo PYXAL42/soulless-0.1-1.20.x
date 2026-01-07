@@ -27,9 +27,17 @@ public class ModItemGroups {
                         entries.add(ModItems.MAID_CORSET);
                         entries.add(ModItems.MAID_SKIRT);
                         entries.add(ModItems.MAID_SOCKS);
+                        entries.add(ModItems.YELLOW_LEGO_HELMET);
+                        entries.add(ModItems.RED_LEGO_HELMET);
+                        entries.add(ModItems.BLUE_LEGO_HELMET);
+                        entries.add(ModItems.BLACk_LEGO_HELMET);
+                        entries.add(ModItems.WHITE_LEGO_HELMET);
+                        entries.add(ModItems.CYAN_LEGO_HELMET);
+                        entries.add(ModItems.LIME_LEGO_HELMET);
                         //Qol items and other idk
                         entries.add(ModItems.CLEAR_SHARD);
                         entries.add(ModBlocks.CLEAR_GLASS);
+                        entries.add(ModItems.PARCHEMINE);
                         entries.add(ModItems.AGREEMENT);
                         //all rusty metal
                         entries.add(ModBlocks.RUSTY_METAL_BLOCK);
@@ -58,6 +66,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RADIANCE_CORE);
                         entries.add(ModBlocks.DIMSTONE_PEDESTAL);
                         //all other dimstone-ingot thing items
+                        entries.add(ModBlocks.CHARRED_LOG);
                         entries.add(ModItems.CHARRED_INGOT);
                         entries.add(ModItems.EMPTY_MOULD);
                         entries.add(ModItems.HOT_MOULD);
@@ -130,8 +139,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PYXIUM_STAIRS);
                         entries.add(ModBlocks.PYXIUM_SLAB);
                         entries.add(ModItems.PYXIUM_INGOT);
-                        entries.add(ModItems.PYXIUM_NUGGET);
+                        entries.add(ModItems.PIECE_OF_PYXIUM);
                         entries.add(ModItems.PYXIUM_COATED_SPIKE);
+                        entries.add(ModBlocks.SHREDDER);
 
                         //---Essence tier blocks and items---
                         //all essence items

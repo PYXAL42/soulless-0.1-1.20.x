@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "P": {
+      "item": "soulless:parchemine"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "  P",
+    " L ",
+    "P  "
+  ],
+  "result": {
+    "item": "soulless:agreement"
+  },
+  "show_notification": true
+}

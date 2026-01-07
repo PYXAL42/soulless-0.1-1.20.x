@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "F": {
+      "item": "soulless:fabric"
+    },
+    "B": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "pattern": [
+    "FFF",
+    "FWF",
+    " B "
+  ],
+  "result": {
+    "item": "soulless:tophat"
+  },
+  "show_notification": true
+}

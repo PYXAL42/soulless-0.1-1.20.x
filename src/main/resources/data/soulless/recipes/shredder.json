@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "D": {
+      "item": "soulless:dimstone"
+    },
+    "P": {
+      "item": "soulless:pyxium_ingot"
+    },
+    "S": {
+      "item": "soulless:pyxium_coated_spike"
+    }
+  },
+  "pattern": [
+    "PDP",
+    "SSS",
+    "PDP"
+  ],
+  "result": {
+    "item": "soulless:shredder"
+  }
+}

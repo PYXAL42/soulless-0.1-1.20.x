@@ -8,6 +8,7 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.pyxal42.soulless.Soulless;
 
 import static net.minecraft.block.Blocks.*;
@@ -15,7 +16,7 @@ import static net.minecraft.block.Blocks.*;
 public class ModBlocks {
 
     public static final Block DIMSTONE = registerBlock("dimstone",
-            new Block(FabricBlockSettings.copyOf(DEEPSLATE)));
+            new Block(FabricBlockSettings.create().strength(8f, 16).requiresTool()));
     public static final Block DIMSTONE_PEDESTAL = registerBlock("dimstone_pedestal",
             new Block(FabricBlockSettings.copyOf(DIMSTONE)));
     public static final Block DIMSTONE_STAIRS = registerBlock("dimstone_stairs",
@@ -133,9 +134,11 @@ public class ModBlocks {
     public static final Block ESSENCE_BLOCK = registerBlock("essence_block",
             new Block(FabricBlockSettings.copyOf(DIAMOND_BLOCK)));
     public static final Block SHREDDER = registerBlock("shredder",
-            new Block(FabricBlockSettings.copyOf(BLAST_FURNACE)));
+            new Block(FabricBlockSettings.copyOf(DIMSTONE))); //lang
     public static final Block CHARRED_LOG = registerBlock("charred_log",
-            new PillarBlock(FabricBlockSettings.copyOf(CRIMSON_HYPHAE)));
+            new PillarBlock(FabricBlockSettings.copyOf(CRIMSON_HYPHAE))); //lang
+    public static final Block LAPIS_CLUTTERED_DIMSTONE = registerBlock("lapis_clutered_dimstone",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(DIMSTONE).hardness(10), UniformIntProvider.create(3, 8))); //lang
 
     public static final Block AGONY_LOG = registerBlock("agony_log",
             new PillarBlock(FabricBlockSettings.copyOf(OAK_LOG).strength(4f)));

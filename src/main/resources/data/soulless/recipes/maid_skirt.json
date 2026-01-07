@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "F": {
+      "item": "soulless:fabric"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "pattern": [
+    "FFF",
+    "FEF",
+    "F F"
+  ],
+  "result": {
+    "item": "soulless:maid_skirt"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "C": {
+      "item": "soulless:charred_ingot"
+    },
+    "B": {
+      "item": "soulless:blood_bottle"
+    }
+  },
+  "pattern": [
+    "FEF",
+    "F F"
+  ],
+  "result": {
+    "item": "soulless:soul_capture_ball"
+  },
+  "show_notification": true
+}

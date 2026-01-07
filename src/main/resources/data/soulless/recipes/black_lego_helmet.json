@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "F": {
+      "item": "soulless:fabric"
+    },
+    "B": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "pattern": [
+    "FFF",
+    "FBF"
+  ],
+  "result": {
+    "item": "soulless:black_lego_helmet"
+  },
+  "show_notification": true
+}

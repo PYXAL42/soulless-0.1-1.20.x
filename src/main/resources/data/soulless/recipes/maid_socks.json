@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "F": {
+      "item": "soulless:fabric"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "pattern": [
+    "FEF",
+    "F F"
+  ],
+  "result": {
+    "item": "soulless:maid_socks"
+  },
+  "show_notification": true
+}

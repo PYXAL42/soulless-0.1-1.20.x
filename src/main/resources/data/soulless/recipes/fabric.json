@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "tag": "minecraft:wool_carpets"
+    },
+    "#": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "SC",
+    "C#"
+  ],
+  "result": {
+    "item": "soulless:fabric"
+  },
+  "show_notification": true
+}

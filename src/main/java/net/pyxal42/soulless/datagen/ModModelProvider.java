@@ -37,6 +37,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AGONY_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AGONY_LEAVES);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ESSENCE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LAPIS_CLUTTERED_DIMSTONE);
         //Logs
         blockStateModelGenerator.registerLog(ModBlocks.AGONY_LOG).log(ModBlocks.AGONY_LOG).wood(ModBlocks.AGONY_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_AGONY_LOG).log(ModBlocks.STRIPPED_AGONY_LOG).wood(ModBlocks.STRIPPED_AGONY_WOOD);
@@ -90,10 +91,19 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CULTIST_LEGGINGS, Models.GENERATED);
         itemModelGenerator.register(ModItems.CULTIST_BOOTS, Models.GENERATED);
         itemModelGenerator.register(ModItems.PYXIUM_INGOT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.PYXIUM_NUGGET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PIECE_OF_PYXIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.PYXIUM_COATED_SPIKE, Models.GENERATED);
         itemModelGenerator.register(ModItems.BOOK_OF_THE_DEAD, Models.GENERATED);
         itemModelGenerator.register(ModItems.BLOOD_CRYSTAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.SOUL_CAPTURE_BALL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LAPIS_CLUTTER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.YELLOW_LEGO_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RED_LEGO_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLUE_LEGO_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLACk_LEGO_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WHITE_LEGO_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CYAN_LEGO_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LIME_LEGO_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PARCHEMINE, Models.GENERATED);
     }
 }

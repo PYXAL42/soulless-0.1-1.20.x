@@ -46,7 +46,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.RUSTY_METAL_INGOT, RecipeCategory.MISC, ModBlocks.RUSTY_METAL_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.SEELERIUM_INGOT, RecipeCategory.MISC, ModBlocks.SEELERIUM_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.DUSHARIN_INGOT, RecipeCategory.MISC, ModBlocks.DUSHARIN_BLOCK);
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.PYXIUM_NUGGET, RecipeCategory.MISC, ModItems.PYXIUM_INGOT);
         //Stone cutter recipes
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIMSTONE, ModBlocks.DIMSTONE_BRICK);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DIMSTONE, ModBlocks.DIMSTONE_SLAB, 2);

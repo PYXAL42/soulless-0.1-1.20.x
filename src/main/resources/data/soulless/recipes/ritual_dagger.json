@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "combat",
   "key": {
-    "#": {
-      "item": "minecraft:iron_ingot"
+    "C": {
+      "item": "soulless:charred_ingot"
     },
     "S": {
       "item": "minecraft:stick"
@@ -13,8 +13,8 @@
     }
   },
   "pattern": [
-    "  #",
-    "B# ",
+    "  C",
+    "BC ",
     "SB "
   ],
   "result": {

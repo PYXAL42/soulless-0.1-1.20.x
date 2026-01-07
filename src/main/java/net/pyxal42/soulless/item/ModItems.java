@@ -52,7 +52,7 @@ public class ModItems {
     public static final Item SEELERIUM_INGOT = registerItem("seelerium_ingot", new Item(new FabricItemSettings()));
     public static final Item DUSHARIN_INGOT = registerItem("dusharin_ingot", new Item(new FabricItemSettings()));
     public static final Item PYXIUM_INGOT = registerItem("pyxium_ingot", new Item(new FabricItemSettings()));
-    public static final Item PYXIUM_NUGGET = registerItem("pyxium_nugget", new Item(new FabricItemSettings()));
+    public static final Item PIECE_OF_PYXIUM = registerItem("piece_of_pyxium", new Item(new FabricItemSettings()));
     public static final Item PYXIUM_COATED_SPIKE = registerItem("pyxium_coated_spike", new Item(new FabricItemSettings()));
     public static final Item CURSED_FABRIC = registerItem("cursed_fabric", new Item(new FabricItemSettings()));
     public static final Item BLOOD_CRYSTAL = registerItem("blood_crystal", new Item(new FabricItemSettings()));
@@ -60,6 +60,15 @@ public class ModItems {
     public static final Item DUSHARIN_KYOKETSU = registerItem("dusharin_kyoketsu", new Item(new FabricItemSettings()));
     public static final Item LEAR = registerItem("lear", new SwordItem(SEELERIUM,5,-2.0f, new FabricItemSettings()));
     public static final Item SOUL_CAPTURE_BALL = registerItem("soul_capture_ball", new Item(new FabricItemSettings()));
+    public static final Item YELLOW_LEGO_HELMET = registerItem("yellow_lego_helmet", new ArmorItem(ModArmorMaterial.YELLOW_lEGO, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item RED_LEGO_HELMET = registerItem("red_lego_helmet", new ArmorItem(ModArmorMaterial.RED_LEGO, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item BLACk_LEGO_HELMET = registerItem("black_lego_helmet", new ArmorItem(ModArmorMaterial.BLACK_lEGO, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item LIME_LEGO_HELMET = registerItem("lime_lego_helmet", new ArmorItem(ModArmorMaterial.LIME_lEGO, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item CYAN_LEGO_HELMET = registerItem("cyan_lego_helmet", new ArmorItem(ModArmorMaterial.CYAN_lEGO, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item WHITE_LEGO_HELMET = registerItem("white_lego_helmet", new ArmorItem(ModArmorMaterial.WHITE_lEGO, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item BLUE_LEGO_HELMET = registerItem("blue_lego_helmet", new ArmorItem(ModArmorMaterial.BLUE_lEGO, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item LAPIS_CLUTTER = registerItem("lapis_clutter", new Item(new FabricItemSettings()));
+    public static final Item PARCHEMINE = registerItem("parchemine", new Item(new FabricItemSettings()));
 
 
 

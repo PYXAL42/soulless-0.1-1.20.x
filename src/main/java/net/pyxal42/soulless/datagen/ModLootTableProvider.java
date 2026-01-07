@@ -57,6 +57,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ESSENCE_BLOCK);
         addDrop(ModBlocks.SHREDDER);
         addDrop(ModBlocks.CHARRED_LOG);
+        addDrop(ModBlocks.FLESH_BLOCK);
+        addDrop(ModBlocks.FLESH_PILLAR);
+        addDrop(ModBlocks.FLESH_STAIRS);
+        addDrop(ModBlocks.FLESH_WALL);
+        addDrop(ModBlocks.FABRIC_BLOCK);
+        addDrop(ModBlocks.FABRIC_BLOCK);
+        addDrop(ModBlocks.AMERRACK);
+        addDrop(ModBlocks.AMERRACK_BRICK);
+        addDrop(ModBlocks.CHISELED_AMERRACK);
         //Slabs
         addDrop(ModBlocks.DIMSTONE_SLAB, slabDrops(ModBlocks.DIMSTONE_SLAB));
         addDrop(ModBlocks.DIMSTONE_BRICK_SLAB, slabDrops(ModBlocks.DIMSTONE_BRICK_SLAB));
@@ -68,6 +77,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SEELERIUM_SLAB, slabDrops(ModBlocks.SEELERIUM_SLAB));
         addDrop(ModBlocks.DUSHARIN_SLAB, slabDrops(ModBlocks.DUSHARIN_SLAB));
         addDrop(ModBlocks.PYXIUM_SLAB, slabDrops(ModBlocks.PYXIUM_SLAB));
+        addDrop(ModBlocks.FLESH_SLAB, slabDrops(ModBlocks.FLESH_SLAB));
         //Silk touch
         addDrop(ModBlocks.CLEAR_GLASS, dropsWithSilkTouch(ModBlocks.CLEAR_GLASS));
         //Leaves

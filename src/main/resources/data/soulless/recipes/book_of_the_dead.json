@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "soulless:parchemine"
+    },
+    {
+      "item": "soulless:parchemine"
+    },
+    {
+      "item": "soulless:parchemine"
+    },
+    {
+      "item": "soulless:charred_ingot"
+    }
+  ],
+  "result": {
+    "item": "soulless:book_of_the_dead"
+  }
+}

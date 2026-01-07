@@ -53,6 +53,11 @@
     "soulless:seelerium_slab",
     "soulless:dusharin_block",
     "soulless:dusharin_slab",
-    "soulless:dusharin_stairs"
+    "soulless:dusharin_stairs",
+    "soulless:shredder",
+    "soulless:pyxium_block",
+    "soulless:pyxium_slab",
+    "soulless:pyxium_stairs",
+    "soulless:lapis_clutered_dimstone"
   ]
 }
