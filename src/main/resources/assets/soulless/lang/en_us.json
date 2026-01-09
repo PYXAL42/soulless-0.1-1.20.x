@@ -35,7 +35,7 @@
   "item.soulless.seelerium_ingot": "Seelerium ingot",
   "item.soulless.dusharin_ingot": "Dusharin ingot",
   "item.soulless.pyxium_ingot": "Pyxium ingot",
-  "item.soulless.pyxium_nugget": "Pyxium nugget",
+  "item.soulless.piece_of_pyxium": "Piece of pyxium",
   "item.soulless.pyxium_coated_spike": "Pyxium coated spike",
   "item.soulless.yellow_lego_helmet": "Yellow lego helmet",
   "item.soulless.red_lego_helmet": "Red lego helmet",
@@ -53,6 +53,8 @@
   "item.soulless.heartless_dagger": "Rusty metal ingo",
   "item.soulless.blood_crystal": "Rusty metal ingo",
   "item.soulless.soul_capture_ball": "Rusty metal ingo",
+  "item.soulless.parchement": "Parchement",
+
 
   "block.soulless.dimstone": "Dimstone",
   "block.soulless.dimstone_pedestal": "Dimstone pedestal",

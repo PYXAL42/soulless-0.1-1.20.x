@@ -3,8 +3,8 @@
   "ingredient": {
     "item": "soulless:lapis_clutter"
   },
-  "result": "soulless:pyxium_nugget",
-  "count": 3,
+  "result": "soulless:piece_of_pyxium",
+  "count": 2,
   "experience": 2,
   "cookingtime": 150
 }
