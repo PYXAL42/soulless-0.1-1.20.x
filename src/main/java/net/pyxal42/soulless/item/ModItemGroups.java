@@ -1,6 +1,7 @@
 package net.pyxal42.soulless.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.block.Block;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -160,6 +161,19 @@ public class ModItemGroups {
                         //---Life tier blocks and items---
                     }).build());
 
+
+    public static final ItemGroup SOULLESS_BLOCKGROUP = Registry.register(
+            Registries.ITEM_GROUP,Soulless.ID("soulless_blocks"),
+    FabricItemGroup.builder()
+            .displayName(Text.translatable("itemgroup.soulless_blocks"))
+            .icon(() -> ModBlocks.DIMSTONE_BRICK.asItem().getDefaultStack())
+            .entries(((displayContext, entries) -> {
+                for (Block block: ModBlocks.MODBLOCKLIST){
+                    entries.add(block.asItem().getDefaultStack());
+                }
+
+
+            })).build());
     public static void registerItemGroups() {
         Soulless.LOGGER.info("Registering Item Groups for " + Soulless.MOD_ID);
     }

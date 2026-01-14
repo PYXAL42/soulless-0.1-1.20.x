@@ -1,9 +1,0 @@
-// 1.20.1	2026-01-05T21:14:04.6709942	Soulless/Tags for minecraft:block
-ae28b0f41d38ef05a00fba5c2b80afbf66397e80 data\minecraft\tags\blocks\walls.json
-5e69e965f9609c45cb363fef43a53732a9444c8d data\minecraft\tags\blocks\slabs.json
-5a12c8538d5a02b7c72fc994de00baf007521775 data\minecraft\tags\blocks\dragon_immune.json
-23171cfc5a768f92f7193e0eed0d9863b02e25b3 data\minecraft\tags\blocks\mineable\axe.json
-5d4d16ee9bf50d3c568e38a1c0ac1d83bbe40033 data\minecraft\tags\blocks\mineable\pickaxe.json
-91bdbdb3d806cf8b673235a3aefce0a376d5dfdc data\minecraft\tags\blocks\leaves.json
-0ce5b5153bb5a4069fe639a133dbe10b265bd5b2 data\minecraft\tags\blocks\beacon_base_blocks.json
-d75a69beb75029a5243cdd2104943d3da990398a data\minecraft\tags\blocks\stairs.json

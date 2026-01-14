@@ -124,5 +124,6 @@
   "block.soulless.lapis_cluttered_dimstone": "Dimstone cluttered dimstone",
   "block.soulless.soul_essence_block": "Soul essence block",
 
-  "itemgroup.soulless": "Soulless"
+  "itemgroup.soulless": "Soulless",
+  "itemgroup.soulless_blocks": "Soulless Blocks"
 }

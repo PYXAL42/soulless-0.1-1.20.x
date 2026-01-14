@@ -11,14 +11,19 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.pyxal42.soulless.Soulless;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static net.minecraft.block.Blocks.*;
 
 public class ModBlocks {
 
+    public static List<Block> MODBLOCKLIST = new ArrayList<>();
+
     public static final Block DIMSTONE = registerBlock("dimstone",
             new Block(FabricBlockSettings.create().strength(8f, 16).requiresTool()));
     public static final Block DIMSTONE_PEDESTAL = registerBlock("dimstone_pedestal",
-            new Block(FabricBlockSettings.copyOf(DIMSTONE)));
+            new PedestalBlock(FabricBlockSettings.copyOf(DIMSTONE)));
     public static final Block DIMSTONE_STAIRS = registerBlock("dimstone_stairs",
             new StairsBlock(DIMSTONE.getDefaultState(), FabricBlockSettings.copyOf(DIMSTONE)));
     public static final Block DIMSTONE_SLAB = registerBlock("dimstone_slab",
@@ -157,7 +162,9 @@ public class ModBlocks {
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(Soulless.MOD_ID, name), block);
+        Block value = Registry.register(Registries.BLOCK, new Identifier(Soulless.MOD_ID, name), block);
+        MODBLOCKLIST.add(value);
+        return value;
     }
 
     private static Item registerBlockItem(String name, Block block) {

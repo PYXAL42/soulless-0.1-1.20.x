@@ -8,8 +8,8 @@ import net.pyxal42.soulless.block.ModBlocks;
 
 import java.util.concurrent.CompletableFuture;
 
-public class ModBLockTagProvider extends FabricTagProvider.BlockTagProvider {
-    public ModBLockTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
+public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
+    public ModBlockTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
     }
 

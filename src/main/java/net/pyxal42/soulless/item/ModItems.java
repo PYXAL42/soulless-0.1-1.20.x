@@ -10,11 +10,16 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.pyxal42.soulless.Soulless;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static net.minecraft.item.ToolMaterials.IRON;
 import static net.pyxal42.soulless.item.ModToolMaterial.LIV;
 import static net.pyxal42.soulless.item.ModToolMaterial.SEELERIUM;
 
 public class ModItems {
+    public static List<Item> MODITEMLIST = new ArrayList<>();
+
     public static final Item SLICE_OF_CHEESE = registerItem("slice_of_cheese", new Item(new Item.Settings().food(new FoodComponent.Builder().saturationModifier(0.8f).hunger(6).build())));
     public static final Item BLOOD_BOTTLE = registerItem("blood_bottle", new Item(new Item.Settings().food(new FoodComponent.Builder().saturationModifier(0.8f).hunger(2).build())));
     public static final Item CONTRACT = registerItem("contract", new Item(new FabricItemSettings()));
@@ -73,7 +78,9 @@ public class ModItems {
 
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(Soulless.MOD_ID, name), item);
+        Item value = Registry.register(Registries.ITEM, new Identifier(Soulless.MOD_ID, name), item);
+        MODITEMLIST.add(value);
+        return value;
     }
 
     public static void registerModItems(){
