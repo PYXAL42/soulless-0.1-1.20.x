@@ -14,11 +14,17 @@ public class ModBlockEntities {
             FabricBlockEntityTypeBuilder.create(PedestalBlockEntity::new, ModBlocks.DIMSTONE_PEDESTAL).build(null)
             ,"pedestal_blockentity");
 
+    public static final BlockEntityType<CraftingPedestalBlockEntity> ALTAR_BLOCKENTITY = register(
+            FabricBlockEntityTypeBuilder.create(CraftingPedestalBlockEntity::new, ModBlocks.CRAFTING_PEDESTAL).build(null)
+            ,"altar_blockentity");
 
     public static <T extends BlockEntityType<?>> T register(T blockEntityType, String name) {
         return Registry.register(Registries.BLOCK_ENTITY_TYPE, Soulless.ID(name), blockEntityType);
     }
 
+    public static void registerBlockEntities(){
+        Soulless.LOGGER.info("Registering Block Entities for "+Soulless.MOD_ID);
+    }
 
 
 }

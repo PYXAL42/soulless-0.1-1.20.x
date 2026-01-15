@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "soulless:amerrack_pillar"
-  },
-  "result": "soulless:amerrack"
-}

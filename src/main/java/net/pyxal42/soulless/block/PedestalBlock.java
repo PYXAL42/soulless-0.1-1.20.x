@@ -12,10 +12,14 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.ItemScatterer;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
+import net.pyxal42.soulless.block.blockentity.ModBlockEntities;
 import net.pyxal42.soulless.block.blockentity.PedestalBlockEntity;
+import net.pyxal42.soulless.item.ModItems;
 import org.jetbrains.annotations.Nullable;
 
 public class PedestalBlock extends BlockWithEntity {
@@ -26,18 +30,17 @@ public class PedestalBlock extends BlockWithEntity {
     @Nullable
     @Override
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
-        return new PedestalBlockEntity(pos,state);
+        return new PedestalBlockEntity(ModBlockEntities.PEDESTAL_BLOCKENTITY,pos,state);
     }
-
-
 
 
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if (hand == Hand.MAIN_HAND && world.getBlockEntity(pos) instanceof PedestalBlockEntity pedestal) {
             ItemStack stack = player.getStackInHand(hand);
-            player.setStackInHand(hand, pedestal.getHeldStack());
-            pedestal.setHeldStack(stack);
+                player.setStackInHand(hand, pedestal.getHeldStack());
+                pedestal.setHeldStack(stack);
+
         }
 
         return ActionResult.CONSUME;
@@ -50,6 +53,12 @@ public class PedestalBlock extends BlockWithEntity {
         }
         super.onStateReplaced(state, world, pos, newState, moved);
     }
+
+    @Override
+    public boolean isCullingShapeFullCube(BlockState state, BlockView world, BlockPos pos) {
+        return false;
+    }
+
 
 
     @Override

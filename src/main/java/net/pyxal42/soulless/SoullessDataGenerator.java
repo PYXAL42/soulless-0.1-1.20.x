@@ -15,5 +15,6 @@ public class SoullessDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModLangGenerator::new);
+		pack.addProvider(ModAltarRecipeGenerator::new);
 	}
 }

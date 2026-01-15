@@ -15,6 +15,12 @@ public class PedestalBlockEntity extends BlockEntity {
     private ItemStack heldStack;
     public float uniqueOffset;
 
+    public PedestalBlockEntity(BlockEntityType type,BlockPos pos, BlockState state) {
+        super(type, pos, state);
+        heldStack = ItemStack.EMPTY;
+        this.uniqueOffset = Random.create().nextFloat() * 3.1415927F * 2.0F;
+    }
+
     public PedestalBlockEntity(BlockPos pos, BlockState state) {
         super(ModBlockEntities.PEDESTAL_BLOCKENTITY, pos, state);
         heldStack = ItemStack.EMPTY;
@@ -25,7 +31,7 @@ public class PedestalBlockEntity extends BlockEntity {
 
 
     public boolean hasItem(){
-        return heldStack == null ||heldStack.isEmpty();
+        return !(heldStack == null ||heldStack.isEmpty());
     }
     public void setHeldStack(ItemStack stack){
         heldStack = stack;
@@ -34,6 +40,7 @@ public class PedestalBlockEntity extends BlockEntity {
     public ItemStack getHeldStack(){
         return heldStack;
     }
+
 
 
 

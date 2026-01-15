@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "soulless:block/pyxium_block",
-    "side": "soulless:block/pyxium_block",
-    "top": "soulless:block/pyxium_block"
-  }
-}

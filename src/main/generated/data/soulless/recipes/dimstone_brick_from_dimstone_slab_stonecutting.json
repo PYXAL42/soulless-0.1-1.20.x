@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "soulless:dimstone_slab"
-  },
-  "result": "soulless:dimstone_brick"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "soulless:block/boned_living_flesh_block",
-    "side": "soulless:block/boned_living_flesh_block",
-    "top": "soulless:block/boned_living_flesh_block"
-  }
-}

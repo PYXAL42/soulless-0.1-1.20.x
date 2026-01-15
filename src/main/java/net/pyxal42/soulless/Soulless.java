@@ -5,8 +5,10 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.minecraft.util.Identifier;
 import net.pyxal42.soulless.block.ModBlocks;
+import net.pyxal42.soulless.block.blockentity.ModBlockEntities;
 import net.pyxal42.soulless.item.ModItemGroups;
 import net.pyxal42.soulless.item.ModItems;
+import net.pyxal42.soulless.recipe.ModRecipeThings;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,8 +26,11 @@ public class Soulless implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModBlockEntities.registerBlockEntities();
 
 		StrippableBlockRegistry.register(ModBlocks.AGONY_LOG, ModBlocks.STRIPPED_AGONY_LOG);
 		StrippableBlockRegistry.register(ModBlocks.AGONY_WOOD, ModBlocks.STRIPPED_AGONY_WOOD);
+
+		ModRecipeThings.registerRecipeThings();
 	}
 }

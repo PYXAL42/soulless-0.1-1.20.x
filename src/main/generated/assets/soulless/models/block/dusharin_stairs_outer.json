@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "soulless:block/dusharin_block",
-    "side": "soulless:block/dusharin_block",
-    "top": "soulless:block/dusharin_block"
-  }
-}

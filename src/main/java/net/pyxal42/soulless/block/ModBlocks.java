@@ -160,6 +160,10 @@ public class ModBlocks {
     public static final Block AGONY_LEAVES = registerBlock("agony_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4f).nonOpaque()));
 
+
+    public static final Block CRAFTING_PEDESTAL = registerBlock("sacrifice_altar",
+            new CraftingPedestalBlock(FabricBlockSettings.copyOf(ModBlocks.DIMSTONE_PEDESTAL)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         Block value = Registry.register(Registries.BLOCK, new Identifier(Soulless.MOD_ID, name), block);

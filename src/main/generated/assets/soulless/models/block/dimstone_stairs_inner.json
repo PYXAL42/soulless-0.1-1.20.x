@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "soulless:block/dimstone",
-    "side": "soulless:block/dimstone",
-    "top": "soulless:block/dimstone"
-  }
-}
