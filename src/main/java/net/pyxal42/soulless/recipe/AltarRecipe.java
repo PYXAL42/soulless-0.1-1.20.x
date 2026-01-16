@@ -13,13 +13,15 @@ import net.minecraft.world.World;
 public class AltarRecipe implements Recipe<Inventory> {
 
     protected final Identifier id;
-    protected final int power;
+    protected final int blood;
+    protected final int souls;
     protected final Ingredient input;
     protected final int inputAmount;
     protected final ItemStack output;
 
-    public AltarRecipe(Identifier id,int power, Ingredient input, int inputAmount, ItemStack output){
-        this.power = power;
+    public AltarRecipe(Identifier id,int power, int souls, Ingredient input, int inputAmount, ItemStack output){
+        this.blood = power;
+        this.souls = souls;
         this.input = input;
         this.inputAmount = inputAmount;
         this.output = output;
@@ -65,5 +67,6 @@ public class AltarRecipe implements Recipe<Inventory> {
         return ModRecipeThings.ALTAR_RECIPE_TYPE;
     }
 
-    public int getPower(){return power;}
+    public int getBlood(){return blood;}
+    public int getSouls(){return souls;}
 }

@@ -45,16 +45,19 @@ public class ModAltarRecipeGenerator implements DataProvider {
 
     //use the createRecipe in here to add a recipe
     private void generate(){
-        createRecipe("blood_crystal_altar_recipe", 1,Ingredient.ofStacks(new ItemStack(ModItems.CLEAR_SHARD,2)),2, ModItems.BLOOD_CRYSTAL.getDefaultStack());
+        createRecipe("blood_crystal_altar_recipe", 1,0,Ingredient.ofStacks(new ItemStack(ModItems.CLEAR_SHARD,2)),2, ModItems.BLOOD_CRYSTAL.getDefaultStack());
     }
 
 
-    private void createRecipe(String name, int power, Ingredient ingredient, int inputAmount, ItemStack output){
+    private void createRecipe(String name, int blood, int souls, Ingredient ingredient, int inputAmount, ItemStack output){
         JsonObject jsonObject = new JsonObject();
         jsonObject.addProperty("type","soulless:altar_crafting");
-        jsonObject.addProperty("power", power);
-        jsonObject.add("ingredient", ingredient.toJson());
-        jsonObject.addProperty("input_amount",inputAmount);
+        JsonObject inputObject = new JsonObject();
+        inputObject.addProperty("blood", blood);
+        inputObject.addProperty("souls", souls);
+        inputObject.add("ingredient", ingredient.toJson());
+        inputObject.addProperty("amount",inputAmount);
+        jsonObject.add("input",inputObject);
         JsonObject outputJsonObject = new JsonObject();
         outputJsonObject.addProperty("item", Registries.ITEM.getId(output.getItem()).toString());
         if (output.getCount() > 1) {

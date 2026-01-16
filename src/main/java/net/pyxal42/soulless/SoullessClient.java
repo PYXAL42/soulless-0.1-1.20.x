@@ -7,6 +7,7 @@ import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
 import net.pyxal42.soulless.block.ModBlocks;
 import net.pyxal42.soulless.block.blockentity.ModBlockEntities;
+import net.pyxal42.soulless.networking.ModPackets;
 import net.pyxal42.soulless.render.block.PedestalBlockEntityRenderer;
 
 public class SoullessClient implements ClientModInitializer {
@@ -18,6 +19,8 @@ public class SoullessClient implements ClientModInitializer {
 
         BlockEntityRendererFactories.register(ModBlockEntities.PEDESTAL_BLOCKENTITY, PedestalBlockEntityRenderer::new);
         BlockEntityRendererFactories.register(ModBlockEntities.ALTAR_BLOCKENTITY, PedestalBlockEntityRenderer::new);
+
+        ModPackets.registerS2CPackets();
 
         ClientTickEvents.END_CLIENT_TICK.register((t) -> PedestalBlockEntityRenderer.ticks++);
     }

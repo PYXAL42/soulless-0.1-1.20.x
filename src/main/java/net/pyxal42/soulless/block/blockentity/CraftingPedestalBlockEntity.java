@@ -14,8 +14,9 @@ import java.util.Optional;
 public class CraftingPedestalBlockEntity extends PedestalBlockEntity{
     private final RecipeManager.MatchGetter<Inventory, AltarRecipe> matchGetter;
 
-    private int power =0;
-    private static final int maxPower = 5;
+    private int blood =0;
+    private int souls =0;
+    private static final int maxPower = 4;
 
     public CraftingPedestalBlockEntity(BlockPos pos, BlockState state) {
         super(ModBlockEntities.ALTAR_BLOCKENTITY ,pos, state);
@@ -27,11 +28,14 @@ public class CraftingPedestalBlockEntity extends PedestalBlockEntity{
         if (this.hasItem()){
             Inventory inventory = new SimpleInventory(getHeldStack());
             Optional<AltarRecipe> optionalRecipe = matchGetter.getFirstMatch(inventory,getWorld());
-            if (optionalRecipe.isPresent() && optionalRecipe.get().getPower() <= this.power){
+            if (optionalRecipe.isPresent()){
                 AltarRecipe recipe = optionalRecipe.get();
-                this.power -= recipe.getPower();
-                setHeldStack(recipe.craft(inventory,getWorld().getRegistryManager()));
-                //do vfx
+                if (recipe.getBlood() <= this.blood && recipe.getSouls() <= this.souls){
+                    this.blood -= recipe.getBlood();
+                    this.souls -= recipe.getSouls();
+                    setHeldStack(recipe.craft(inventory, getWorld().getRegistryManager()));
+                    //do vfx
+            }
             }
         }
 
@@ -39,26 +43,41 @@ public class CraftingPedestalBlockEntity extends PedestalBlockEntity{
 
     }
 
-    public int getPower(){return power;}
+    public int getBlood(){return blood;}
+    public int getSouls(){return souls;}
 
-    public void addPower(int value){
-        power = Math.min(this.power + value, 5);
+    public void addBlood(int value){
+        if (totalPower()+value <= maxPower) {
+            blood += value;
+        }
+
+    }
+    public void addSouls(int value){
+        if (totalPower()+value <= maxPower) {
+            souls += value;
+        }
 
     }
 
+    public int totalPower(){
+        return (blood+souls);
+    }
+
     public boolean isMaxPower(){
-        return power>=maxPower;
+        return (blood+souls) >=maxPower;
     }
 
     @Override
     public void readNbt(NbtCompound nbt) {
-        power = nbt.getInt("power");
+        blood = nbt.getInt("blood");
+        souls = nbt.getInt("souls");
         super.readNbt(nbt);
     }
 
     @Override
     protected void writeNbt(NbtCompound nbt) {
-        nbt.putInt("power", power);
+        nbt.putInt("blood", blood);
+        nbt.putInt("souls", souls);
         super.writeNbt(nbt);
     }
 }

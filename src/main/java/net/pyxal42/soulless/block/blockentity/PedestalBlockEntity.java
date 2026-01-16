@@ -1,13 +1,20 @@
 package net.pyxal42.soulless.block.blockentity;
 
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
+import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
+import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtCompound;
+import net.minecraft.network.PacketByteBuf;
+import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
+import net.pyxal42.soulless.networking.ModPackets;
 import org.jetbrains.annotations.Nullable;
 
 public class PedestalBlockEntity extends BlockEntity {
@@ -44,6 +51,14 @@ public class PedestalBlockEntity extends BlockEntity {
 
 
 
+    public void syncToClient(ServerPlayerEntity player){
+        PacketByteBuf buf = PacketByteBufs.create();
+        buf.writeBlockPos(getPos());
+        NbtCompound nbt = new NbtCompound();
+        writeNbt(nbt);
+        buf.writeNbt(nbt);
+        ServerPlayNetworking.send(player, ModPackets.SYNC_ALTAR_S2C,buf);
+    }
 
     @Override
     public NbtCompound toInitialChunkDataNbt() {
