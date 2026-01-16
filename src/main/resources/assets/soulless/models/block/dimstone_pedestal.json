@@ -5,7 +5,7 @@
 	"textures": {
 		"0": "soulless:block/altar_base",
 		"1": "soulless:block/dimstone_pedestal",
-		"particle": "soulless:block/dimstone_pedestal"
+		"particle": "soulless:block/altar_of_sacrifice/sacrifice_altar_s2"
 	},
 	"elements": [
 		{
