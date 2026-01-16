@@ -34,7 +34,7 @@ public class ModItems {
     public static final Item ESSENSTEEL_PLATE = registerItem("essensteel_plate", new Item(new FabricItemSettings()));
     public static final Item ESSENCE_SHARD = registerItem("essence_shard", new Item(new FabricItemSettings()));
     public static final Item CHARRED_INGOT = registerItem("charred_ingot", new Item(new FabricItemSettings()));
-    public static final Item AGREEMENT = registerItem("agreement", new Item(new FabricItemSettings()));
+    public static final Item AGREEMENT = registerItem("agreement", new AgreementItem(new FabricItemSettings()));
     public static final Item RITUAL_DAGGER = registerItem("ritual_dagger", new SwordItem(IRON,0,-2.2f, new FabricItemSettings()));
     public static final Item HEARTLESS_DAGGER = registerItem("heartless_dagger", new SwordItem(IRON,0,-2.2f, new FabricItemSettings()));
     public static final Item SOULFULL_DAGGER = registerItem("soulfull_dagger", new SwordItem(IRON,0,-2.2f, new FabricItemSettings()));

@@ -4,6 +4,7 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
+import net.pyxal42.soulless.Soulless;
 
 public final class ItemTags {
     public static final TagKey<Item> RAW_MEAT = of("raw_meat");
@@ -13,6 +14,6 @@ public final class ItemTags {
     }
 
     private static TagKey<Item> of(String id){
-        return TagKey.of(RegistryKeys.ITEM, new Identifier(id));
+        return TagKey.of(RegistryKeys.ITEM, Soulless.ID(id));
     }
 }

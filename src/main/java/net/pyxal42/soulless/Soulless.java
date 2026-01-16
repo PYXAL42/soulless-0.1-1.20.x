@@ -2,7 +2,9 @@ package net.pyxal42.soulless;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
+import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.Identifier;
 import net.pyxal42.soulless.block.ModBlocks;
 import net.pyxal42.soulless.block.blockentity.ModBlockEntities;
@@ -13,6 +15,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Soulless implements ModInitializer {
+	private static MinecraftServer minecraftServer;
+	public static MinecraftServer getServer(){return minecraftServer;};
 	public static final String MOD_ID = "soulless";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
@@ -32,5 +36,9 @@ public class Soulless implements ModInitializer {
 		StrippableBlockRegistry.register(ModBlocks.AGONY_WOOD, ModBlocks.STRIPPED_AGONY_WOOD);
 
 		ModRecipeThings.registerRecipeThings();
+
+		ServerLifecycleEvents.SERVER_STARTED.register((server -> {
+			minecraftServer = server;
+		}));
 	}
 }

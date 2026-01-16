@@ -71,7 +71,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SLICE_OF_CHEESE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CLEAR_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.ESSENSTEEL_PLATE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.AGREEMENT, Models.GENERATED);
         itemModelGenerator.register(ModItems.FABRIC, Models.GENERATED);
         itemModelGenerator.register(ModItems.GLASSES, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOPHAT, Models.GENERATED);

@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
+import net.pyxal42.soulless.Soulless;
 
 public final class BlockTags {
     public static final TagKey<Block> DIMSTONE = of("dimstone");
@@ -14,6 +15,6 @@ public final class BlockTags {
     }
 
     private static TagKey<Block> of(String id){
-        return TagKey.of(RegistryKeys.BLOCK, new Identifier(id));
+        return TagKey.of(RegistryKeys.BLOCK, Soulless.ID(id));
     }
 }
