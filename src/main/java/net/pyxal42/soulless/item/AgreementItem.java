@@ -67,7 +67,7 @@ public class AgreementItem extends Item {
                 nbt.putBoolean("sealed",true);
                 return TypedActionResult.success(stack);
             }else{
-                user.sendMessage(Text.literal("You can only seal an Agreement with 2+ signors").styled((style -> style.withColor(Formatting.RED))),true);
+                if (world.isClient) user.sendMessage(Text.literal("You can only seal an Agreement with 2+ signors").styled((style -> style.withColor(Formatting.RED))),true);
             }
         }else {
             if (profileList != null && !profileList.contains(profileNbt(user.getGameProfile())) && !nbt.getBoolean("sealed") && profileList.size() < 8) {
