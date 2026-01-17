@@ -24,7 +24,7 @@ public class ModItems {
     public static final Item BLOOD_BOTTLE = registerItem("blood_bottle", new Item(new Item.Settings().food(new FoodComponent.Builder().saturationModifier(0.8f).hunger(2).build())));
     public static final Item CONTRACT = registerItem("contract", new Item(new FabricItemSettings()));
     public static final Item EMPTY_MOULD = registerItem("empty_mould", new Item(new FabricItemSettings()));
-    public static final Item MILKY_MOULD = registerItem("milky_mould", new Item(new FabricItemSettings().recipeRemainder(EMPTY_MOULD)));
+    public static final Item MILKY_MOULD = registerItem("milky_mould", new MilkMouldItem(new FabricItemSettings().recipeRemainder(EMPTY_MOULD)));
     public static final Item CHEESY_MOULD = registerItem("cheesy_mould", new Item(new FabricItemSettings().recipeRemainder(EMPTY_MOULD)));
     public static final Item HOT_MOULD = registerItem("hot_mould", new Item(new FabricItemSettings()));
     public static final Item LIV_INGOT = registerItem("liv_ingot", new Item(new FabricItemSettings()));
