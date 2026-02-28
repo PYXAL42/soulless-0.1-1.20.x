@@ -142,7 +142,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(DIMSTONE))); //lang
     public static final Block CHARRED_LOG = registerBlock("charred_log",
             new PillarBlock(FabricBlockSettings.copyOf(CRIMSON_HYPHAE))); //lang
-    public static final Block LAPIS_CLUTTERED_DIMSTONE = registerBlock("lapis_clutered_dimstone",
+    public static final Block LAPIS_CLUTTERED_DIMSTONE = registerBlock("lapis_cluttered_dimstone",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(DIMSTONE).hardness(10), UniformIntProvider.create(3, 8))); //lang
 
     public static final Block AGONY_LOG = registerBlock("agony_log",
